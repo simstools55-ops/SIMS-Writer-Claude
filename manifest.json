@@ -1,102 +1,14 @@
 {
-  "package": "SIMS-Writer-Claude",
-  "version": "0.2.0-alpha.1",
-  "file_count": 19,
-  "files": [
-    {
-      "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "bb01a522e4654e52885a8b206048374aedaa91c625341d65305ca267d066a8a8",
-      "bytes": 11070
-    },
-    {
-      "path": "README.md",
-      "sha256": "d78ec8766a35d2af997ec3ad2b22ed7ff1fe79023ed3391e2fa859a626f4a9e8",
-      "bytes": 1571
-    },
-    {
-      "path": "SETUP_GUIDE.md",
-      "sha256": "a223d186f201aa6f681f95f8451eccfc6d1c7307cf4c0a91c6b2eea450da9997",
-      "bytes": 599
-    },
-    {
-      "path": "TEST_CHECKLIST.md",
-      "sha256": "91b72936f5b6525ae50e6b0edb4d42c997d928caac1263d1899db70f912ea68d",
-      "bytes": 2414
-    },
-    {
-      "path": "VERSION",
-      "sha256": "09f385c2dd4a2ddaf98ffd057eb3738b3bf007e293dd6e21ce06006cc75c82ca",
-      "bytes": 14
-    },
-    {
-      "path": "contracts/reason-codes.schema.json",
-      "sha256": "3c49ae11813456ab6412c51a8df85e50318445fcb0718e9dd54f2bbbc26f1276",
-      "bytes": 212
-    },
-    {
-      "path": "contracts/sims-feedback-v2.1.schema.json",
-      "sha256": "cfbc6abebd6fad5d44d33af8df1d5ee2c5bb98b527b5a806d59c39958ad3dd6f",
-      "bytes": 998
-    },
-    {
-      "path": "contracts/warning-codes.schema.json",
-      "sha256": "1422081fcea6c5db3a089c17b3b134c534a680ea9d9e981c6149f1f8667be803",
-      "bytes": 243
-    },
-    {
-      "path": "examples/EXAMPLE_REQUEST.json",
-      "sha256": "7e3a01618204a9f53558992b36dead6b2a89aa321efe7406926abcafeec62baf",
-      "bytes": 637
-    },
-    {
-      "path": "knowledge/01_QUALITY_FRAMEWORK_AND_GATES.md",
-      "sha256": "b255031abd2ce10d3263ba0bdebcd29bb3b4c0da816355fc1e924ae5e0abc0a6",
-      "bytes": 4956
-    },
-    {
-      "path": "knowledge/02_EVIDENCE_AND_CONSISTENCY.md",
-      "sha256": "315a26aa8f2d396e3e188fd42f6a6ad699d41e05a138c2c15f134e7189f2e3b0",
-      "bytes": 6082
-    },
-    {
-      "path": "knowledge/03_SEO_KNOWLEDGE.md",
-      "sha256": "27829e96278b435bc2d90d548ab99e75b4eb74f6efcdd85ba7a28eaab0ce6874",
-      "bytes": 12685
-    },
-    {
-      "path": "knowledge/04_WRITING_AND_CONTENT_DESIGN.md",
-      "sha256": "6ecac33145018878a1b3d71512167e6b8ba67677b14a8906cdd7647584861396",
-      "bytes": 15104
-    },
-    {
-      "path": "knowledge/05_PATTERN_LIBRARY.md",
-      "sha256": "716959b8ad8117e4841190de5e5ff50ccb05e73012ce994bbe89bf1b98adf654",
-      "bytes": 94321
-    },
-    {
-      "path": "knowledge/06_RUNTIME_SPECIFICATION.md",
-      "sha256": "b42bdbbf6ebbe059092c86192da52a84f5504c344bc1282d809e5d14797f314a",
-      "bytes": 6880
-    },
-    {
-      "path": "knowledge/07_OPERATIONS_AND_PRODUCT_RULES.md",
-      "sha256": "f7448be0f8bb3938e08c34edbc782a142f0aa4da766dcc34de6755c125f9550c",
-      "bytes": 13814
-    },
-    {
-      "path": "knowledge/08_SIMS_FEEDBACK_CONTRACT_V2_1.md",
-      "sha256": "15509d348b0639eab6e362eff5044f07e77f2ed6cdca6b052eb88bbab159af55",
-      "bytes": 1038
-    },
-    {
-      "path": "templates/IMPROVEMENT_REQUEST_TEMPLATE.json",
-      "sha256": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a",
-      "bytes": 616
-    },
-    {
-      "path": "templates/OUTPUT_TEMPLATE_V2.1.md",
-      "sha256": "d4c0b302d7c232661217dd492ae8214c24001fa7b643c9a9b989ec0732a3dcbc",
-      "bytes": 329
-    }
-  ]
+  "package_version": "0.16.0-alpha.1",
+  "status": "Quality Foundation Release A Alpha",
+  "files": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.md": "0054a91b7600ee6fe436e5b02822801d7a792431ccc2fa2857b826c06bae8c94",
+    "README.md": "b49d04119c399c3e7bf840f341736a9efe05988c22f4154700213e2c381960fa",
+    "SETUP_GUIDE.md": "a223d186f201aa6f681f95f8451eccfc6d1c7307cf4c0a91c6b2eea450da9997",
+    "TEST_CHECKLIST.md": "91b72936f5b6525ae50e6b0edb4d42c997d928caac1263d1899db70f912ea68d",
+    "examples/EXAMPLE_REQUEST.json": "7e3a01618204a9f53558992b36dead6b2a89aa321efe7406926abcafeec62baf",
+    "knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md": "944bb33f30ccc00d9d7f7c552bd9c0af7f7ee79bd117c0969de234bd377483c5",
+    "templates/IMPROVEMENT_REQUEST_TEMPLATE.json": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a"
+  },
+  "version": "0.16.0-alpha.1"
 }
