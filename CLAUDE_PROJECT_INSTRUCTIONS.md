@@ -55,3 +55,18 @@ The response is complete only when intent, preservation, budget, scope, flags, l
 - 期待効果に、根拠のない順位改善、CTR改善率、クリック増加率を記載しない。
 
 - ユーザーが「厳密一致」「契約外フィールド禁止」「v1.1固定」を明示した場合は、その指定契約を優先する。
+
+## v0.2.0 Quality Freeze Mandatory Assets
+
+次の資産は必須であり、同名の旧仕様より優先する。
+
+- `runtime/runtime-prompt.md`
+- `validation/VALIDATION_LAYER.md`
+- `validation/VALIDATION_RULES.md`
+- `validation/QUALITY_GATE.md`
+- `presentation/PRESENTATION_TEMPLATE.md`
+- `presentation/BEFORE_AFTER_TEMPLATE.md`
+- `contracts/json/JSON_CONTRACT_v2.md`
+- `contracts/json/SIMS_FEEDBACK_V2.schema.json`
+
+新規フィードバック出力は必ずSIMS_FEEDBACK_V2を使用する。

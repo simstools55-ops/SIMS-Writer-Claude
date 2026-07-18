@@ -1,53 +1,18 @@
-# Validation Layer v0.2.0
+# Output Validator v2.0
 
-## Status values
+出力直前に`validation/VALIDATION_RULES.md`を順番に検査する。
+判定は`validation/QUALITY_GATE.md`に従う。
+重大なNOが1件でもあれば、該当箇所のみTargeted Refinementを実行する。
 
-- `PASS`
-- `PASS_WITH_WARNING`
-- `FAIL`
+最低確認項目:
 
-## Blocking checks
-
-| Code | Check | Failure condition |
-|---|---|---|
-| VAL-CONTRACT-001 | JSON contract | Schema, required keys, types, enum, or strict field order is violated |
-| VAL-INTENT-001 | Primary intent | Proposed title/intro/headings/conclusion change the primary intent |
-| VAL-PRESERVE-001 | Protected elements | Protected element is removed, altered, or replaced without approval |
-| VAL-BUDGET-001 | Change budget | Estimated change exceeds `change_budget_percent` |
-| VAL-SCOPE-001 | Rewrite declaration | Actual change does not match Rewrite Level or Scope |
-| VAL-FLAG-001 | Change flags | Machine flags/new values differ from human output |
-| VAL-FACT-001 | Unsupported claim | Material numeric, time-sensitive, or performance claim lacks basis |
-| VAL-LANG-001 | Output language | English analysis or internal reasoning appears in user output |
-
-## Warning checks
-
-| Code | Check | Warning condition |
-|---|---|---|
-| VAL-SAMPLE-001 | Sample size | `LOW_SAMPLE` applies; recommendation must be conservative |
-| VAL-TITLE-001 | Title length | Recommended >40 and <=45 characters |
-| VAL-META-001 | Meta length | Recommended >120 and <=140 characters |
-| VAL-FAQ-001 | FAQ necessity | FAQ adds little new value or duplicates body wording |
-| VAL-EVIDENCE-001 | Evidence availability | Non-blocking source or candidate could not be verified |
-
-## Automatic repairs
-
-- Length overflow: shorten only the overflowing component.
-- Flag mismatch: correct flags/new values to match the actual output.
-- FAQ duplication: remove or merge the duplicate FAQ.
-- Budget overflow: revert the lowest-priority changes until within budget.
-- Intent mismatch: restore the original primary intent and regenerate only affected components.
-
-## Validation result object
-
-```json
-{
-  "status": "PASS",
-  "checks": [
-    {"code": "VAL-INTENT-001", "status": "PASS", "message": ""}
-  ],
-  "estimated_change_percent": 18,
-  "notes": []
-}
-```
-
-A `FAIL` result cannot be presented as publish-ready. A warning lowers confidence when it materially affects the decision.
+- ArticleIDとURL
+- Primary Intent
+- protected_elements
+- Change Budget
+- Rewrite Level / Scope
+- Before/After対応
+- 事実と数値の根拠
+- LOW_SAMPLE警告
+- SIMS_FEEDBACK_V2 Schema
+- 英文分析・内部思考の不在

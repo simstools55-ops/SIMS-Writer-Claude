@@ -1,11 +1,26 @@
-# SIMS Writer Claude Package v0.2.0
+# SIMS Writer Claude Package v0.2.0 Quality Freeze Final
 
-Quality Freeze package for a Claude Project.
+## Project Instructions
 
-## Install
-1. Put `CLAUDE_PROJECT_INSTRUCTIONS.md` into Project Instructions.
-2. Upload all files under `knowledge/`, `runtime/`, `contracts/`, `schemas/`, and `templates/` to Project Knowledge.
-3. Do not upload `.git/`.
-4. Use the request template already provided by SIMS-Blog-Manager or your strict JSON contract.
+`CLAUDE_PROJECT_INSTRUCTIONS.md`をClaude Project Instructionsへ設定する。
 
-The default response contract is SIMS Feedback JSON v2.0.
+## Project Knowledge
+
+次のフォルダを登録する。
+
+- `runtime/`
+- `knowledge/`
+- `validation/`
+- `presentation/`
+- `contracts/`
+- `schemas/`（旧V1互換参照）
+- `templates/`（旧テンプレート互換参照）
+- `examples/feedback-v2/`
+
+## 正式な3領域
+
+- Validation: `validation/`
+- Presentation: `presentation/`
+- JSON Contract: `contracts/json/`
+
+V2が正式仕様であり、V1は互換参照のみ。
