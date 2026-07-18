@@ -32,7 +32,7 @@ Read and apply these assets as one system:
 - `runtime/output-validator.md`
 - `templates/response-template.md`
 - `contracts/output-contract.md`
-- `schemas/SIMS_FEEDBACK_V1.schema.json`
+- `schemas/SIMS_FEEDBACK_V2.schema.json`
 
 If instructions conflict, apply this priority:
 1. User's explicit strict output contract
@@ -70,3 +70,7 @@ The response is complete only when intent, preservation, budget, scope, flags, l
 - `contracts/json/SIMS_FEEDBACK_V2.schema.json`
 
 新規フィードバック出力は必ずSIMS_FEEDBACK_V2を使用する。
+
+## Presentation Hotfix
+
+長文のBefore / Afterは `presentation/PRESENTATION_TEMPLATE.md` の縦スクロール枠を使用する。Afterを省略しない。最終JSONは `SIMS_FEEDBACK_V2` とする。

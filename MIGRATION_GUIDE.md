@@ -1,4 +1,4 @@
-# Migration Guide to v0.2.0
+# Migration Guide to v0.2.1 RC
 
 1. Replace Claude Project Instructions with `claude/CLAUDE_PROJECT_INSTRUCTIONS.md`.
 2. Replace the Claude Knowledge files with the contents of the Quality Freeze Claude package.

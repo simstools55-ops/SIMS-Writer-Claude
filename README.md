@@ -1,4 +1,4 @@
-# SIMS Writer Claude Package v0.2.0 Quality Freeze Final
+# SIMS Writer Claude Package v0.2.1 RC Hotfix
 
 ## Project Instructions
 

@@ -16,3 +16,5 @@
 - LOW_SAMPLE警告
 - SIMS_FEEDBACK_V2 Schema
 - 英文分析・内部思考の不在
+
+- 長文Before/Afterは固定高の枠内で縦スクロール表示する。
