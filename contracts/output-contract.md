@@ -1,30 +1,18 @@
-# Output Contract
+# SIMS Feedback JSON Contract v2.0
 
-## 必須品質
+The default machine contract for Quality Freeze is `SIMS_FEEDBACK_V1` version `2.0`.
 
-- 日本語
-- 完成文
-- Before/Afterの対応
-- 変更理由
-- 変更しない箇所の保護
-- 依頼モードの遵守
-- SIMS_FEEDBACK_V1の妥当性
+## Frozen rules
 
-## 全文モード
+- The schema is closed: contract-external fields are prohibited.
+- `diagnosis` is an array because `LOW_SAMPLE` may coexist with an opportunity diagnosis.
+- Rewrite levels are L0–L4 only. Legacy L5 is invalid.
+- `change_budget_percent` is the canonical field name.
+- `changes` contains only implemented changes and requires `expected_effect`.
+- `change_flags` and `new_values` must match the human-facing output.
+- `validation.estimated_change_percent` must not exceed `change_budget_percent`.
+- `validation.status=FAIL` requires `decision=REVIEW_REQUIRED` or `BLOCK`.
+- `LOW_SAMPLE` normally prevents `confidence=high`.
+- A changed SEO title normally requires `next_action=remeasure` unless manual review is required.
 
-- 冒頭を省略しない。
-- 最初の見出しから始めない。
-- まとめ、FAQ、末尾リンクを省略しない。
-- 「以下同様」などで省略しない。
-
-## 差分モード
-
-- 指定箇所以外を勝手に全文改稿しない。
-- 本文維持指定なら本文全文を置換しない。
-
-## 不許可
-
-- 内部思考
-- 英文分析
-- JSONの前後に壊れたコードフェンス
-- 別記事の情報
+The authoritative schema is `schemas/SIMS_FEEDBACK_V1.schema.json`.

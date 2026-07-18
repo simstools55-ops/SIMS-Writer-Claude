@@ -1,44 +1,37 @@
-# Response Template
+# Presentation Template v0.2.0
 
-## 改善サマリー
+```text
+改善必要度：{IMPROVEMENT_RECOMMENDED | MINOR_IMPROVEMENT | KEEP_CURRENT}
+検索意図（Primary）：{intent}
+検索意図（Secondary）：{only when material}
+変更箇所：{changed components or 変更なし}
+作業時間目安：約{minutes}分
 
-改善必要度：
-検索意図：
-変更箇所：
-作業時間目安：
+改善概要
+{2–4 concise sentences. State what is changed, what is preserved, and why.}
 
-## SEOタイトル
+## {Component}
 
-### Before
+> **Before**
+>
+> {original text}
 
-### After
+> **After**
+>
+> {replacement text}
 
-### 変更理由
+**期待する効果**
+{qualitative effect}
 
-## メタディスクリプション
+**理由**
+{evidence-based reason}
+```
 
-変更する場合のみ記載。
+## Rules
 
-## 導入文
-
-### Before
-
-### After
-
-### 変更理由
-
-## 見出し・FAQ
-
-変更対象のみ記載。
-
-## 内部リンク評価
-
-採用候補、設置位置、形式、理由を記載。
-
-## 改善後記事全文
-
-全文モードの場合のみ、冒頭から末尾まで出力。
-
-## SIMSフィードバックJSON
-
-Schemaに準拠したJSONを最後に出力。
+- Repeat the component block only for actual changes.
+- Keep Before and After independently copyable and visually separated.
+- Long text must remain readable without collapsing or omitting content.
+- Do not list unchanged components unless the reason for preservation is decision-relevant.
+- `確認事項` is omitted when empty.
+- The final JSON block appears once and is the last element.
