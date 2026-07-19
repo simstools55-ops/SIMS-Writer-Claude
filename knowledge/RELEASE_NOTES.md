@@ -1,22 +1,16 @@
-# SIMS Writer v0.2.2 RC Hotfix
+# Release Notes — v0.2.3 Validation Hotfix
 
-## Purpose
+This release follows the five-article v0.2.2 RC regression: A000063, A000006, A000036, A000020, and A000001.
 
-Applies findings from 11 real-article regression tests.
+## Fixed
 
-## P0 fixes
+- Made main-query evidence checks executable.
+- Added language-claim verification for uncommon spellings and unsupported generalizations.
+- Added named-person attribution and source checks.
+- Added unsupported strong-claim detection.
+- Added real internal-link implementation verification.
+- Added consistency checks between narrative warnings and `SIMS_FEEDBACK_V2.validation`.
 
-- Enforces SIMS_FEEDBACK_V2 v2.0 and rejects legacy V1 output.
-- Adds article ID/URL and answer-consistency validation.
-- Removes raw HTML Before/After wrappers; uses wrapping Markdown blockquotes.
-- Adds title-promise/body-fulfillment checks.
+## Release gate
 
-## P1 quality fixes
-
-- Adds main-query overfit, rank-causality, named-person attribution, food safety, privacy redaction, app freshness/free-scope, language/etymology, and earnings validation.
-- Prevents unsupported featured-snippet, FAQ-rich-result, voice-search, and guaranteed CTR claims.
-- Distinguishes preserved internal links from held candidates.
-
-## Regression coverage
-
-Eleven real-article cases are registered in `tests/rc-hotfix-v0.2.2/`.
+The hotfix regression suite contains targeted reproductions for all five articles. No additional broad article test is required before the next RC decision; run the included automated suite and one Claude smoke test.
