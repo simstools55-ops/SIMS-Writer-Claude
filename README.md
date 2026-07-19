@@ -1,3 +1,3 @@
-# SIMS Writer Claude v0.2.3 Validation Hotfix
+# SIMS Writer Claude v1.0.0 Baseline
 
-Upload these files to the Claude Project, replacing v0.2.2 files.
+Claude Projectへ本ZIP内のファイルを登録してください。SWLS Betaの運用は`learning/README.md`を参照します。

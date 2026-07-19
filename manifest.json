@@ -1,0 +1,23 @@
+{
+  "package_version": "1.0.0",
+  "status": "Production Baseline with SWLS Beta",
+  "files": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.md": "8d2ecc1eba6923222007251ddca46239e3c0958ac1b4b2e6e178ed0e60ae6e25",
+    "README.md": "53ba5e1b2ac4a5c4327746fb3f5dd05e717ec9835745ec3c28b5c3a1441336dd",
+    "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+    "knowledge/JSON_CONTRACT_V2.md": "096fbf56aea290f3854b95388612d4d7d789b38a619b40ca14569d0e6d325671",
+    "knowledge/MIGRATION_GUIDE.md": "2032cd960f4ed432b12c39637aaceec17afdb72cc18eb8d723da86e9d2e818ae",
+    "knowledge/PRESENTATION_v2.2.md": "8cabe29eaedc4a93efd7a78b6e708dba66e64ce0395e0a2080b6134632ef779b",
+    "knowledge/RELEASE_NOTES.md": "2be234f58d2803364d3257f36b74c58c7f5ed60516964dfda972a98f1cf3adc0",
+    "knowledge/SIMS_FEEDBACK_V2.schema.json": "43fa55892a0b68a52e71125c48fd734063459c0141f2968773b5ce0a2eeb755e",
+    "knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md": "4fcd4b0fdf63b3d2d2a541248384d72210147f7939dca493677ba0d657b57343",
+    "knowledge/VALIDATION_v0.2.3.md": "1515f89ea0d011de6560ae1e3ece8d04c58e54c602b10a4b8f858d2a63123279",
+    "learning/README.md": "dfbcb98e28b229e9afb5ecb5b16c4d2f927218e7e33050f6c8cba2ff0049732e",
+    "learning/schemas/SWLS_LEARNING_RECORD.schema.json": "776b8edaed527e33193853776678a829aad85b9319d3c61ec60416247bd74e26",
+    "learning/schemas/SWLS_MEASUREMENT.schema.json": "bc28664ed991e689591379f544fd0998ef125293d2dc22ec6c4e9730f17eb370",
+    "learning/schemas/SWLS_USER_FEEDBACK.schema.json": "1052d4aa61350adbea9a1e60f05afab47210b900f12966c6bdf0c8fe02c9ec04",
+    "learning/templates/LEARNING_RECORD_TEMPLATE.json": "6255e75008b54a70275621da204583d72a4a45c8ef781246a68d1f6fb9cd4a09",
+    "learning/templates/MEASUREMENT_TEMPLATE.json": "b649ee1df595410ecaba757e0907cebb41e3e9b1a0d1e415f839525cebce4fd1",
+    "learning/templates/USER_FEEDBACK_TEMPLATE.json": "8d0ec7a0483cdbc670525d1bbc051758f04135d620a8737628940666c7c34a5d"
+  }
+}

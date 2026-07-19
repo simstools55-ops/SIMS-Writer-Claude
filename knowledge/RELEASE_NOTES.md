@@ -1,16 +1,18 @@
-# Release Notes — v0.2.3 Validation Hotfix
+# SIMS Writer v1.0.0 Baseline Release Notes
 
-This release follows the five-article v0.2.2 RC regression: A000063, A000006, A000036, A000020, and A000001.
+## 位置付け
 
-## Fixed
+実記事回帰テストを完了した最初の運用ベースライン。v0.2.3 Validation Hotfixを固定し、SWLS Betaを追加した。
 
-- Made main-query evidence checks executable.
-- Added language-claim verification for uncommon spellings and unsupported generalizations.
-- Added named-person attribution and source checks.
-- Added unsupported strong-claim detection.
-- Added real internal-link implementation verification.
-- Added consistency checks between narrative warnings and `SIMS_FEEDBACK_V2.validation`.
+## 追加
 
-## Release gate
+- 記事ごとのLearning Record
+- 利用者コメント・採用状況テンプレート
+- 30日前後のGSC再測定テンプレート
+- 10記事単位のMarkdown／JSON／CSVレポート生成ツール
+- Knowledge／Validation／Pattern Library等への改善候補集計
+- 5記事の実記事回帰テスト記録
 
-The hotfix regression suite contains targeted reproductions for all five articles. No additional broad article test is required before the next RC decision; run the included automated suite and one Claude smoke test.
+## 運用上の注意
+
+SWLSは自動学習機能ではない。収集結果は人が確認し、v1.0.xまたはv1.1.0へ採用する。
