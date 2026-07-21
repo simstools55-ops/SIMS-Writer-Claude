@@ -1,10 +1,24 @@
-# SIMS Writer Claude Package v1.1.0-rc3
+# SIMS Writer RC3 Claude Package
 
-Claude Projectへ投入する完全パッケージです。
+このフォルダーは、SIMS Writer v0.15.3-alpha.1をClaude Projectへ登録するためのファイル一式です。
 
-- Writer固有Instructions / Knowledge
-- Shared Editorial Knowledge v1.0.0 snapshot
-- Runtime / Validation / Contracts / Schemas
-- Learning / Templates / Examples / Presentation
+## Claudeへ登録するファイル
 
-`shared/`はSIMS-Shared-Editorial-Knowledgeの検証済みスナップショットです。直接編集しません。
+1. `CLAUDE_PROJECT_INSTRUCTIONS.md`
+   - Claude Projectの「Project Instructions」へ全文を貼り付けます。
+2. `knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md`
+   - Claude Projectの「Project Knowledge」へアップロードします。
+
+既存のSIMS Writer用InstructionsとKnowledgeは削除または差し替え、旧版と混在させないでください。
+
+## テスト
+
+更新後は、まずA000008相当の依頼を`partial`モードで実行し、次を確認します。
+
+- 全文が出ない
+- Before / After / 理由が出る
+- JSONが最後に1つだけ出る
+- JSON後に文章がない
+- `main_query`へ説明文が混ざらない
+- 本文セクション追加時は`changes.body=true`
+- 未確認URLが`adopted`にならない

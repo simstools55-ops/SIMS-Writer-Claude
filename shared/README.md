@@ -1,19 +1,31 @@
-# Shared Editorial Knowledge Snapshot
+# SIMS Shared Editorial Knowledge
 
-このディレクトリは、独立リポジトリ **SIMS-Shared-Editorial-Knowledge** の検証済みスナップショットです。
+SIMS WriterとSIMS Article Creatorが共有する編集品質基準の正本（Single Source of Truth）です。
 
-## 使用バージョン
+## 目的
 
-- Source repository: `SIMS-Shared-Editorial-Knowledge`
-- Shared Knowledge version: `1.0.0`
-- Integrated product: `SIMS Writer v1.1.0-rc2`
+- 両製品で共通するSEO・編集・Evidence知識を一元管理する
+- 共通知識と製品固有の適用ルールを分離する
+- WriterのPreservation思想とCreatorの新規設計思想を混同しない
 
-## 管理ルール
+## 構成
 
-- このディレクトリをWriter側で直接編集しない。
-- 共通知識の変更は正本リポジトリで行う。
-- 正本のバージョンを更新し、テスト後に新しいスナップショットとして取り込む。
-- Writer固有の適用制約はProject Instructions、Runtime、Validationで管理する。
-- Claude配布物には、このスナップショットを必ず同梱する。
+```text
+knowledge/                 共通知識の正本
+mappings/writer/           Writer固有の適用ルール
+mappings/article-creator/  Article Creator固有の適用ルール
+validation/                共通知識の品質検証基準
+tests/                     リポジトリ整合性テスト
+docs/                      運用・統合ドキュメント
+```
 
-`SOURCE.md`と`SNAPSHOT_MANIFEST.json`で取得元とファイル整合性を確認できます。
+## 利用原則
+
+1. 共通知識の変更はこのリポジトリで行う。
+2. WriterとArticle Creatorは、リリース済みバージョンの検証済みスナップショットを取り込む。
+3. 製品側で共通知識を独自編集しない。
+4. 製品への取り込み後は、各製品の回帰テストを実行する。
+
+## Version
+
+`1.0.0`
