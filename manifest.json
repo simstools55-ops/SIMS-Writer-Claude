@@ -31,5 +31,7 @@
     "shared/tests/test_repository.py": "4fd4f251bb39f46f46355dff9c4775c2c8bdb022d3545414cf3b397926118f6c",
     "shared/validation/shared-knowledge-validation.md": "d76ef622d4f4b39ccc1413d0ce20139e970f66911044b6ce4e26e8641946881d",
     "templates/IMPROVEMENT_REQUEST_TEMPLATE.json": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a"
-  }
+  },
+  "version": "1.1.1",
+  "shared_knowledge_version": "1.1.1"
 }
