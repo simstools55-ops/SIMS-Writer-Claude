@@ -1,288 +1,1128 @@
 {
-  "package_version": "1.1.2",
-  "status": "Production Release - Sprint 1",
-  "shared_knowledge_version": "1.1.2",
-  "files": {
-    "CHANGELOG.md": "902054066ed6e08caa18aabb56b6cbcf37d336b62b484b325b62d12d3c9679dd",
-    "CLAUDE_PROJECT_INSTRUCTIONS.md": "36d6101ceb0e1429078ea4b31960fbd3ce06c5696afb956d41be0c33c5b5dffb",
-    "MIGRATION_GUIDE.md": "c6b96ba8283e72ac11aac5ea35695ab061aeefb75d9b26f9b9c7879274de518f",
-    "README.md": "c2c5d7b0b7d1cd54a44d8890ba7735dfb4eb48c8580517b4f70bb852efbe0d7a",
-    "RELEASE_NOTES.md": "1dddb1f72c6ef22382ff78c0dcec93cd84ee322d08492d9d0d91e756be94e699",
-    "RELEASE_NOTES_v1.1.0_RC1.md": "5a927d7623be075a32eb4d2c5f703d82149d8897e242e1b7923fb7cda434ccee",
-    "RELEASE_NOTES_v1.1.0_RC2.md": "2b90c5d4c82d93124b3587f0b90750663511f3ed240b52579bd534d9d5b9d2e2",
-    "RELEASE_NOTES_v1.1.0_RC3.md": "f123d4f9d053335aed214f727c1f87f36add7acb5df97b5a2d452699fe0507dd",
-    "RELEASE_NOTES_v1.1.2_SPRINT1.md": "fa6dddaa354063a734d8c5a29fe02f7dd1959e6bedf2ef4b5081d496661bff8a",
-    "SETUP_GUIDE.md": "a223d186f201aa6f681f95f8451eccfc6d1c7307cf4c0a91c6b2eea450da9997",
-    "TEST_CHECKLIST.md": "91b72936f5b6525ae50e6b0edb4d42c997d928caac1263d1899db70f912ea68d",
-    "VERSION": "77123b8e4bdbd54505bf6e8021527ac60281602a06fe307564532c4dba39dbca",
-    "contracts/decision/action-plan/action-plan-contract.md": "b3c2e7225075e7eddce0a4aa4b22506b31ca430e33226766c9bd671dc1811820",
-    "contracts/decision/action-plan/action-plan.schema.json": "a88d09b4053141c113d6e74bf34c25e287f6fe53e9b89322c0c28c6b42c8832b",
-    "contracts/decision/action-plan/examples/invalid.json": "a9c7619dcaf066e3bf1ff9010191fb76675f7fc4799897d0e0eb68d5739e2ec9",
-    "contracts/decision/action-plan/examples/valid.json": "6131c7cef1caad079598074c20ea6bc101cf5ab403c200dd8d016551e2251265",
-    "contracts/decision/context/context-contract.md": "79416f0924159264faf5dfcc4fa7a1a7fc615dc1f4a006794d0cf023eb41425c",
-    "contracts/decision/context/context.schema.json": "bba404964ab44a74d171951ecd61bf9078b93487db94b25411e9f21ba247a88d",
-    "contracts/decision/context/examples/invalid.json": "e6a79299eddfbf0ad43892bd3e793fd1ada34106d80a85b502da651017364919",
-    "contracts/decision/context/examples/valid.json": "5a1ee5c16cc59e354623dff0d9f57d917eb6a736f40d532cefa9013109cfbc43",
-    "contracts/decision/record/examples/invalid.json": "417595ad9089b429bb9e648088d8a01b7be57a468f13fd5d625612cf7060d49f",
-    "contracts/decision/record/examples/valid.json": "e85e9bc642968fabe1fd9acf6acb86d1ba62e5805ebf153b211afbf9a201f4d9",
-    "contracts/decision/record/record-contract.md": "8243e2caceefde810a0aeaa5b7933f7b73f98b09d732cc50fbf8dea283a689f5",
-    "contracts/decision/record/record.schema.json": "265c1100deb1c1c4eaee68c74dbb778011eb169eb2aeb3dc959fcae9083d25bf",
-    "contracts/framework/contract-framework-v1.0.md": "472e1035dc94701cc45fbc53d606b27a4a1c3aa4a14417f272a86f7bbb2f762f",
-    "contracts/framework/output-contract-v1.1.md": "b361949ae0ec6f7d6ebce800ae22058c0bc4c656e4b2612dad5efa914d56a7bf",
-    "contracts/framework/publish-quality-contract-v1.0.md": "259128be550f97c0294eca081140c1b6465e1c786ec6912e8ae9a2d25bf290f1",
-    "contracts/framework/quality-foundation-contract-v1.0.md": "358bd222630f36e15c814f81647e37d3431cb4144ef5f95551c3fe339c006d8a",
-    "contracts/framework/sims-feedback-json-contract-v2.0.md": "991889ba5dcba9542fd1dbfd1e4a245f0dcc050f44a91a5caad29171f41e0656",
-    "contracts/input-contract.md": "89b699bf8b538e3f9c6f0cbbe14f43df026ca389397fa95edcf41aefdc9ba601",
-    "contracts/integrations/generic-json-input/generic-json-input/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/integrations/generic-json-input/generic-json-input/examples/valid.json": "76f1914f1e33fad2c8676d014a26b154ab901af9573ba4edce02db54eaa4f02e",
-    "contracts/integrations/generic-json-input/generic-json-input/generic-json-input-contract.md": "333f573b6d2a7bf3a777e7f9da37ad4ad50fa363eedeeffa721f46e99c796798",
-    "contracts/integrations/generic-json-input/generic-json-input/generic-json-input.schema.json": "d46af8d34f6fe93c6cc2f43bd00b688ef22b60aa95707661559eee45799dd731",
-    "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/valid.json": "6990e9f2ce9a2cc05291b1823468d2545fb6351e0830a04d284d7cb6c2866554",
-    "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/sims-blog-manager-input-contract.md": "00736ac925d221312a76031d71ca11ab890e8a8ac95e1bed78fd5f0ac23395c3",
-    "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/sims-blog-manager-input.schema.json": "7385670a158d714bbfa3c644f183ee519c0de41d4542a478e99706ae74052827",
-    "contracts/json/CONTRACT_CHANGELOG.md": "e7b9995e3da11e5d88fea80fd761eb7e43f708270858c61d0e404c97360dd58c",
-    "contracts/json/JSON_CONTRACT_v2.md": "096fbf56aea290f3854b95388612d4d7d789b38a619b40ca14569d0e6d325671",
-    "contracts/json/SIMS_FEEDBACK_V2.schema.json": "75d429f072ddbfe0dfb27fb398ab7c4364d1de2f24b71cbc3bdf23ae2c152d7f",
-    "contracts/knowledge/knowledge-assembly/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/knowledge/knowledge-assembly/examples/valid.json": "96c55c4ab475485b730d47fcbca2f41a51aff970cfa73929b3ba8f425b29bad6",
-    "contracts/knowledge/knowledge-assembly/knowledge-assembly-contract.md": "d3faee36c72c0943d8696e8fed4553366170d536b1785a7aa7f4e2b62aa37c12",
-    "contracts/knowledge/knowledge-assembly/knowledge-assembly.schema.json": "35f2d0c53b9bb74c51b4c3b2d4bcc131e94c518ae980c58a0594345ed8c80e88",
-    "contracts/operations/error/error-contract.md": "def74f908fe019ccf48d2b7a717aaa01479736fabf2da85609448a9298b78e89",
-    "contracts/operations/error/error.schema.json": "81b8b7d2ed236be1ada605d02b4c137ccff928f2f4643d585b132e83456b40ae",
-    "contracts/operations/error/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/operations/error/examples/valid.json": "06f70b6e0b6d9840a989a10c98911661907713520a1aecc31cf34d3cec7ee61b",
-    "contracts/operations/execution-record/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/operations/execution-record/examples/valid.json": "28e31abf2a27a386ce3c54f9a6127d72706091e27245bd52d5b9cb723a775c56",
-    "contracts/operations/execution-record/execution-record-contract.md": "540558c78c25f9e6a88af46e076988c9e7d2057bc0a0f8a270f568e2d9cdb1df",
-    "contracts/operations/execution-record/execution-record.schema.json": "0c61ed0fc681086bb0a98e50000efabe0a56f0eee2f768f1257a09080b3c9247",
-    "contracts/output-contract.md": "f7f536b7bcff78b7b0ec11e1d24fe2a3a76bebf6d56035c1ed49910517afcfe7",
-    "contracts/pattern/pattern-selection/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/pattern/pattern-selection/examples/valid.json": "06727e235a130cd964db9add26f85206da4b80015d0a347f8b4f0b745ac4b0cc",
-    "contracts/pattern/pattern-selection/pattern-selection-contract.md": "be4674048ce78c3bbe61a798c88a46b9829a0795566479d7e4b089f5c0a6a43b",
-    "contracts/pattern/pattern-selection/pattern-selection.schema.json": "558f843e0dd585f7c70029ea916fb074f7b0b1f1e33e6cf0494515fd6a930e28",
-    "contracts/planning/content-plan/content-plan-contract.md": "7d6b1e0775282353676b666a47b6dbdcd4c90d21cd3491d8479d019b1bae49d0",
-    "contracts/planning/content-plan/content-plan.schema.json": "9d8db93e52235ac60567a22d545190e9499bc5289f6a628ecf183dc9195f2bdb",
-    "contracts/planning/content-plan/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/planning/content-plan/examples/valid.json": "899851d8c803c8e5027633273de6d41a78179b86abe7159ab87e26421111985a",
-    "contracts/production/content-draft/content-draft-contract.md": "5b538a3301d4849a5eaece54ebbcc3fb651843c28f0880fd553c6612c459da1e",
-    "contracts/production/content-draft/content-draft.schema.json": "7c470872616dfc45137cbb41db2086f347f357d3e23175fdcd642fded697d6df",
-    "contracts/production/content-draft/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/production/content-draft/examples/valid.json": "0351ea31fce5f1558cf0133474f90b903089ccea1083914ad48f58ffd4b05a26",
-    "contracts/publication/publication-package/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/publication/publication-package/examples/valid.json": "358a568c5302e550e0b649dde48cdc3d2810a30023787dc1549a55fd8eb78ce7",
-    "contracts/publication/publication-package/publication-package-contract.md": "13bc0ad95b11fe4cf438c49baa3ab5459b72f8bfe9ee275a8281fdc72606cc2d",
-    "contracts/publication/publication-package/publication-package.schema.json": "d330f286d69d8daddc43bb807cd5637f3e6df6080f32eff495e24e437a220067",
-    "contracts/quality/quality-report/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/quality/quality-report/examples/valid.json": "a79d162ed9d25690eb1b40af3563931e35d5adde48857fc7f1bdbcf89dd18de2",
-    "contracts/quality/quality-report/quality-report-contract.md": "de85b2b1cfdc6af3ded38ae04f1238d96d922f1de10cf6763ea61b4472cb3d65",
-    "contracts/quality/quality-report/quality-report.schema.json": "15811d596f4733a353fbc3d2f222ee51c9c98ed9a18d651d0c942e94b222b137",
-    "contracts/registry/contract-registry.json": "f8288d3cc0d0f5583bc3d0f9dc93b9655a3695ee20134c582e653a09aa26cb71",
-    "contracts/request/writing-request/examples/invalid.json": "c8d9243fbb81402adc60932ef3d8368fa15e90885ce5b0974ce01922922a1c7f",
-    "contracts/request/writing-request/examples/valid.json": "cda0a5eeb50d587abb03de223f8a75eee1e007feb6b6bf31a93ffa20e5b70040",
-    "contracts/request/writing-request/writing-request-contract.md": "9ede967eac52096ecc1c10401252ea11017b00441b51810758f7d7b62eae77a7",
-    "contracts/request/writing-request/writing-request.schema.json": "19a39e98d3809c690c76d7b78cf32cfbcdfdf855093f2f3ea3f6fd881dcb9949",
-    "contracts/source/source-content/examples/invalid.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "contracts/source/source-content/examples/valid.json": "0ed84de03a6d7202717c5aa1a152310ac8ea16e8b1d75033e7640b9a58ee4408",
-    "contracts/source/source-content/source-content-contract.md": "083d5dcdcc264dce4e534265099808ca445cf23bd81c80322c369f7ceaba32d1",
-    "contracts/source/source-content/source-content.schema.json": "96908ba6f307a45c809f55146148c6ad510361e9942928ff6469d886848e8da3",
-    "examples/EXAMPLE_REQUEST.json": "7e3a01618204a9f53558992b36dead6b2a89aa321efe7406926abcafeec62baf",
-    "examples/decisions/decision-action-plan.invalid.json": "a9c7619dcaf066e3bf1ff9010191fb76675f7fc4799897d0e0eb68d5739e2ec9",
-    "examples/decisions/decision-action-plan.valid.json": "6131c7cef1caad079598074c20ea6bc101cf5ab403c200dd8d016551e2251265",
-    "examples/decisions/decision-context.invalid.json": "e6a79299eddfbf0ad43892bd3e793fd1ada34106d80a85b502da651017364919",
-    "examples/decisions/decision-context.valid.json": "5a1ee5c16cc59e354623dff0d9f57d917eb6a736f40d532cefa9013109cfbc43",
-    "examples/decisions/decision-record.invalid.json": "417595ad9089b429bb9e648088d8a01b7be57a468f13fd5d625612cf7060d49f",
-    "examples/decisions/decision-record.valid.json": "e85e9bc642968fabe1fd9acf6acb86d1ba62e5805ebf153b211afbf9a201f4d9",
-    "examples/feedback-v2/IMPROVEMENT_REQUIRED.json": "449996cfb9f2ca8b7e65d060c3e8407a26e987971e1e676f42542f752a16975a",
-    "examples/feedback-v2/PASS.json": "5cfa28891521340953a964fc0d7db7f06abf6381e58b7862cb1fde49fb647ac3",
-    "examples/feedback-v2/PASS_WITH_WARNING.json": "84fcb2ee9f8bf08b126f27b0742f99b122cb28ee4bc86eb6924fe71f0628ddc4",
-    "examples/feedback-v2/POSITION_OPPORTUNITY.json": "7506257dbee1372e5b8ad07380e9df0b1706ac853b6b300f2123f7b9fb509b7e",
-    "examples/model-adapters/fixture-request.json": "2d2531672560944dfc1678fec938c589baca20088d6e92bd26afb09e8cf69128",
-    "examples/runtime/generic-request.json": "789afb54b553b73d48d49e32e96982dc9a02b948d5eb4e3d544ae402965caf39",
-    "examples/runtime/sbm-request.json": "929a135a8cdac62f767f828cae9f23aa1acb9b2f1eaef50717a0e9e6dd610db8",
-    "examples/vertical-slices/ctr-improvement/README.md": "b0ef94bf02c3de43bd6be8afadef4230fee822d6df56ae230371f007b8525fe4",
-    "examples/vertical-slices/ctr-improvement/sbm-request.json": "0605d5567e806c28cac5f23aee2ed3ce3c76e1600e371dcdba73288df77042f7",
-    "knowledge/JSON_CONTRACT_V2.md": "096fbf56aea290f3854b95388612d4d7d789b38a619b40ca14569d0e6d325671",
-    "knowledge/MIGRATION_GUIDE.md": "2032cd960f4ed432b12c39637aaceec17afdb72cc18eb8d723da86e9d2e818ae",
-    "knowledge/PRESENTATION_v2.2.md": "8cabe29eaedc4a93efd7a78b6e708dba66e64ce0395e0a2080b6134632ef779b",
-    "knowledge/RELEASE_NOTES.md": "2be234f58d2803364d3257f36b74c58c7f5ed60516964dfda972a98f1cf3adc0",
-    "knowledge/SIMS_FEEDBACK_V2.schema.json": "43fa55892a0b68a52e71125c48fd734063459c0141f2968773b5ce0a2eeb755e",
-    "knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md": "8278db18a4a5ea08f31c51c398879ac00dbab5722a94f09982d82da161e11629",
-    "knowledge/VALIDATION_v0.2.3.md": "1515f89ea0d011de6560ae1e3ece8d04c58e54c602b10a4b8f858d2a63123279",
-    "knowledge/VALIDATION_v2.2.md": "9e7cf8147416c8ba64a4ca8469dc18aa7589b8d234871ae5684203154a691cb0",
-    "knowledge/consistency-audit.md": "49038397b2ead11e91ea43fe4d78bb617f6ce239da9c6d6e52b9bf9b5b418e59",
-    "knowledge/evidence-and-coverage.md": "0e0182d7e3bb396121055e1a2203bae2508dda64c3a4ea44443d211b52e76bc0",
-    "knowledge/improvement-strategy.md": "3ec60f3e9b897a99d13fdf668c095f603c57ecdea7a5e8daa4bef3ca083c63cb",
-    "knowledge/quality-gate.md": "0aeecbdf178cae0b09a175f3a0cdb2210a8eff8036a709242eb0d34b2fdc0f14",
-    "knowledge/quality-specification.md": "aea2ec8bf51aa273dccfce8914f62b1c4173d51eaef1673e524c51ad95aeaee7",
-    "knowledge/quality-standard.md": "b9488fe23adf81cef75c131750654275002df15d77d04e72eb848279fc017620",
-    "knowledge/search-diagnosis.md": "982ee799a78c97bc075203598ec4559ae206a5c7a61ef3bf328e3dc31cac1366",
-    "learning/README.md": "dfbcb98e28b229e9afb5ecb5b16c4d2f927218e7e33050f6c8cba2ff0049732e",
-    "learning/examples/A000001.feedback.json": "8d0ec7a0483cdbc670525d1bbc051758f04135d620a8737628940666c7c34a5d",
-    "learning/examples/A000001.learning.json": "6255e75008b54a70275621da204583d72a4a45c8ef781246a68d1f6fb9cd4a09",
-    "learning/examples/A000001.measurement.json": "b649ee1df595410ecaba757e0907cebb41e3e9b1a0d1e415f839525cebce4fd1",
-    "learning/schemas/SWLS_LEARNING_RECORD.schema.json": "8b5f40400b2e424672b56f7b71987690c5e0f88d1d379598f7db81b241e44886",
-    "learning/schemas/SWLS_MEASUREMENT.schema.json": "bc28664ed991e689591379f544fd0998ef125293d2dc22ec6c4e9730f17eb370",
-    "learning/schemas/SWLS_USER_FEEDBACK.schema.json": "1052d4aa61350adbea9a1e60f05afab47210b900f12966c6bdf0c8fe02c9ec04",
-    "learning/templates/LEARNING_RECORD_TEMPLATE.json": "83e10fc36c55c844ebe9230a9455bcb92584113fea8efc79300e33696054b61b",
-    "learning/templates/MEASUREMENT_TEMPLATE.json": "b649ee1df595410ecaba757e0907cebb41e3e9b1a0d1e415f839525cebce4fd1",
-    "learning/templates/USER_FEEDBACK_TEMPLATE.json": "8d0ec7a0483cdbc670525d1bbc051758f04135d620a8737628940666c7c34a5d",
-    "presentation/BEFORE_AFTER_TEMPLATE.md": "6e541baaee3386c8b195535d7f8576d117d51ed5a3b60e54ea9ce7d0d8ac9da8",
-    "presentation/FEEDBACK_TEMPLATE.md": "30caca723ef387921a156d67a7a5d0c304780d7aa4c98f558d135ea3baba3652",
-    "presentation/PRESENTATION_TEMPLATE.md": "b1bbf49639f8038a7b8f93bc02e75db03c5d54ae3805c8c94fa6877e613f7373",
-    "product/platform/SIMS_PLATFORM_GUIDE.md": "87f25dc36a5c8e262809537652aa01b5dca8d21c28157e476004e4589d7cacba",
-    "product/quality/QUALITY_FRAMEWORK.md": "9bf820520cb4966527d5e00cbfa02a920b9075c633d80583bd19354ae6adef4e",
-    "product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md": "a776a5cb72494b473e5ff05c14174bbd411a813572b5cc7f0383ef850f5215d0",
-    "runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "runtime/adapters/model-adapter-architecture.md": "50f27e357c720ccc8456435f71b8e82cbf272d4c931c3a3370b26dae547cd674",
-    "runtime/adapters/provider-configuration.md": "05296eab5d6e795a94bfc9ef7a05d9f26178d6b014fa2d4a3752e46318b6c31d",
-    "runtime/article-evaluation-workflow.md": "c16b781b4cb4e8505ca9e7eaa58753dc56157511b4d95470da294d5500f06204",
-    "runtime/change-budget-controller.md": "fb4e25816bde5f923ff8c59e09d688b33e193c5b50fe012323ee54f6ffb50887",
-    "runtime/consistency-audit.md": "e1305d6fdfbbfb18edfa55b333a2638038a749fe5661d858378e074975a5af5d",
-    "runtime/consistency-check-rules.md": "8c67685133567c6f17a7589412666d39bcc42bdcfb2241aab92009d7824b7eb5",
-    "runtime/consistency-to-change-map.md": "7df2eb43f895c9c47e2f0beafbf17b77abd7647fc8ba415ce7b7bfaee3d97ca1",
-    "runtime/context/context-builder-v1.0.md": "1e3297df49f471e921d6c3af83f310e46c3a44d21aa769b518c7d71658e65d45",
-    "runtime/context/runtime-context-policy.md": "65de421f837643ba4722d0f0d4a0e893ddfe87d9aa8f83ded3effd04f51396ce",
-    "runtime/contract-validation.md": "e824d1c64bceb223bd6c1c183c1a4addffdb70ca51eb9d2a189669446977fdf3",
-    "runtime/coverage-audit.md": "dd25f5b560f9364b357b0be62f85b3ddd140e3437e835271f157885a1317b283",
-    "runtime/defect-classification.md": "fe621009aa4b58bd5bba673e1f826f89cb1bff4c562f0fc52f86112896819b7a",
-    "runtime/diagnosis-decision-table.md": "79840bdf05480b6c7c592614002593c8d0df0a6d88937575a3bed5d335adbddb",
-    "runtime/diagnosis-to-improvement-map.md": "98da8b40e86edeb82302d68b779803424e618bb21c2ce05fd0a2502747d5a849",
-    "runtime/evidence-audit.md": "fb42a2b6d02c9f106db6c14f3b58ab4cc7043082eb5ea8367340eb993f5554c7",
-    "runtime/feedback-loop.md": "69ef7046ed09fe0b16a9c4c99be0aabc82aecb1de57cc05a83409e26f549160b",
-    "runtime/gate-decision-matrix.md": "57dd30b0fe97d72028dfc24c655810b9cdc43fb81ead76d693805947ec255e73",
-    "runtime/gate-rules.md": "d893f5034d445affee564656f95711437e5499b58f1d995f185f565f20f2cd21",
-    "runtime/improvement-strategy-engine.md": "31ca9fd9c9f47c667a517f020aca1f2b3a0b6e2f7607113a9e737503c2eea382",
-    "runtime/manifests/runtime-manifest.example.json": "25cea2b679e427afc398ada15ebf7d19d4b92be15155ad6ad8bfc79374198181",
-    "runtime/orchestration/orchestrator-specification.md": "41e018bc91ade2ee8316361ecdad038b0f3867ab9608bbfe2dc7cbc7a7b6c92a",
-    "runtime/orchestration/stage-state-model.json": "2ac6fddbc47f4eb0bb351abb3d2bde3e57e07812943aeeb352ab122ce1086bc3",
-    "runtime/output-pipeline.md": "60a0023e90e428cc507a91fc4e2688fd7f8899ff105ea2a32ac47bc5dc0cc1ec",
-    "runtime/output-validator.md": "96495316059709ff4fd10ef50a704d378c015dbeb7e161141a2dc9466c7063f0",
-    "runtime/overview/runtime-core-v1.0.md": "260d8472aa769ec1df9fd86bd9b725be247d4f4cc3d0162c6f679eb65cc6d7e5",
-    "runtime/overview/runtime-prompt-v0.2.0.md": "8cc5795e8f4bcdcfe168748b099e80a6aba3a22b60d158e982acb93c4714dc28",
-    "runtime/pipeline/01-intake.md": "f149d363c788abd8ee0d74cf174a1f863d71585f9ff697f7f92a67bba64a8173",
-    "runtime/pipeline/02-normalization.md": "6eb7209483a81cbb14cc39fc3ef3c21ba5b6dab27c37eb1e4abd7717af86353d",
-    "runtime/pipeline/03-source_acquisition.md": "1974c44df1986157405ee0fadc1e2b0e0fa38f11a107f0cfb45ae97e1595f12f",
-    "runtime/pipeline/04-knowledge_assembly.md": "64549bf61e2045b9c6036c364b81ea07de0988ba7a01d592e621a66611f38acc",
-    "runtime/pipeline/05-content_planning.md": "0b34e4b162b06ab8f74beafb87c225f7d0ee1ed15edde51cc63d1efd6de4dfac",
-    "runtime/pipeline/06-decision_evaluation.md": "de85e9632b4541313882acb3ebde62deac4c3d1237ff2227faa7ef9614f122f4",
-    "runtime/pipeline/07-pattern_selection.md": "1bae259e72d3f49194950331489803f05bb8f3a422af39e658f9ddb09c88c50a",
-    "runtime/pipeline/08-content_production.md": "335db0f50d34a7a7372b7d3b7a1394692191b07419e7a3d0119aec89a713a79a",
-    "runtime/pipeline/09-quality_validation.md": "6713aae863712dcbaae1cee4249bbe9d52082ecc107bc35f9195ccf5afa7d00f",
-    "runtime/pipeline/10-refinement.md": "9ffc38c0a4e1cf97cf9f772e7a34112d26aa0a3e8e62c129f34b66504b68d613",
-    "runtime/pipeline/11-publication_packaging.md": "8104170fd572203d8251f983213b70ae3410c3982ededa5179aa39b6c2f480b6",
-    "runtime/policies/asset-version-lock-policy.md": "094cae8b04b349dc8be9192d7776496057c93dee2cf3602f14035b48a2627780",
-    "runtime/policies/manual-review-policy.md": "06ab028847ed481dc5a9d493d32d7d944d0e330534c35dacbeaa6b48f9baa483",
-    "runtime/policies/retry-policy.md": "d31ebb07f6c24005fa247c7690b1f8f16d9e20917a22a4077c1d133f413270da",
-    "runtime/presentation-v2.2.md": "8cabe29eaedc4a93efd7a78b6e708dba66e64ce0395e0a2080b6134632ef779b",
-    "runtime/preservation-score.md": "3db4517fdadcfd77c421f73d43c24a51ebfc63a843480cbf0e3c303f5bf56ae1",
-    "runtime/quality-gate.md": "b4d20f5206d9f1e8a44143cfc25bd1a93c0c0bb67ea82ce79b0bb65273a59d56",
-    "runtime/quality-report.md": "8980abd6c12828669ee1018d699aee078e98330d6f9ce77e9e65d78bad879514",
-    "runtime/refinement/targeted-refinement-v1.0.md": "7c4185b006cc5fe308208979df7b2a5cfce355ef083604681c0991a0b92e989b",
-    "runtime/regression-test-procedure.md": "e8785f5f333f610c5261ad34a4de3e54d829ee85660be7dae297a90af6312bbe",
-    "runtime/rewrite-level-and-scope.md": "ec4fae0250a3a184bffc776894307af97174902054534667093001afebceef1e",
-    "runtime/risk-assessment.md": "3b9416b11502faeaa804b0c87f7fc6ed15fdec015c15408af59c5e7ad457671a",
-    "runtime/runtime-health.md": "fc29493872348bf511baa9aab54952c06314063c9eebf1f4d41a9679939163bc",
-    "runtime/runtime-prompt.md": "5ba5319ab63d27bb0d44a018e235a14904a3a1c7d97ea365e14ede0e52ab2c45",
-    "runtime/search-diagnosis.md": "66a4a1c5e552159024f5ee29ebc948cf5ae812cd5845782dbb2da3c159a3cd13",
-    "runtime/semantic-validator.md": "f6536de10d5d4e4b2744ea3876aeb115dce8a4c5b091ff3309e5c0d2b82b6db9",
-    "runtime/shared-editorial-application.md": "c0caa7a594a5beb32665cb791e2691629db31c85471f62350adfec7655cf621d",
-    "runtime/sims_writer_runtime/__init__.py": "1551cf04691f85b4038bfcf7bf43e2289ad75ea5cec74bc65bfd556aa3498bb5",
-    "runtime/sims_writer_runtime/adapters/__init__.py": "38a5844989c5ea5a9ffdd9b1a01da2cb4f114068bb0386dcdc0a09f866726e82",
-    "runtime/sims_writer_runtime/adapters/context_builder.py": "5b3d03c6c28eab23049e197febec1d90236c47dcda64f36aa48fd5fe7b86be40",
-    "runtime/sims_writer_runtime/adapters/fixture_model.py": "07745be70f79aa5d171fd2c91427d5041fd6e4c9328c40089192cf4547219d64",
-    "runtime/sims_writer_runtime/adapters/input_adapters.py": "adfd0f4d2288aefe4a4add903b92387552b61e0be1afef497c7be59a92eea089",
-    "runtime/sims_writer_runtime/adapters/manual_model.py": "982bfbd680e9b2e8202903e6a875693baca6079df8925a0f4baa741179512ba5",
-    "runtime/sims_writer_runtime/adapters/model_protocol.py": "8ec911492a952f223c7752053b454b5d88066f5285864d52b8158dcc28f79c3e",
-    "runtime/sims_writer_runtime/adapters/output_parser.py": "0b318ba485a8cd672f0afa45b114b5ed6fcae1b6a2799af72817d2842ea48c89",
-    "runtime/sims_writer_runtime/adapters/provider_transports.py": "1ef3dd7e2168eb9ec45d59ae71e7a462f1d18b451170fbdbd067d2ba0e3ec7ff",
-    "runtime/sims_writer_runtime/adapters/structured_model.py": "f9cc9d834ad9e0cdf96e632ac2e6a4dadb11b1b6878a487764135272167f223c",
-    "runtime/sims_writer_runtime/asset_loader.py": "b3302763c64757a7a9ddfde022cda7d023d44d0ed91bde6bcd34940b54104bd7",
-    "runtime/sims_writer_runtime/cli.py": "9ff0fe208929fb46c8b67b10d6d923f8d0cf4381bf6c05ea911f7bd233215ff4",
-    "runtime/sims_writer_runtime/editorial_signals.py": "29f9c68a1aece172da7b4e143948d90317a8329840412417e05a64c26185f0d5",
-    "runtime/sims_writer_runtime/hotfix_validation.py": "95a052be5748cfe890a90fb3c182e8ee27c773a17db2c521d4a456f1660f878d",
-    "runtime/sims_writer_runtime/models.py": "00daf0902b64a38a41749c487d6edea736d08491df404b83294e88aa6f9c1356",
-    "runtime/sims_writer_runtime/orchestrator.py": "93d3b7d4dc2af7653625c2ae09675e1b89052aead1a5eb95d2bf923523274bf4",
-    "runtime/sims_writer_runtime/output_contract.py": "5e134ada79b639b37d0a1e8c520c6760db330faac96cf6e613ce1be7e36e4823",
-    "runtime/sims_writer_runtime/publish_quality.py": "f1eb743a908975edfd0fda807a9b2e5e97cf07d560965f5c10db996ba73c14f0",
-    "runtime/sims_writer_runtime/quality/__init__.py": "d9d068078e514df01fa020bc5e6aa5489f244a425095905fbb282dfa94de98a2",
-    "runtime/sims_writer_runtime/quality/engine.py": "082c8abf3f4fd80f30e7d334b8f5d8aca242267e7374db9539363300174bc619",
-    "runtime/sims_writer_runtime/quality/foundation.py": "0349732a4011fd91b0f4195efcb0dc8afee08cdee5d20c629d9b49ed9eef8506",
-    "runtime/sims_writer_runtime/refinement/__init__.py": "88c017b1ea78737279a4f61f8602d9149d49dfd0c49af42c06b3e9ad897e7ad8",
-    "runtime/sims_writer_runtime/refinement/engine.py": "14cac25c0983a8bf756c3e18dc6d6055c99bac98085a10fc23d35e9ce37b383a",
-    "runtime/sims_writer_runtime/refinement/router.py": "d2be6c8403fec1fb08377ffcff5717b0912124a6037e1ffeeeb96bb2c78601ca",
-    "runtime/sims_writer_runtime/vertical_slices/__init__.py": "d2ea4722e35c8647172b35222aaaa6dedc3c9f676306891c094ae17467523482",
-    "runtime/sims_writer_runtime/vertical_slices/ctr_improvement.py": "1ceb2ea04e28b4da4df399eb995051a0e180b4a7f284abcf8a467ecce917bfa6",
-    "runtime/validators/quality-validation-runtime.md": "a4d72356476c71d9ac278ab7560e06cdb40afbad3f80da2feb0cf58bcacbdd1d",
-    "runtime/vertical-slices/ctr-improvement-v1.0.md": "3f3f9d8f007b7b069bed2d27f3a10960ec7d11c3ec94b8811288c8dc4e3c341b",
-    "runtime/workflow.md": "19bc28a44a7710b9e59f960e057aa0121d1d86856bbdf48e7e5a590c3068d9ac",
-    "schemas/SIMS_FEEDBACK_V1.schema.json": "a5231134731d34cdfc315c382ed4a6135093e0a6797c14746f5fbd54492ee53e",
-    "schemas/SIMS_FEEDBACK_V2.schema.json": "9bb587a22cabc9a0e8ef1ad200a8da000782e89abc6dbdf1351d746ec5a6598e",
-    "schemas/common/common.schema.json": "aa2c40dedcdf537d4b012b9b4b114e09c9e10f7fe01ccbefad930e240d9a1397",
-    "shared/.gitignore": "9075b30f288237a4372c62272a65a34039819e9b75eb7363e0d96a8b06e7c30a",
-    "shared/CHANGELOG.md": "26271b6dc73272d09d93f0a22b7a6d648b6e513bdd8f5f6154def82362af8171",
-    "shared/Decision-Support.md": "7447194b8a903369b59677702ddc97a805a30efaa8f2d83a0c2d7753c870de7f",
-    "shared/Evidence-Transparency.md": "f047a073ee9a87c770fd5c148f40378538d8b3ef13b746d069768e360246c3b9",
-    "shared/Freshness-Safety.md": "7a0c522a67e459d3bbea737f0a33b427f8570332e36cd91a0de0a04567f8815b",
-    "shared/Hidden-Anxiety.md": "d03c6f03c10734c43ad85940dead9f8e991520b6c8414ab5822215b72225442b",
-    "shared/Intent-Analysis.md": "283d2e7f436e32f7b3b9c9bbfb044dc6325cfe102f611eaa53a72cdfac525cb7",
-    "shared/Internal-Link-Semantics.md": "08a023c7080e5598e74e8b861e49e7d40d75dc2976f21e7fa9b49c90c60c7fb1",
-    "shared/LICENSE": "ce0c69a4019923878282e03bb1ce789260e592199a0fbbab67e77fefe0e97664",
-    "shared/README.md": "507441a041e8d7221e4109eed70eb9379533047a2fccad722b896b6aaeb71fa6",
-    "shared/SERP-Entity-Preservation.md": "1d3987667305271f984c16eaa3a31b469335ce3b93bb8357af5a634653ebb85d",
-    "shared/SNAPSHOT_MANIFEST.json": "5309d6e5c1892c5a577650a60388b809a45dc081e52bb1b51036091db7e85103",
-    "shared/SOURCE.md": "8829ee9d666f7f70628951eceefb33680c8d258bc8b785c8af44de844c0e117b",
-    "shared/Shared-Editorial-Knowledge.md": "f19a9a5d4c396e1bbc6fe76e2a333fa2adc367c4ed164ff7caad8f5a81113c6c",
-    "shared/VERSION": "77123b8e4bdbd54505bf6e8021527ac60281602a06fe307564532c4dba39dbca",
-    "shared/Writer-Application-Mapping.md": "12986873558f301d841ee1ecf06f6702894f532927a4507394c9bccb6e89d351",
-    "shared/docs/integration-policy.md": "fe32e1a0e4872ad69d1884f4db2ab3b788e6cda81944250c3fd0a107a75f457f",
-    "shared/docs/scope.md": "5a6182675e3694675e500208c8f35994d5d7cb3d53d4b4fcb8049f7bc62db8ad",
-    "shared/knowledge/buyer-trust-and-freshness.md": "e3254c8c3eb8dc34b5a8c5bd33c446738bd3c3cb8ab26d4c63390b78608e5238",
-    "shared/knowledge/central-claim-evidence-priority.md": "321dc11dfccb7df4360165c381caeb8f5a027be78cc1cff68d6d64fad4df85f1",
-    "shared/knowledge/conditional-editorial-opinion.md": "8fa50c7c784bd5a6c58ee2809ca5c7c8187467271e1bcd482938e343668b67f7",
-    "shared/knowledge/decision-support.md": "7447194b8a903369b59677702ddc97a805a30efaa8f2d83a0c2d7753c870de7f",
-    "shared/knowledge/entity-alias-and-taxonomy-freshness.md": "59d658a8b65043c3955f598255859cfda7ceb74d34899e45ba12f5f7a2bebd17",
-    "shared/knowledge/evidence-strength-wording.md": "35d8ae33b23f3f1c0592a42326459ff6fe4f9509834aa4208826be8a54d4ab06",
-    "shared/knowledge/evidence-transparency.md": "f047a073ee9a87c770fd5c148f40378538d8b3ef13b746d069768e360246c3b9",
-    "shared/knowledge/existing-content-reflection.md": "b16df7ea899eafe72c187e98a1e8341c6f0515e79e15e29c92735dd50caca581",
-    "shared/knowledge/faq-evolution.md": "47512904314a6b2fadc40491b2b078c3c9783dacbf555acd0ac6ebbe1524dfb9",
-    "shared/knowledge/faq-reconstruction.md": "52d1c48d61708109c16a3f14b1fc21ac3becf3585f71b8e3f70e0c2b318ffcd5",
-    "shared/knowledge/freshness-safety.md": "7a0c522a67e459d3bbea737f0a33b427f8570332e36cd91a0de0a04567f8815b",
-    "shared/knowledge/graceful-degradation.md": "026c0f3e5d32fe7c3d7981d3f97cb148e8cd45b3f25b57a240f9c736b40b8988",
-    "shared/knowledge/hidden-anxiety.md": "d03c6f03c10734c43ad85940dead9f8e991520b6c8414ab5822215b72225442b",
-    "shared/knowledge/intent-analysis.md": "283d2e7f436e32f7b3b9c9bbfb044dc6325cfe102f611eaa53a72cdfac525cb7",
-    "shared/knowledge/internal-link-semantics.md": "08a023c7080e5598e74e8b861e49e7d40d75dc2976f21e7fa9b49c90c60c7fb1",
-    "shared/knowledge/serp-entity-preservation.md": "1d3987667305271f984c16eaa3a31b469335ce3b93bb8357af5a634653ebb85d",
-    "shared/knowledge/source-scope-qualification.md": "89d78dc42924fa4cb55a699e2d3002cca98b5b4e54b41a907d10e94f24a95647",
-    "shared/mappings/article-creator/application-mapping.md": "a6d4b3abc2122a8ea07085dc2e758189ca523b2181a759515a41396aef479358",
-    "shared/mappings/writer/application-mapping.md": "3127beeb9386f077276edc3a5c55086713505e56c9949c2c66665f4c4cbaab2f",
-    "shared/tests/test_repository.py": "df7dbbbb46b35235a1c8a0333d3b609e523bd8b790b645a1c3214c79287bf2e0",
-    "shared/tests/test_v1_1_0_knowledge.py": "55b856ad4300cad968c981b2a9f9e1bfb6e6e956f9bf5b8b7a4b8497e1ec54b1",
-    "shared/tests/test_v1_1_1_operational_learning.py": "2f872b150f8a4a090e3fa6426f77502ce143ada46043918ad86d98600e1ad443",
-    "shared/tests/test_v1_1_2_writer_mapping.py": "1aa45358e2830f04e14b49abd0d2ae06ac608a5cc7dde5260100ddebc549e319",
-    "shared/validation/shared-knowledge-validation.md": "d76ef622d4f4b39ccc1413d0ce20139e970f66911044b6ce4e26e8641946881d",
-    "templates/IMPROVEMENT_REQUEST_TEMPLATE.json": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a",
-    "templates/adr-template.md": "0bfce5a48e3d37d962db5ffa428689e65e2e089697eb346115669c5163cb5899",
-    "templates/article-evaluation-template.md": "3a2a04a2a93415c0948b215702127dc02725e35d9f3d80dad7fd54233d108a70",
-    "templates/article-test-input-template.md": "007ff0812cb366bb9ec514e79bead98e2636c5ee54a86d9b53d59c1cc0cd238a",
-    "templates/change-request-template.md": "3a2b9372a4d78505b3e615a85a20496614bac807012142b43a1cc88121e6d8b7",
-    "templates/contract-template.md": "98317b46d5136f15e47f79c0dbfb418e0e0812f3f6a53734a1527c05075bec27",
-    "templates/decision-definition-template.yaml": "4886ed838a9b2e0e7311574cc7b93a10eac483116c57a591abf71956b66808f9",
-    "templates/defect-report-template.md": "8e22e5f28ff9508c8fb0b881466533388976a23b6e9b01e7ad44eabc1363c674",
-    "templates/golden-example-template.md": "52370e8ab575e8432704fa4725dc60beb4714659c126e7687c583570e1573fde",
-    "templates/internal-link-template.md": "07096941945e9b7199e3d321c36dbcb3ce36be5a443a5a0cace0a0ee939d31b6",
-    "templates/knowledge-item-template.md": "067b8a17fbe735837fed256d68fbad9619c7d5fbe9acf45a3054f09fc4b25026",
-    "templates/pattern-definition-template.yaml": "501ddd5d958640cf1f3dd7ecee61bb6607918ed4bb0731e4d75b0ddc411787c2",
-    "templates/pattern-template.md": "58e655539347838c4fbefb4228539a45e7e695d1b446d8f9dfbd22659d02e9d4",
-    "templates/presentation-template-v0.2.0.md": "4e0b5f07ab88850fafcf29fae2b75f201b6b9fc3a6e18e69432d6b6dafb889db",
-    "templates/quality-rule-template.yaml": "a570544e5e90c9d8225bf2c9836a5d119ecdc436bc493951797f4eff64981875",
-    "templates/response-template.md": "bc7ea512d7e34cb96165cc72aa773c078eb1f87f3c44fcfbeaefa3da5c61f5bc",
-    "templates/runtime-stage-template.md": "66c9364e7729864ffa3519faaf5a942ff954fb0e28e050f960f7d92752c2f61c",
-    "templates/ten-article-summary-template.md": "f6f92711735b0f2fffb534da065b322d92c160d6c96a5fe1d414dcfe7bd0a8d3",
-    "validation/QUALITY_GATE.md": "eeef8807024eb2d5244b12d4033ea5977e019f6c1d708a8844553e4986ee3cad",
-    "validation/RC_HOTFIX_VALIDATION_v2.2.md": "9e7cf8147416c8ba64a4ca8469dc18aa7589b8d234871ae5684203154a691cb0",
-    "validation/VALIDATION_HOTFIX_v0.2.3.md": "1515f89ea0d011de6560ae1e3ece8d04c58e54c602b10a4b8f858d2a63123279",
-    "validation/VALIDATION_LAYER.md": "59812b71a39ffa30e9a4b1726703838a7ad4ade4362cb90419743bcffb25116a",
-    "validation/VALIDATION_RULES.md": "85e5b51556249c13b53bc061ecf0eead2d2907969de002d4ced07bc80d76bdc5"
-  }
+  "product": "SIMS Writer Claude",
+  "version": "1.1.3",
+  "shared_version": "1.1.3",
+  "snapshot_scope": "writer",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 290,
+      "sha256": "902054066ed6e08caa18aabb56b6cbcf37d336b62b484b325b62d12d3c9679dd"
+    },
+    {
+      "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
+      "size": 10980,
+      "sha256": "0c6378e4a8bb32aab0a06288c9a78f4adb46a57de760324cf73d1357921b350b"
+    },
+    {
+      "path": "MIGRATION_GUIDE.md",
+      "size": 618,
+      "sha256": "c6b96ba8283e72ac11aac5ea35695ab061aeefb75d9b26f9b9c7879274de518f"
+    },
+    {
+      "path": "README.md",
+      "size": 1188,
+      "sha256": "c2c5d7b0b7d1cd54a44d8890ba7735dfb4eb48c8580517b4f70bb852efbe0d7a"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 540,
+      "sha256": "1dddb1f72c6ef22382ff78c0dcec93cd84ee322d08492d9d0d91e756be94e699"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.0_RC1.md",
+      "size": 617,
+      "sha256": "5a927d7623be075a32eb4d2c5f703d82149d8897e242e1b7923fb7cda434ccee"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.0_RC2.md",
+      "size": 975,
+      "sha256": "2b90c5d4c82d93124b3587f0b90750663511f3ed240b52579bd534d9d5b9d2e2"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.0_RC3.md",
+      "size": 744,
+      "sha256": "f123d4f9d053335aed214f727c1f87f36add7acb5df97b5a2d452699fe0507dd"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.2_SPRINT1.md",
+      "size": 511,
+      "sha256": "fa6dddaa354063a734d8c5a29fe02f7dd1959e6bedf2ef4b5081d496661bff8a"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.3_KNOWLEDGE_SCOPE_HOTFIX.md",
+      "size": 246,
+      "sha256": "ccaeaa7755ec0ba3298e1ea1378aa3ede8447cf1bcc9a3775de45b8bf53c8c2f"
+    },
+    {
+      "path": "SETUP_GUIDE.md",
+      "size": 599,
+      "sha256": "a223d186f201aa6f681f95f8451eccfc6d1c7307cf4c0a91c6b2eea450da9997"
+    },
+    {
+      "path": "TEST_CHECKLIST.md",
+      "size": 2414,
+      "sha256": "91b72936f5b6525ae50e6b0edb4d42c997d928caac1263d1899db70f912ea68d"
+    },
+    {
+      "path": "VERSION",
+      "size": 6,
+      "sha256": "5dae0c0a5ed3cdaa78704e25bb38d72c31018311e933283d06ed4f93360bfc6c"
+    },
+    {
+      "path": "contracts/decision/action-plan/action-plan-contract.md",
+      "size": 193,
+      "sha256": "b3c2e7225075e7eddce0a4aa4b22506b31ca430e33226766c9bd671dc1811820"
+    },
+    {
+      "path": "contracts/decision/action-plan/action-plan.schema.json",
+      "size": 2209,
+      "sha256": "a88d09b4053141c113d6e74bf34c25e287f6fe53e9b89322c0c28c6b42c8832b"
+    },
+    {
+      "path": "contracts/decision/action-plan/examples/invalid.json",
+      "size": 442,
+      "sha256": "a9c7619dcaf066e3bf1ff9010191fb76675f7fc4799897d0e0eb68d5739e2ec9"
+    },
+    {
+      "path": "contracts/decision/action-plan/examples/valid.json",
+      "size": 481,
+      "sha256": "6131c7cef1caad079598074c20ea6bc101cf5ab403c200dd8d016551e2251265"
+    },
+    {
+      "path": "contracts/decision/context/context-contract.md",
+      "size": 185,
+      "sha256": "79416f0924159264faf5dfcc4fa7a1a7fc615dc1f4a006794d0cf023eb41425c"
+    },
+    {
+      "path": "contracts/decision/context/context.schema.json",
+      "size": 2079,
+      "sha256": "bba404964ab44a74d171951ecd61bf9078b93487db94b25411e9f21ba247a88d"
+    },
+    {
+      "path": "contracts/decision/context/examples/invalid.json",
+      "size": 551,
+      "sha256": "e6a79299eddfbf0ad43892bd3e793fd1ada34106d80a85b502da651017364919"
+    },
+    {
+      "path": "contracts/decision/context/examples/valid.json",
+      "size": 596,
+      "sha256": "5a1ee5c16cc59e354623dff0d9f57d917eb6a736f40d532cefa9013109cfbc43"
+    },
+    {
+      "path": "contracts/decision/record/examples/invalid.json",
+      "size": 772,
+      "sha256": "417595ad9089b429bb9e648088d8a01b7be57a468f13fd5d625612cf7060d49f"
+    },
+    {
+      "path": "contracts/decision/record/examples/valid.json",
+      "size": 816,
+      "sha256": "e85e9bc642968fabe1fd9acf6acb86d1ba62e5805ebf153b211afbf9a201f4d9"
+    },
+    {
+      "path": "contracts/decision/record/record-contract.md",
+      "size": 183,
+      "sha256": "8243e2caceefde810a0aeaa5b7933f7b73f98b09d732cc50fbf8dea283a689f5"
+    },
+    {
+      "path": "contracts/decision/record/record.schema.json",
+      "size": 2450,
+      "sha256": "265c1100deb1c1c4eaee68c74dbb778011eb169eb2aeb3dc959fcae9083d25bf"
+    },
+    {
+      "path": "contracts/framework/contract-framework-v1.0.md",
+      "size": 501,
+      "sha256": "472e1035dc94701cc45fbc53d606b27a4a1c3aa4a14417f272a86f7bbb2f762f"
+    },
+    {
+      "path": "contracts/framework/output-contract-v1.1.md",
+      "size": 3951,
+      "sha256": "b361949ae0ec6f7d6ebce800ae22058c0bc4c656e4b2612dad5efa914d56a7bf"
+    },
+    {
+      "path": "contracts/framework/publish-quality-contract-v1.0.md",
+      "size": 1088,
+      "sha256": "259128be550f97c0294eca081140c1b6465e1c786ec6912e8ae9a2d25bf290f1"
+    },
+    {
+      "path": "contracts/framework/quality-foundation-contract-v1.0.md",
+      "size": 1622,
+      "sha256": "358bd222630f36e15c814f81647e37d3431cb4144ef5f95551c3fe339c006d8a"
+    },
+    {
+      "path": "contracts/framework/sims-feedback-json-contract-v2.0.md",
+      "size": 929,
+      "sha256": "991889ba5dcba9542fd1dbfd1e4a245f0dcc050f44a91a5caad29171f41e0656"
+    },
+    {
+      "path": "contracts/input-contract.md",
+      "size": 517,
+      "sha256": "89b699bf8b538e3f9c6f0cbbe14f43df026ca389397fa95edcf41aefdc9ba601"
+    },
+    {
+      "path": "contracts/integrations/generic-json-input/generic-json-input/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/integrations/generic-json-input/generic-json-input/examples/valid.json",
+      "size": 187,
+      "sha256": "76f1914f1e33fad2c8676d014a26b154ab901af9573ba4edce02db54eaa4f02e"
+    },
+    {
+      "path": "contracts/integrations/generic-json-input/generic-json-input/generic-json-input-contract.md",
+      "size": 586,
+      "sha256": "333f573b6d2a7bf3a777e7f9da37ad4ad50fa363eedeeffa721f46e99c796798"
+    },
+    {
+      "path": "contracts/integrations/generic-json-input/generic-json-input/generic-json-input.schema.json",
+      "size": 634,
+      "sha256": "d46af8d34f6fe93c6cc2f43bd00b688ef22b60aa95707661559eee45799dd731"
+    },
+    {
+      "path": "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/valid.json",
+      "size": 630,
+      "sha256": "6990e9f2ce9a2cc05291b1823468d2545fb6351e0830a04d284d7cb6c2866554"
+    },
+    {
+      "path": "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/sims-blog-manager-input-contract.md",
+      "size": 601,
+      "sha256": "00736ac925d221312a76031d71ca11ab890e8a8ac95e1bed78fd5f0ac23395c3"
+    },
+    {
+      "path": "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/sims-blog-manager-input.schema.json",
+      "size": 1989,
+      "sha256": "7385670a158d714bbfa3c644f183ee519c0de41d4542a478e99706ae74052827"
+    },
+    {
+      "path": "contracts/json/CONTRACT_CHANGELOG.md",
+      "size": 388,
+      "sha256": "e7b9995e3da11e5d88fea80fd761eb7e43f708270858c61d0e404c97360dd58c"
+    },
+    {
+      "path": "contracts/json/JSON_CONTRACT_v2.md",
+      "size": 1128,
+      "sha256": "096fbf56aea290f3854b95388612d4d7d789b38a619b40ca14569d0e6d325671"
+    },
+    {
+      "path": "contracts/json/SIMS_FEEDBACK_V2.schema.json",
+      "size": 3453,
+      "sha256": "75d429f072ddbfe0dfb27fb398ab7c4364d1de2f24b71cbc3bdf23ae2c152d7f"
+    },
+    {
+      "path": "contracts/knowledge/knowledge-assembly/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/knowledge/knowledge-assembly/examples/valid.json",
+      "size": 626,
+      "sha256": "96c55c4ab475485b730d47fcbca2f41a51aff970cfa73929b3ba8f425b29bad6"
+    },
+    {
+      "path": "contracts/knowledge/knowledge-assembly/knowledge-assembly-contract.md",
+      "size": 586,
+      "sha256": "d3faee36c72c0943d8696e8fed4553366170d536b1785a7aa7f4e2b62aa37c12"
+    },
+    {
+      "path": "contracts/knowledge/knowledge-assembly/knowledge-assembly.schema.json",
+      "size": 2261,
+      "sha256": "35f2d0c53b9bb74c51b4c3b2d4bcc131e94c518ae980c58a0594345ed8c80e88"
+    },
+    {
+      "path": "contracts/operations/error/error-contract.md",
+      "size": 547,
+      "sha256": "def74f908fe019ccf48d2b7a717aaa01479736fabf2da85609448a9298b78e89"
+    },
+    {
+      "path": "contracts/operations/error/error.schema.json",
+      "size": 1901,
+      "sha256": "81b8b7d2ed236be1ada605d02b4c137ccff928f2f4643d585b132e83456b40ae"
+    },
+    {
+      "path": "contracts/operations/error/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/operations/error/examples/valid.json",
+      "size": 586,
+      "sha256": "06f70b6e0b6d9840a989a10c98911661907713520a1aecc31cf34d3cec7ee61b"
+    },
+    {
+      "path": "contracts/operations/execution-record/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/operations/execution-record/examples/valid.json",
+      "size": 482,
+      "sha256": "28e31abf2a27a386ce3c54f9a6127d72706091e27245bd52d5b9cb723a775c56"
+    },
+    {
+      "path": "contracts/operations/execution-record/execution-record-contract.md",
+      "size": 580,
+      "sha256": "540558c78c25f9e6a88af46e076988c9e7d2057bc0a0f8a270f568e2d9cdb1df"
+    },
+    {
+      "path": "contracts/operations/execution-record/execution-record.schema.json",
+      "size": 2410,
+      "sha256": "0c61ed0fc681086bb0a98e50000efabe0a56f0eee2f768f1257a09080b3c9247"
+    },
+    {
+      "path": "contracts/output-contract.md",
+      "size": 744,
+      "sha256": "f7f536b7bcff78b7b0ec11e1d24fe2a3a76bebf6d56035c1ed49910517afcfe7"
+    },
+    {
+      "path": "contracts/pattern/pattern-selection/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/pattern/pattern-selection/examples/valid.json",
+      "size": 497,
+      "sha256": "06727e235a130cd964db9add26f85206da4b80015d0a347f8b4f0b745ac4b0cc"
+    },
+    {
+      "path": "contracts/pattern/pattern-selection/pattern-selection-contract.md",
+      "size": 583,
+      "sha256": "be4674048ce78c3bbe61a798c88a46b9829a0795566479d7e4b089f5c0a6a43b"
+    },
+    {
+      "path": "contracts/pattern/pattern-selection/pattern-selection.schema.json",
+      "size": 1653,
+      "sha256": "558f843e0dd585f7c70029ea916fb074f7b0b1f1e33e6cf0494515fd6a930e28"
+    },
+    {
+      "path": "contracts/planning/content-plan/content-plan-contract.md",
+      "size": 568,
+      "sha256": "7d6b1e0775282353676b666a47b6dbdcd4c90d21cd3491d8479d019b1bae49d0"
+    },
+    {
+      "path": "contracts/planning/content-plan/content-plan.schema.json",
+      "size": 2708,
+      "sha256": "9d8db93e52235ac60567a22d545190e9499bc5289f6a628ecf183dc9195f2bdb"
+    },
+    {
+      "path": "contracts/planning/content-plan/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/planning/content-plan/examples/valid.json",
+      "size": 954,
+      "sha256": "899851d8c803c8e5027633273de6d41a78179b86abe7159ab87e26421111985a"
+    },
+    {
+      "path": "contracts/production/content-draft/content-draft-contract.md",
+      "size": 571,
+      "sha256": "5b538a3301d4849a5eaece54ebbcc3fb651843c28f0880fd553c6612c459da1e"
+    },
+    {
+      "path": "contracts/production/content-draft/content-draft.schema.json",
+      "size": 2001,
+      "sha256": "7c470872616dfc45137cbb41db2086f347f357d3e23175fdcd642fded697d6df"
+    },
+    {
+      "path": "contracts/production/content-draft/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/production/content-draft/examples/valid.json",
+      "size": 712,
+      "sha256": "0351ea31fce5f1558cf0133474f90b903089ccea1083914ad48f58ffd4b05a26"
+    },
+    {
+      "path": "contracts/publication/publication-package/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/publication/publication-package/examples/valid.json",
+      "size": 541,
+      "sha256": "358a568c5302e550e0b649dde48cdc3d2810a30023787dc1549a55fd8eb78ce7"
+    },
+    {
+      "path": "contracts/publication/publication-package/publication-package-contract.md",
+      "size": 589,
+      "sha256": "13bc0ad95b11fe4cf438c49baa3ab5459b72f8bfe9ee275a8281fdc72606cc2d"
+    },
+    {
+      "path": "contracts/publication/publication-package/publication-package.schema.json",
+      "size": 1835,
+      "sha256": "d330f286d69d8daddc43bb807cd5637f3e6df6080f32eff495e24e437a220067"
+    },
+    {
+      "path": "contracts/quality/quality-report/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/quality/quality-report/examples/valid.json",
+      "size": 562,
+      "sha256": "a79d162ed9d25690eb1b40af3563931e35d5adde48857fc7f1bdbcf89dd18de2"
+    },
+    {
+      "path": "contracts/quality/quality-report/quality-report-contract.md",
+      "size": 574,
+      "sha256": "de85b2b1cfdc6af3ded38ae04f1238d96d922f1de10cf6763ea61b4472cb3d65"
+    },
+    {
+      "path": "contracts/quality/quality-report/quality-report.schema.json",
+      "size": 3256,
+      "sha256": "15811d596f4733a353fbc3d2f222ee51c9c98ed9a18d651d0c942e94b222b137"
+    },
+    {
+      "path": "contracts/registry/contract-registry.json",
+      "size": 4642,
+      "sha256": "f8288d3cc0d0f5583bc3d0f9dc93b9655a3695ee20134c582e653a09aa26cb71"
+    },
+    {
+      "path": "contracts/request/writing-request/examples/invalid.json",
+      "size": 31,
+      "sha256": "c8d9243fbb81402adc60932ef3d8368fa15e90885ce5b0974ce01922922a1c7f"
+    },
+    {
+      "path": "contracts/request/writing-request/examples/valid.json",
+      "size": 1250,
+      "sha256": "cda0a5eeb50d587abb03de223f8a75eee1e007feb6b6bf31a93ffa20e5b70040"
+    },
+    {
+      "path": "contracts/request/writing-request/writing-request-contract.md",
+      "size": 577,
+      "sha256": "9ede967eac52096ecc1c10401252ea11017b00441b51810758f7d7b62eae77a7"
+    },
+    {
+      "path": "contracts/request/writing-request/writing-request.schema.json",
+      "size": 3910,
+      "sha256": "19a39e98d3809c690c76d7b78cf32cfbcdfdf855093f2f3ea3f6fd881dcb9949"
+    },
+    {
+      "path": "contracts/source/source-content/examples/invalid.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "contracts/source/source-content/examples/valid.json",
+      "size": 720,
+      "sha256": "0ed84de03a6d7202717c5aa1a152310ac8ea16e8b1d75033e7640b9a58ee4408"
+    },
+    {
+      "path": "contracts/source/source-content/source-content-contract.md",
+      "size": 574,
+      "sha256": "083d5dcdcc264dce4e534265099808ca445cf23bd81c80322c369f7ceaba32d1"
+    },
+    {
+      "path": "contracts/source/source-content/source-content.schema.json",
+      "size": 2916,
+      "sha256": "96908ba6f307a45c809f55146148c6ad510361e9942928ff6469d886848e8da3"
+    },
+    {
+      "path": "examples/EXAMPLE_REQUEST.json",
+      "size": 637,
+      "sha256": "7e3a01618204a9f53558992b36dead6b2a89aa321efe7406926abcafeec62baf"
+    },
+    {
+      "path": "knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md",
+      "size": 12943,
+      "sha256": "4bf0078dca0d04065d6b1e453f48f2afe6d9ccd9aaad2938b0ff8a7eba83ff90"
+    },
+    {
+      "path": "learning/README.md",
+      "size": 1541,
+      "sha256": "dfbcb98e28b229e9afb5ecb5b16c4d2f927218e7e33050f6c8cba2ff0049732e"
+    },
+    {
+      "path": "learning/examples/A000001.feedback.json",
+      "size": 404,
+      "sha256": "8d0ec7a0483cdbc670525d1bbc051758f04135d620a8737628940666c7c34a5d"
+    },
+    {
+      "path": "learning/examples/A000001.learning.json",
+      "size": 904,
+      "sha256": "6255e75008b54a70275621da204583d72a4a45c8ef781246a68d1f6fb9cd4a09"
+    },
+    {
+      "path": "learning/examples/A000001.measurement.json",
+      "size": 402,
+      "sha256": "b649ee1df595410ecaba757e0907cebb41e3e9b1a0d1e415f839525cebce4fd1"
+    },
+    {
+      "path": "learning/schemas/SWLS_LEARNING_RECORD.schema.json",
+      "size": 3425,
+      "sha256": "8b5f40400b2e424672b56f7b71987690c5e0f88d1d379598f7db81b241e44886"
+    },
+    {
+      "path": "learning/schemas/SWLS_MEASUREMENT.schema.json",
+      "size": 1455,
+      "sha256": "bc28664ed991e689591379f544fd0998ef125293d2dc22ec6c4e9730f17eb370"
+    },
+    {
+      "path": "learning/schemas/SWLS_USER_FEEDBACK.schema.json",
+      "size": 1489,
+      "sha256": "1052d4aa61350adbea9a1e60f05afab47210b900f12966c6bdf0c8fe02c9ec04"
+    },
+    {
+      "path": "learning/templates/LEARNING_RECORD_TEMPLATE.json",
+      "size": 958,
+      "sha256": "83e10fc36c55c844ebe9230a9455bcb92584113fea8efc79300e33696054b61b"
+    },
+    {
+      "path": "learning/templates/MEASUREMENT_TEMPLATE.json",
+      "size": 402,
+      "sha256": "b649ee1df595410ecaba757e0907cebb41e3e9b1a0d1e415f839525cebce4fd1"
+    },
+    {
+      "path": "learning/templates/USER_FEEDBACK_TEMPLATE.json",
+      "size": 404,
+      "sha256": "8d0ec7a0483cdbc670525d1bbc051758f04135d620a8737628940666c7c34a5d"
+    },
+    {
+      "path": "presentation/BEFORE_AFTER_TEMPLATE.md",
+      "size": 335,
+      "sha256": "6e541baaee3386c8b195535d7f8576d117d51ed5a3b60e54ea9ce7d0d8ac9da8"
+    },
+    {
+      "path": "presentation/FEEDBACK_TEMPLATE.md",
+      "size": 265,
+      "sha256": "30caca723ef387921a156d67a7a5d0c304780d7aa4c98f558d135ea3baba3652"
+    },
+    {
+      "path": "presentation/PRESENTATION_TEMPLATE.md",
+      "size": 1369,
+      "sha256": "b1bbf49639f8038a7b8f93bc02e75db03c5d54ae3805c8c94fa6877e613f7373"
+    },
+    {
+      "path": "product/platform/SIMS_PLATFORM_GUIDE.md",
+      "size": 6814,
+      "sha256": "672bbad0d307e09a93fbd26a872fe54ec307437954741d6c69b4be1989b9228d"
+    },
+    {
+      "path": "product/quality/QUALITY_FRAMEWORK.md",
+      "size": 9197,
+      "sha256": "cbd9dc1bb2716433251baab893754f86fbb76a160cb68fdc34be069006172237"
+    },
+    {
+      "path": "product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md",
+      "size": 4744,
+      "sha256": "79eb1c365d3b6ce746a1b4f82c270dd46534194bbfbebf4da96a40e198a87e2a"
+    },
+    {
+      "path": "runtime/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runtime/adapters/model-adapter-architecture.md",
+      "size": 864,
+      "sha256": "50f27e357c720ccc8456435f71b8e82cbf272d4c931c3a3370b26dae547cd674"
+    },
+    {
+      "path": "runtime/adapters/provider-configuration.md",
+      "size": 396,
+      "sha256": "05296eab5d6e795a94bfc9ef7a05d9f26178d6b014fa2d4a3752e46318b6c31d"
+    },
+    {
+      "path": "runtime/article-evaluation-workflow.md",
+      "size": 2380,
+      "sha256": "c16b781b4cb4e8505ca9e7eaa58753dc56157511b4d95470da294d5500f06204"
+    },
+    {
+      "path": "runtime/change-budget-controller.md",
+      "size": 1610,
+      "sha256": "fb4e25816bde5f923ff8c59e09d688b33e193c5b50fe012323ee54f6ffb50887"
+    },
+    {
+      "path": "runtime/consistency-audit.md",
+      "size": 4451,
+      "sha256": "e1305d6fdfbbfb18edfa55b333a2638038a749fe5661d858378e074975a5af5d"
+    },
+    {
+      "path": "runtime/consistency-check-rules.md",
+      "size": 2605,
+      "sha256": "8c67685133567c6f17a7589412666d39bcc42bdcfb2241aab92009d7824b7eb5"
+    },
+    {
+      "path": "runtime/consistency-to-change-map.md",
+      "size": 2555,
+      "sha256": "7df2eb43f895c9c47e2f0beafbf17b77abd7647fc8ba415ce7b7bfaee3d97ca1"
+    },
+    {
+      "path": "runtime/context/context-builder-v1.0.md",
+      "size": 398,
+      "sha256": "1e3297df49f471e921d6c3af83f310e46c3a44d21aa769b518c7d71658e65d45"
+    },
+    {
+      "path": "runtime/context/runtime-context-policy.md",
+      "size": 251,
+      "sha256": "65de421f837643ba4722d0f0d4a0e893ddfe87d9aa8f83ded3effd04f51396ce"
+    },
+    {
+      "path": "runtime/contract-validation.md",
+      "size": 6902,
+      "sha256": "e824d1c64bceb223bd6c1c183c1a4addffdb70ca51eb9d2a189669446977fdf3"
+    },
+    {
+      "path": "runtime/coverage-audit.md",
+      "size": 2487,
+      "sha256": "dd25f5b560f9364b357b0be62f85b3ddd140e3437e835271f157885a1317b283"
+    },
+    {
+      "path": "runtime/defect-classification.md",
+      "size": 2574,
+      "sha256": "fe621009aa4b58bd5bba673e1f826f89cb1bff4c562f0fc52f86112896819b7a"
+    },
+    {
+      "path": "runtime/diagnosis-decision-table.md",
+      "size": 2884,
+      "sha256": "79840bdf05480b6c7c592614002593c8d0df0a6d88937575a3bed5d335adbddb"
+    },
+    {
+      "path": "runtime/diagnosis-to-improvement-map.md",
+      "size": 2928,
+      "sha256": "98da8b40e86edeb82302d68b779803424e618bb21c2ce05fd0a2502747d5a849"
+    },
+    {
+      "path": "runtime/evidence-audit.md",
+      "size": 3246,
+      "sha256": "fb42a2b6d02c9f106db6c14f3b58ab4cc7043082eb5ea8367340eb993f5554c7"
+    },
+    {
+      "path": "runtime/feedback-loop.md",
+      "size": 1483,
+      "sha256": "69ef7046ed09fe0b16a9c4c99be0aabc82aecb1de57cc05a83409e26f549160b"
+    },
+    {
+      "path": "runtime/gate-decision-matrix.md",
+      "size": 1009,
+      "sha256": "57dd30b0fe97d72028dfc24c655810b9cdc43fb81ead76d693805947ec255e73"
+    },
+    {
+      "path": "runtime/gate-rules.md",
+      "size": 905,
+      "sha256": "d893f5034d445affee564656f95711437e5499b58f1d995f185f565f20f2cd21"
+    },
+    {
+      "path": "runtime/improvement-strategy-engine.md",
+      "size": 2788,
+      "sha256": "31ca9fd9c9f47c667a517f020aca1f2b3a0b6e2f7607113a9e737503c2eea382"
+    },
+    {
+      "path": "runtime/manifests/runtime-manifest.example.json",
+      "size": 277,
+      "sha256": "25cea2b679e427afc398ada15ebf7d19d4b92be15155ad6ad8bfc79374198181"
+    },
+    {
+      "path": "runtime/orchestration/orchestrator-specification.md",
+      "size": 390,
+      "sha256": "41e018bc91ade2ee8316361ecdad038b0f3867ab9608bbfe2dc7cbc7a7b6c92a"
+    },
+    {
+      "path": "runtime/orchestration/stage-state-model.json",
+      "size": 333,
+      "sha256": "2ac6fddbc47f4eb0bb351abb3d2bde3e57e07812943aeeb352ab122ce1086bc3"
+    },
+    {
+      "path": "runtime/output-pipeline.md",
+      "size": 606,
+      "sha256": "60a0023e90e428cc507a91fc4e2688fd7f8899ff105ea2a32ac47bc5dc0cc1ec"
+    },
+    {
+      "path": "runtime/output-validator.md",
+      "size": 571,
+      "sha256": "96495316059709ff4fd10ef50a704d378c015dbeb7e161141a2dc9466c7063f0"
+    },
+    {
+      "path": "runtime/overview/runtime-core-v1.0.md",
+      "size": 482,
+      "sha256": "260d8472aa769ec1df9fd86bd9b725be247d4f4cc3d0162c6f679eb65cc6d7e5"
+    },
+    {
+      "path": "runtime/overview/runtime-prompt-v0.2.0.md",
+      "size": 4210,
+      "sha256": "8cc5795e8f4bcdcfe168748b099e80a6aba3a22b60d158e982acb93c4714dc28"
+    },
+    {
+      "path": "runtime/pipeline/01-intake.md",
+      "size": 300,
+      "sha256": "f149d363c788abd8ee0d74cf174a1f863d71585f9ff697f7f92a67bba64a8173"
+    },
+    {
+      "path": "runtime/pipeline/02-normalization.md",
+      "size": 305,
+      "sha256": "6eb7209483a81cbb14cc39fc3ef3c21ba5b6dab27c37eb1e4abd7717af86353d"
+    },
+    {
+      "path": "runtime/pipeline/03-source_acquisition.md",
+      "size": 319,
+      "sha256": "1974c44df1986157405ee0fadc1e2b0e0fa38f11a107f0cfb45ae97e1595f12f"
+    },
+    {
+      "path": "runtime/pipeline/04-knowledge_assembly.md",
+      "size": 305,
+      "sha256": "64549bf61e2045b9c6036c364b81ea07de0988ba7a01d592e621a66611f38acc"
+    },
+    {
+      "path": "runtime/pipeline/05-content_planning.md",
+      "size": 305,
+      "sha256": "0b34e4b162b06ab8f74beafb87c225f7d0ee1ed15edde51cc63d1efd6de4dfac"
+    },
+    {
+      "path": "runtime/pipeline/06-decision_evaluation.md",
+      "size": 308,
+      "sha256": "de85e9632b4541313882acb3ebde62deac4c3d1237ff2227faa7ef9614f122f4"
+    },
+    {
+      "path": "runtime/pipeline/07-pattern_selection.md",
+      "size": 321,
+      "sha256": "1bae259e72d3f49194950331489803f05bb8f3a422af39e658f9ddb09c88c50a"
+    },
+    {
+      "path": "runtime/pipeline/08-content_production.md",
+      "size": 307,
+      "sha256": "335db0f50d34a7a7372b7d3b7a1394692191b07419e7a3d0119aec89a713a79a"
+    },
+    {
+      "path": "runtime/pipeline/09-quality_validation.md",
+      "size": 304,
+      "sha256": "6713aae863712dcbaae1cee4249bbe9d52082ecc107bc35f9195ccf5afa7d00f"
+    },
+    {
+      "path": "runtime/pipeline/10-refinement.md",
+      "size": 299,
+      "sha256": "9ffc38c0a4e1cf97cf9f772e7a34112d26aa0a3e8e62c129f34b66504b68d613"
+    },
+    {
+      "path": "runtime/pipeline/11-publication_packaging.md",
+      "size": 314,
+      "sha256": "8104170fd572203d8251f983213b70ae3410c3982ededa5179aa39b6c2f480b6"
+    },
+    {
+      "path": "runtime/policies/asset-version-lock-policy.md",
+      "size": 218,
+      "sha256": "094cae8b04b349dc8be9192d7776496057c93dee2cf3602f14035b48a2627780"
+    },
+    {
+      "path": "runtime/policies/manual-review-policy.md",
+      "size": 734,
+      "sha256": "06ab028847ed481dc5a9d493d32d7d944d0e330534c35dacbeaa6b48f9baa483"
+    },
+    {
+      "path": "runtime/policies/retry-policy.md",
+      "size": 215,
+      "sha256": "d31ebb07f6c24005fa247c7690b1f8f16d9e20917a22a4077c1d133f413270da"
+    },
+    {
+      "path": "runtime/presentation-v2.2.md",
+      "size": 474,
+      "sha256": "8cabe29eaedc4a93efd7a78b6e708dba66e64ce0395e0a2080b6134632ef779b"
+    },
+    {
+      "path": "runtime/preservation-score.md",
+      "size": 1645,
+      "sha256": "3db4517fdadcfd77c421f73d43c24a51ebfc63a843480cbf0e3c303f5bf56ae1"
+    },
+    {
+      "path": "runtime/quality-gate.md",
+      "size": 1380,
+      "sha256": "b4d20f5206d9f1e8a44143cfc25bd1a93c0c0bb67ea82ce79b0bb65273a59d56"
+    },
+    {
+      "path": "runtime/quality-report.md",
+      "size": 653,
+      "sha256": "8980abd6c12828669ee1018d699aee078e98330d6f9ce77e9e65d78bad879514"
+    },
+    {
+      "path": "runtime/refinement/targeted-refinement-v1.0.md",
+      "size": 567,
+      "sha256": "7c4185b006cc5fe308208979df7b2a5cfce355ef083604681c0991a0b92e989b"
+    },
+    {
+      "path": "runtime/regression-test-procedure.md",
+      "size": 2618,
+      "sha256": "e8785f5f333f610c5261ad34a4de3e54d829ee85660be7dae297a90af6312bbe"
+    },
+    {
+      "path": "runtime/rewrite-level-and-scope.md",
+      "size": 1926,
+      "sha256": "ec4fae0250a3a184bffc776894307af97174902054534667093001afebceef1e"
+    },
+    {
+      "path": "runtime/risk-assessment.md",
+      "size": 1594,
+      "sha256": "3b9416b11502faeaa804b0c87f7fc6ed15fdec015c15408af59c5e7ad457671a"
+    },
+    {
+      "path": "runtime/runtime-health.md",
+      "size": 638,
+      "sha256": "fc29493872348bf511baa9aab54952c06314063c9eebf1f4d41a9679939163bc"
+    },
+    {
+      "path": "runtime/runtime-prompt.md",
+      "size": 1439,
+      "sha256": "5ba5319ab63d27bb0d44a018e235a14904a3a1c7d97ea365e14ede0e52ab2c45"
+    },
+    {
+      "path": "runtime/search-diagnosis.md",
+      "size": 4277,
+      "sha256": "66a4a1c5e552159024f5ee29ebc948cf5ae812cd5845782dbb2da3c159a3cd13"
+    },
+    {
+      "path": "runtime/semantic-validator.md",
+      "size": 7109,
+      "sha256": "f6536de10d5d4e4b2744ea3876aeb115dce8a4c5b091ff3309e5c0d2b82b6db9"
+    },
+    {
+      "path": "runtime/shared-editorial-application.md",
+      "size": 1473,
+      "sha256": "c0caa7a594a5beb32665cb791e2691629db31c85471f62350adfec7655cf621d"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/__init__.py",
+      "size": 22,
+      "sha256": "1551cf04691f85b4038bfcf7bf43e2289ad75ea5cec74bc65bfd556aa3498bb5"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/__init__.py",
+      "size": 399,
+      "sha256": "38a5844989c5ea5a9ffdd9b1a01da2cb4f114068bb0386dcdc0a09f866726e82"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/context_builder.py",
+      "size": 1239,
+      "sha256": "5b3d03c6c28eab23049e197febec1d90236c47dcda64f36aa48fd5fe7b86be40"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/fixture_model.py",
+      "size": 1076,
+      "sha256": "07745be70f79aa5d171fd2c91427d5041fd6e4c9328c40089192cf4547219d64"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/input_adapters.py",
+      "size": 4405,
+      "sha256": "adfd0f4d2288aefe4a4add903b92387552b61e0be1afef497c7be59a92eea089"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/manual_model.py",
+      "size": 762,
+      "sha256": "982bfbd680e9b2e8202903e6a875693baca6079df8925a0f4baa741179512ba5"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/model_protocol.py",
+      "size": 794,
+      "sha256": "8ec911492a952f223c7752053b454b5d88066f5285864d52b8158dcc28f79c3e"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/output_parser.py",
+      "size": 1184,
+      "sha256": "0b318ba485a8cd672f0afa45b114b5ed6fcae1b6a2799af72817d2842ea48c89"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/provider_transports.py",
+      "size": 2998,
+      "sha256": "1ef3dd7e2168eb9ec45d59ae71e7a462f1d18b451170fbdbd067d2ba0e3ec7ff"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/adapters/structured_model.py",
+      "size": 1992,
+      "sha256": "f9cc9d834ad9e0cdf96e632ac2e6a4dadb11b1b6878a487764135272167f223c"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/asset_loader.py",
+      "size": 1187,
+      "sha256": "b3302763c64757a7a9ddfde022cda7d023d44d0ed91bde6bcd34940b54104bd7"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/cli.py",
+      "size": 1015,
+      "sha256": "9ff0fe208929fb46c8b67b10d6d923f8d0cf4381bf6c05ea911f7bd233215ff4"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/editorial_signals.py",
+      "size": 6403,
+      "sha256": "29f9c68a1aece172da7b4e143948d90317a8329840412417e05a64c26185f0d5"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/hotfix_validation.py",
+      "size": 4735,
+      "sha256": "95a052be5748cfe890a90fb3c182e8ee27c773a17db2c521d4a456f1660f878d"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/models.py",
+      "size": 751,
+      "sha256": "00daf0902b64a38a41749c487d6edea736d08491df404b83294e88aa6f9c1356"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/orchestrator.py",
+      "size": 9373,
+      "sha256": "93d3b7d4dc2af7653625c2ae09675e1b89052aead1a5eb95d2bf923523274bf4"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/output_contract.py",
+      "size": 16841,
+      "sha256": "5e134ada79b639b37d0a1e8c520c6760db330faac96cf6e613ce1be7e36e4823"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/publish_quality.py",
+      "size": 5057,
+      "sha256": "f1eb743a908975edfd0fda807a9b2e5e97cf07d560965f5c10db996ba73c14f0"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/quality/__init__.py",
+      "size": 96,
+      "sha256": "d9d068078e514df01fa020bc5e6aa5489f244a425095905fbb282dfa94de98a2"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/quality/engine.py",
+      "size": 11076,
+      "sha256": "082c8abf3f4fd80f30e7d334b8f5d8aca242267e7374db9539363300174bc619"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/quality/foundation.py",
+      "size": 6333,
+      "sha256": "0349732a4011fd91b0f4195efcb0dc8afee08cdee5d20c629d9b49ed9eef8506"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/refinement/__init__.py",
+      "size": 132,
+      "sha256": "88c017b1ea78737279a4f61f8602d9149d49dfd0c49af42c06b3e9ad897e7ad8"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/refinement/engine.py",
+      "size": 5283,
+      "sha256": "14cac25c0983a8bf756c3e18dc6d6055c99bac98085a10fc23d35e9ce37b383a"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/refinement/router.py",
+      "size": 1751,
+      "sha256": "d2be6c8403fec1fb08377ffcff5717b0912124a6037e1ffeeeb96bb2c78601ca"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/vertical_slices/__init__.py",
+      "size": 49,
+      "sha256": "d2ea4722e35c8647172b35222aaaa6dedc3c9f676306891c094ae17467523482"
+    },
+    {
+      "path": "runtime/sims_writer_runtime/vertical_slices/ctr_improvement.py",
+      "size": 14854,
+      "sha256": "1ceb2ea04e28b4da4df399eb995051a0e180b4a7f284abcf8a467ecce917bfa6"
+    },
+    {
+      "path": "runtime/validators/quality-validation-runtime.md",
+      "size": 486,
+      "sha256": "a4d72356476c71d9ac278ab7560e06cdb40afbad3f80da2feb0cf58bcacbdd1d"
+    },
+    {
+      "path": "runtime/vertical-slices/ctr-improvement-v1.0.md",
+      "size": 626,
+      "sha256": "3f3f9d8f007b7b069bed2d27f3a10960ec7d11c3ec94b8811288c8dc4e3c341b"
+    },
+    {
+      "path": "runtime/workflow.md",
+      "size": 718,
+      "sha256": "19bc28a44a7710b9e59f960e057aa0121d1d86856bbdf48e7e5a590c3068d9ac"
+    },
+    {
+      "path": "schemas/SIMS_FEEDBACK_V1.schema.json",
+      "size": 6793,
+      "sha256": "a5231134731d34cdfc315c382ed4a6135093e0a6797c14746f5fbd54492ee53e"
+    },
+    {
+      "path": "schemas/SIMS_FEEDBACK_V2.schema.json",
+      "size": 7027,
+      "sha256": "9bb587a22cabc9a0e8ef1ad200a8da000782e89abc6dbdf1351d746ec5a6598e"
+    },
+    {
+      "path": "schemas/common/common.schema.json",
+      "size": 2733,
+      "sha256": "aa2c40dedcdf537d4b012b9b4b114e09c9e10f7fe01ccbefad930e240d9a1397"
+    },
+    {
+      "path": "shared/.gitignore",
+      "size": 54,
+      "sha256": "9075b30f288237a4372c62272a65a34039819e9b75eb7363e0d96a8b06e7c30a"
+    },
+    {
+      "path": "shared/CHANGELOG.md",
+      "size": 718,
+      "sha256": "26271b6dc73272d09d93f0a22b7a6d648b6e513bdd8f5f6154def82362af8171"
+    },
+    {
+      "path": "shared/LICENSE",
+      "size": 158,
+      "sha256": "ce0c69a4019923878282e03bb1ce789260e592199a0fbbab67e77fefe0e97664"
+    },
+    {
+      "path": "shared/README.md",
+      "size": 1284,
+      "sha256": "507441a041e8d7221e4109eed70eb9379533047a2fccad722b896b6aaeb71fa6"
+    },
+    {
+      "path": "shared/SNAPSHOT_MANIFEST.json",
+      "size": 4384,
+      "sha256": "71c7869dfa2c725bda372d164744e7c93e573ae2d3e24a952c10bd6306955837"
+    },
+    {
+      "path": "shared/SNAPSHOT_SCOPE.json",
+      "size": 135,
+      "sha256": "e2b5f571522fcfcefe496094fe55acdf895bb31f7da9f05dcec8ff0f452a60db"
+    },
+    {
+      "path": "shared/SOURCE.md",
+      "size": 215,
+      "sha256": "08967d4fa0e8de6340ec31e2dd6ad7bb8dc8b2c3d6ac6354702d5e5d831b214b"
+    },
+    {
+      "path": "shared/VERSION",
+      "size": 6,
+      "sha256": "5dae0c0a5ed3cdaa78704e25bb38d72c31018311e933283d06ed4f93360bfc6c"
+    },
+    {
+      "path": "shared/docs/integration-policy.md",
+      "size": 759,
+      "sha256": "fe32e1a0e4872ad69d1884f4db2ab3b788e6cda81944250c3fd0a107a75f457f"
+    },
+    {
+      "path": "shared/docs/product-scoped-snapshot-policy.md",
+      "size": 1200,
+      "sha256": "48518b8d3202e0238ac3145c3d7fb1d0da7cf4e3ef187b34fe29ea4d5fe7729d"
+    },
+    {
+      "path": "shared/docs/scope.md",
+      "size": 511,
+      "sha256": "5a6182675e3694675e500208c8f35994d5d7cb3d53d4b4fcb8049f7bc62db8ad"
+    },
+    {
+      "path": "shared/knowledge/buyer-trust-and-freshness.md",
+      "size": 664,
+      "sha256": "e3254c8c3eb8dc34b5a8c5bd33c446738bd3c3cb8ab26d4c63390b78608e5238"
+    },
+    {
+      "path": "shared/knowledge/central-claim-evidence-priority.md",
+      "size": 569,
+      "sha256": "321dc11dfccb7df4360165c381caeb8f5a027be78cc1cff68d6d64fad4df85f1"
+    },
+    {
+      "path": "shared/knowledge/conditional-editorial-opinion.md",
+      "size": 1160,
+      "sha256": "8fa50c7c784bd5a6c58ee2809ca5c7c8187467271e1bcd482938e343668b67f7"
+    },
+    {
+      "path": "shared/knowledge/decision-support.md",
+      "size": 317,
+      "sha256": "7447194b8a903369b59677702ddc97a805a30efaa8f2d83a0c2d7753c870de7f"
+    },
+    {
+      "path": "shared/knowledge/entity-alias-and-taxonomy-freshness.md",
+      "size": 463,
+      "sha256": "59d658a8b65043c3955f598255859cfda7ceb74d34899e45ba12f5f7a2bebd17"
+    },
+    {
+      "path": "shared/knowledge/evidence-strength-wording.md",
+      "size": 662,
+      "sha256": "35d8ae33b23f3f1c0592a42326459ff6fe4f9509834aa4208826be8a54d4ab06"
+    },
+    {
+      "path": "shared/knowledge/evidence-transparency.md",
+      "size": 363,
+      "sha256": "f047a073ee9a87c770fd5c148f40378538d8b3ef13b746d069768e360246c3b9"
+    },
+    {
+      "path": "shared/knowledge/existing-content-reflection.md",
+      "size": 360,
+      "sha256": "b16df7ea899eafe72c187e98a1e8341c6f0515e79e15e29c92735dd50caca581"
+    },
+    {
+      "path": "shared/knowledge/faq-evolution.md",
+      "size": 1308,
+      "sha256": "47512904314a6b2fadc40491b2b078c3c9783dacbf555acd0ac6ebbe1524dfb9"
+    },
+    {
+      "path": "shared/knowledge/faq-reconstruction.md",
+      "size": 358,
+      "sha256": "52d1c48d61708109c16a3f14b1fc21ac3becf3585f71b8e3f70e0c2b318ffcd5"
+    },
+    {
+      "path": "shared/knowledge/freshness-safety.md",
+      "size": 296,
+      "sha256": "7a0c522a67e459d3bbea737f0a33b427f8570332e36cd91a0de0a04567f8815b"
+    },
+    {
+      "path": "shared/knowledge/graceful-degradation.md",
+      "size": 510,
+      "sha256": "026c0f3e5d32fe7c3d7981d3f97cb148e8cd45b3f25b57a240f9c736b40b8988"
+    },
+    {
+      "path": "shared/knowledge/hidden-anxiety.md",
+      "size": 398,
+      "sha256": "d03c6f03c10734c43ad85940dead9f8e991520b6c8414ab5822215b72225442b"
+    },
+    {
+      "path": "shared/knowledge/intent-analysis.md",
+      "size": 419,
+      "sha256": "283d2e7f436e32f7b3b9c9bbfb044dc6325cfe102f611eaa53a72cdfac525cb7"
+    },
+    {
+      "path": "shared/knowledge/internal-link-semantics.md",
+      "size": 330,
+      "sha256": "08a023c7080e5598e74e8b861e49e7d40d75dc2976f21e7fa9b49c90c60c7fb1"
+    },
+    {
+      "path": "shared/knowledge/serp-entity-preservation.md",
+      "size": 393,
+      "sha256": "1d3987667305271f984c16eaa3a31b469335ce3b93bb8357af5a634653ebb85d"
+    },
+    {
+      "path": "shared/knowledge/source-scope-qualification.md",
+      "size": 550,
+      "sha256": "89d78dc42924fa4cb55a699e2d3002cca98b5b4e54b41a907d10e94f24a95647"
+    },
+    {
+      "path": "shared/mappings/writer/application-mapping.md",
+      "size": 1460,
+      "sha256": "4d635f9c08ed68b22567ea5d032992b8f74d20348112425d0b84955ba341c962"
+    },
+    {
+      "path": "shared/validation/shared-knowledge-validation.md",
+      "size": 566,
+      "sha256": "d76ef622d4f4b39ccc1413d0ce20139e970f66911044b6ce4e26e8641946881d"
+    },
+    {
+      "path": "templates/IMPROVEMENT_REQUEST_TEMPLATE.json",
+      "size": 616,
+      "sha256": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a"
+    },
+    {
+      "path": "validation/QUALITY_GATE.md",
+      "size": 463,
+      "sha256": "eeef8807024eb2d5244b12d4033ea5977e019f6c1d708a8844553e4986ee3cad"
+    },
+    {
+      "path": "validation/RC_HOTFIX_VALIDATION_v2.2.md",
+      "size": 1746,
+      "sha256": "9e7cf8147416c8ba64a4ca8469dc18aa7589b8d234871ae5684203154a691cb0"
+    },
+    {
+      "path": "validation/VALIDATION_HOTFIX_v0.2.3.md",
+      "size": 1406,
+      "sha256": "1515f89ea0d011de6560ae1e3ece8d04c58e54c602b10a4b8f858d2a63123279"
+    },
+    {
+      "path": "validation/VALIDATION_LAYER.md",
+      "size": 1819,
+      "sha256": "59812b71a39ffa30e9a4b1726703838a7ad4ade4362cb90419743bcffb25116a"
+    },
+    {
+      "path": "validation/VALIDATION_RULES.md",
+      "size": 1876,
+      "sha256": "85e5b51556249c13b53bc061ecf0eead2d2907969de002d4ced07bc80d76bdc5"
+    }
+  ]
 }
