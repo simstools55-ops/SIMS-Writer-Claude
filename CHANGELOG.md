@@ -13,3 +13,8 @@
 
 ## 1.1.0 - 2026-07-21
 - Production baseline.
+
+## 1.3.2 - Publication QA Foundation
+
+- Added mandatory final Publication QA workflow and safe auto-fix boundaries.
+- Added five-level publication verdicts and release gate documentation.
