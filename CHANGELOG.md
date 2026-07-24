@@ -28,3 +28,6 @@
 
 ## 1.3.4
 - Added Self QA runtime instructions and platform-neutral QA contract reference.
+
+## 1.3.5
+- Added QA-reviewed final output integration rules.
