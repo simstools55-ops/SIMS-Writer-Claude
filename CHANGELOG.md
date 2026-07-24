@@ -1,9 +1,8 @@
-# Changelog
+# 1.3.0 - Quality & Validation Hardening
 
-## 1.2.0 - 2026-07-24
-- SBM Product 5.6.6 Search Console Query Data（最大200件）へ対応。
-- Coverage信頼度、部分的不正行処理、後方互換を追加。
-- QUERY MIX、CONTENT GAP、別記事・内部リンク・カニバリ候補の推論境界を強化。
+- Writer本体v1.3.0と完全同期
+- Shared Snapshot v1.3.0
+- Contract 2.1運用指示を追加
 
 # Changelog
 
