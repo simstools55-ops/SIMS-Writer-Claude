@@ -18,3 +18,10 @@
 
 - Added mandatory final Publication QA workflow and safe auto-fix boundaries.
 - Added five-level publication verdicts and release gate documentation.
+
+## 1.3.3 - Regression Evaluation Profiles
+
+- Added formal Publication QA evaluation standard.
+- Added five Official Regression Suite case profiles and expected findings.
+- Added regression readiness runner and QA checklist integration.
+- Source article fixtures remain pending and are reported as SKIP.
