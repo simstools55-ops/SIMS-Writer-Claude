@@ -19,6 +19,7 @@ RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
 RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
 RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
 RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
+RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -35,6 +36,11 @@ product/quality/QUALITY_FRAMEWORK.md
 product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
 quality/USER_FACING_TERMINOLOGY_JA.md
+runtime/editorial-planner-v2.0.md
+runtime/gap-analysis-engine-v2.0.md
+runtime/search-intent-model-v2.0.md
+runtime/serp-analysis-engine-v2.0.md
+runtime/serp-analysis-input-contract-v2.0.md
 shared/CHANGELOG.md
 shared/Decision-Support.md
 shared/Evidence-Transparency.md
@@ -44,6 +50,7 @@ shared/Internal-Link-Semantics.md
 shared/LICENSE
 shared/README.md
 shared/SERP-Entity-Preservation.md
+shared/SERP-First-Editorial-Planning.md
 shared/SNAPSHOT_MANIFEST.json
 shared/SNAPSHOT_SCOPE.json
 shared/SOURCE.md
