@@ -1,7 +1,7 @@
 {
   "source_repository": "SIMS-Shared-Editorial-Knowledge",
-  "source_version": "1.3.9",
-  "integrated_version": "1.3.9",
+  "source_version": "1.4.0",
+  "integrated_version": "1.4.0",
   "target_product": "writer",
   "files": [
     {

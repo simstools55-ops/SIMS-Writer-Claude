@@ -16,9 +16,11 @@ RELEASE_NOTES_v1.3.6_PUBLICATION_PIPELINE_LOCK.md
 RELEASE_NOTES_v1.3.7_CONTRACT_CLEANUP.md
 RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
 RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
+RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
+VALIDATION_AUDITABILITY.md
 VALIDATION_MESSAGE_INTEGRITY.md
 VERSION
 examples/EXAMPLE_REQUEST.json
@@ -81,5 +83,6 @@ shared/validation/publication-pipeline-integrity-validation.md
 shared/validation/publication-qa-regression-validation.md
 shared/validation/publication-qa-validation.md
 shared/validation/shared-knowledge-validation.md
+shared/validation/validation-auditability.md
 shared/validation/validation-message-integrity.md
 templates/IMPROVEMENT_REQUEST_TEMPLATE.json
