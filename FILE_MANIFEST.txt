@@ -1,5 +1,6 @@
 CHANGELOG.md
 CLAUDE_PROJECT_INSTRUCTIONS.md
+EDITORIAL_OUTPUT_V2.md
 FINAL_OUTPUT_INTEGRATION_INSTRUCTIONS.md
 PROJECT_INSTRUCTIONS_TO_PASTE.md
 PROJECT_RESET_CHECKLIST.md
@@ -17,6 +18,7 @@ RELEASE_NOTES_v1.3.7_CONTRACT_CLEANUP.md
 RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
 RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
 RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
+RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -55,6 +57,7 @@ shared/knowledge/causal-expression-safety.md
 shared/knowledge/central-claim-evidence-priority.md
 shared/knowledge/conditional-editorial-opinion.md
 shared/knowledge/decision-support.md
+shared/knowledge/editorial-decision-and-visibility.md
 shared/knowledge/entity-alias-and-taxonomy-freshness.md
 shared/knowledge/evidence-boundary.md
 shared/knowledge/evidence-strength-wording.md
@@ -77,12 +80,12 @@ shared/knowledge/publication-qa-principles.md
 shared/knowledge/query-data-analysis.md
 shared/knowledge/serp-entity-preservation.md
 shared/knowledge/source-scope-qualification.md
+shared/knowledge/validation-auditability.md
 shared/mappings/writer/application-mapping.md
 shared/validation/common-editorial-validation.md
 shared/validation/publication-pipeline-integrity-validation.md
 shared/validation/publication-qa-regression-validation.md
 shared/validation/publication-qa-validation.md
 shared/validation/shared-knowledge-validation.md
-shared/validation/validation-auditability.md
 shared/validation/validation-message-integrity.md
 templates/IMPROVEMENT_REQUEST_TEMPLATE.json
