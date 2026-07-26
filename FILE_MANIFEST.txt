@@ -21,6 +21,7 @@ RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
 RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
 RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
 RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
+RELEASE_NOTES_v2.0.0_DEV4_EVIDENCE_LAYER.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -39,7 +40,10 @@ product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
 quality/USER_FACING_TERMINOLOGY_JA.md
 runtime/editorial-planner-v2.0.md
+runtime/evidence-contamination-qa-v2.0.md
+runtime/evidence-layer-v2.0.md
 runtime/gap-analysis-engine-v2.0.md
+runtime/integrated-gap-analysis-v2.0.md
 runtime/search-intent-model-v2.0.md
 runtime/serp-analysis-engine-v2.0.md
 runtime/serp-analysis-input-contract-v2.0.md
@@ -78,6 +82,7 @@ shared/knowledge/freshness-safety.md
 shared/knowledge/graceful-degradation.md
 shared/knowledge/hidden-anxiety.md
 shared/knowledge/html-entity-integrity.md
+shared/knowledge/integrated-serp-query-evidence.md
 shared/knowledge/intent-analysis.md
 shared/knowledge/internal-link-integrity.md
 shared/knowledge/internal-link-semantics.md
@@ -91,7 +96,9 @@ shared/knowledge/serp-entity-preservation.md
 shared/knowledge/source-scope-qualification.md
 shared/knowledge/validation-auditability.md
 shared/mappings/writer/application-mapping.md
+shared/quality/EVIDENCE_DECISION_POLICY_V2.md
 shared/validation/common-editorial-validation.md
+shared/validation/evidence-contamination-validation.md
 shared/validation/publication-pipeline-integrity-validation.md
 shared/validation/publication-qa-regression-validation.md
 shared/validation/publication-qa-validation.md
