@@ -23,6 +23,7 @@ RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
 RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
 RELEASE_NOTES_v2.0.0_DEV4_EVIDENCE_LAYER.md
 RELEASE_NOTES_v2.0.0_DEV5_PROGRESSIVE_EDITING.md
+RELEASE_NOTES_v2.0.0_DEV6_KNOWLEDGE_CONFIDENCE.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -100,8 +101,10 @@ shared/knowledge/source-scope-qualification.md
 shared/knowledge/validation-auditability.md
 shared/mappings/writer/application-mapping.md
 shared/quality/EVIDENCE_DECISION_POLICY_V2.md
+shared/quality/KNOWLEDGE_CONFIDENCE_FRESHNESS_V2.md
 shared/validation/common-editorial-validation.md
 shared/validation/evidence-contamination-validation.md
+shared/validation/knowledge-confidence-validation.md
 shared/validation/publication-pipeline-integrity-validation.md
 shared/validation/publication-qa-regression-validation.md
 shared/validation/publication-qa-validation.md
