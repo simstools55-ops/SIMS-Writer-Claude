@@ -52,3 +52,7 @@
 - [ ] Position >3 triggers inspected top-10 SERP and gap analysis before edit scope.
 - [ ] LOW_SAMPLE does not suppress deep-rank analysis.
 - [ ] Unavailable SERP is never fabricated and competitor-gap edits are not PUBLIC_OK.
+
+- [ ] VAL-TITLE-SEMANTIC rejects numeric-limit/action mismatch
+- [ ] VAL-EXPECTATION rejects unsupported title promises
+- [ ] VAL-YMYL-SAFETY and VAL-BENEFIT-CLAIM run before 公開OK

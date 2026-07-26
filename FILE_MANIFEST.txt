@@ -29,6 +29,7 @@ RELEASE_NOTES_v2.0.0_RC1.md
 RELEASE_NOTES_v2.0.0_RC2.md
 RELEASE_NOTES_v2.0.0_RC_FINAL.md
 RELEASE_NOTES_v2.0.0_RC_FINAL_2.md
+RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_1.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -46,6 +47,7 @@ product/quality/QUALITY_FRAMEWORK.md
 product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
 quality/USER_FACING_TERMINOLOGY_JA.md
+runtime/RELEASE_FINAL_QUALITY_GATE.md
 runtime/editorial-planner-v2.0.md
 runtime/evidence-contamination-qa-v2.0.md
 runtime/evidence-layer-v2.0.md
@@ -106,6 +108,7 @@ shared/knowledge/publication-pipeline-integrity.md
 shared/knowledge/publication-qa-evaluation-standard.md
 shared/knowledge/publication-qa-principles.md
 shared/knowledge/query-data-analysis.md
+shared/knowledge/semantic-expectation-ymyl-safety.md
 shared/knowledge/serp-entity-preservation.md
 shared/knowledge/serp-first-editorial-planning.md
 shared/knowledge/source-scope-qualification.md
@@ -125,6 +128,7 @@ shared/validation/publication-pipeline-integrity-validation.md
 shared/validation/publication-qa-regression-validation.md
 shared/validation/publication-qa-validation.md
 shared/validation/rc2-final-integration-validation.md
+shared/validation/release-final-quality-gates.md
 shared/validation/shared-knowledge-validation.md
 shared/validation/validation-message-integrity.md
 templates/IMPROVEMENT_REQUEST_TEMPLATE.json
