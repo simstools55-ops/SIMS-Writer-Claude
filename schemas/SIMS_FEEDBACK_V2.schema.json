@@ -16,7 +16,7 @@
       "const": "SIMS_FEEDBACK_V2"
     },
     "contract_version": {
-      "const": "4.2"
+      "const": "4.0"
     },
     "site_id": {
       "type": [
@@ -75,9 +75,6 @@
           "items": {
             "$ref": "#/$defs/userDecisionChange"
           }
-        },
-        "serp_gap_report": {
-          "$ref": "#/$defs/serpGapReport"
         }
       }
     },
@@ -143,8 +140,7 @@
         "decision_reason",
         "benefit_if_adopted",
         "impact_if_not_adopted",
-        "confirmation_point",
-        "decision_trace"
+        "confirmation_point"
       ],
       "properties": {
         "component": {
@@ -182,154 +178,6 @@
         "confirmation_point": {
           "type": "string",
           "minLength": 1
-        },
-        "decision_trace": {
-          "type": "array",
-          "minItems": 2,
-          "maxItems": 5,
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
-        }
-      }
-    },
-    "serpGapItem": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "topic",
-        "article_state",
-        "action",
-        "importance",
-        "importance_label"
-      ],
-      "properties": {
-        "topic": {
-          "type": "string",
-          "minLength": 1
-        },
-        "article_state": {
-          "enum": [
-            "covered",
-            "weak",
-            "missing",
-            "strength",
-            "not_adopted"
-          ]
-        },
-        "action": {
-          "type": "string",
-          "minLength": 1
-        },
-        "competitor_coverage": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "reason": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "importance": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 5
-        },
-        "importance_label": {
-          "enum": [
-            "★☆☆☆☆",
-            "★★☆☆☆",
-            "★★★☆☆",
-            "★★★★☆",
-            "★★★★★"
-          ]
-        },
-        "observed_count": {
-          "type": [
-            "integer",
-            "null"
-          ],
-          "minimum": 0
-        },
-        "compared_count": {
-          "type": [
-            "integer",
-            "null"
-          ],
-          "minimum": 1
-        }
-      }
-    },
-    "serpGapReport": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "query",
-        "comparison_scope",
-        "strengths",
-        "gaps",
-        "applied_topics",
-        "not_adopted_topics",
-        "decision_summary",
-        "compared_pages",
-        "decision_trace"
-      ],
-      "properties": {
-        "query": {
-          "type": "string",
-          "minLength": 1
-        },
-        "comparison_scope": {
-          "type": "string",
-          "minLength": 1
-        },
-        "strengths": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/serpGapItem"
-          }
-        },
-        "gaps": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/serpGapItem"
-          }
-        },
-        "applied_topics": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "not_adopted_topics": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "decision_summary": {
-          "type": "string",
-          "minLength": 1
-        },
-        "compared_pages": {
-          "type": [
-            "integer",
-            "null"
-          ],
-          "minimum": 1
-        },
-        "decision_trace": {
-          "type": "array",
-          "minItems": 3,
-          "maxItems": 5,
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
         }
       }
     }

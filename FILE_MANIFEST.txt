@@ -18,6 +18,7 @@ RELEASE_NOTES_v1.3.7_CONTRACT_CLEANUP.md
 RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md
 RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md
 RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md
+RELEASE_NOTES_v2.0.0.md
 RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md
 RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md
 RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md
@@ -103,6 +104,7 @@ shared/knowledge/intent-analysis.md
 shared/knowledge/internal-link-integrity.md
 shared/knowledge/internal-link-semantics.md
 shared/knowledge/logical-consistency.md
+shared/knowledge/natural-japanese-and-similarity-reporting.md
 shared/knowledge/numeric-consistency.md
 shared/knowledge/progressive-editing.md
 shared/knowledge/publication-pipeline-integrity.md
@@ -126,6 +128,7 @@ shared/validation/common-editorial-validation.md
 shared/validation/editorial-strategy-validation.md
 shared/validation/evidence-contamination-validation.md
 shared/validation/knowledge-confidence-validation.md
+shared/validation/natural-japanese-and-similarity-validation.md
 shared/validation/publication-pipeline-integrity-validation.md
 shared/validation/publication-qa-regression-validation.md
 shared/validation/publication-qa-validation.md
