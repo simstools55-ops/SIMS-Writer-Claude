@@ -1,24 +1,9 @@
 ## 2.0.0 - 2026-07-26
 
-- Released the user-centered SEO editorial system.
 - Added final Natural Japanese and similarity-candidate reporting gates.
-- Kept Contract 4.2 and all RC2 safety/integration gates unchanged.
+- Stable release aligned with Contract 4.2.
 
-## 2.0.0-release-candidate.2 - 2026-07-26
-
-- Added final scope-alignment, device-path variability, and internal-link overlap release gates.
-- Prevented title/meta expansion into adjacent intents not covered by the article.
-- Required device-specific setting paths to account for OS/version/vendor differences.
-- Applied the same cannibalization and role-overlap review to every proposed internal link.
-
-## 2.0.0-release-candidate.1 - 2026-07-26
-
-- Added release final semantic, expectation, YMYL safety and benefit-claim gates.
-
-## 2.0.0-gold.1
-- Add quantitative SERP evidence, gap importance, and user-facing decision trace with Contract 4.2.
-
-## 2.0.0-gold.1
+## 2.0.0-rc.3
 
 - 公開可否の冒頭一文を必須化。
 - 公開OK理由を平易な一文以内へ短文化。
@@ -141,8 +126,5 @@
 ## 1.3.5
 - Added QA-reviewed final output integration rules.
 
-## 2.0.0-gold.1
+## 2.0.0-rc.3
 - Stabilized final output integration and removed active legacy contract conflicts.
-
-## 2.0.0-gold.1
-- Add SERP Gap Report and Contract 4.2 output.
