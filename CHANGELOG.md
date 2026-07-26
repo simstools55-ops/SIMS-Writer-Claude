@@ -1,3 +1,8 @@
+# v2.2.0
+
+- Added Operational Learning Registry runtime.
+- Added learning area to scoped Shared snapshot.
+
 # 2.1.0 - Quality Pattern Library Integration
 
 - Integrated Shared Quality Pattern Library v1.0.

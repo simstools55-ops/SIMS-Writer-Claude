@@ -1,7 +1,6 @@
 CHANGELOG.md
 CLAUDE_PROJECT_INSTRUCTIONS.md
 EDITORIAL_OUTPUT_V2.md
-FILE_MANIFEST.txt
 FINAL_OUTPUT_INTEGRATION_INSTRUCTIONS.md
 PROJECT_INSTRUCTIONS_TO_PASTE.md
 PROJECT_RESET_CHECKLIST.md
@@ -31,9 +30,9 @@ RELEASE_NOTES_v2.0.0_RC2.md
 RELEASE_NOTES_v2.0.0_RC_FINAL.md
 RELEASE_NOTES_v2.0.1.md
 RELEASE_NOTES_v2.1.0.md
+RELEASE_NOTES_v2.2.0.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
-SHA256SUMS.txt
 TEST_CHECKLIST.md
 VALIDATION_AUDITABILITY.md
 VALIDATION_MESSAGE_INTEGRITY.md
@@ -50,6 +49,7 @@ product/quality/QUALITY_FRAMEWORK.md
 product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md
 quality/REVIEWER_PRECISION_RULES_v1.3.7.md
 quality/USER_FACING_TERMINOLOGY_JA.md
+runtime/LEARNING_REGISTRY_RUNTIME.md
 runtime/RELEASE_FINAL_QUALITY_GATE.md
 runtime/editorial-planner-v2.0.md
 runtime/evidence-contamination-qa-v2.0.md
@@ -120,6 +120,11 @@ shared/knowledge/serp-entity-preservation.md
 shared/knowledge/serp-first-editorial-planning.md
 shared/knowledge/source-scope-qualification.md
 shared/knowledge/validation-auditability.md
+shared/learning/DECISION_LOG.md
+shared/learning/LEARNING_INTAKE_TEMPLATE.md
+shared/learning/LEARNING_REGISTRY.json
+shared/learning/LEARNING_SPRINT_PLAYBOOK.md
+shared/learning/README.md
 shared/mappings/writer/application-mapping.md
 shared/patterns/answer-first-pattern.md
 shared/patterns/evidence-publication-boundary-pattern.md
@@ -138,6 +143,7 @@ shared/quality/EDITORIAL_QA_CONTRACT_V1.md
 shared/quality/EVIDENCE_DECISION_POLICY_V2.md
 shared/quality/FOUR_LAYER_ARCHITECTURE_V2.md
 shared/quality/KNOWLEDGE_CONFIDENCE_FRESHNESS_V2.md
+shared/quality/LEARNING_REGISTRY_POLICY.md
 shared/quality/OPERATIONAL_LEARNING_PROMOTION_POLICY.md
 shared/quality/PUBLICATION_QA_CANONICAL_OUTPUT_v1.3.8.md
 shared/quality/PUBLICATION_VISIBILITY_POLICY_V2.md
@@ -152,6 +158,7 @@ shared/validation/common-editorial-validation.md
 shared/validation/editorial-strategy-validation.md
 shared/validation/evidence-contamination-validation.md
 shared/validation/knowledge-confidence-validation.md
+shared/validation/learning-registry-validation.md
 shared/validation/natural-japanese-and-similarity-validation.md
 shared/validation/publication-pipeline-integrity-validation.md
 shared/validation/publication-qa-regression-validation.md
