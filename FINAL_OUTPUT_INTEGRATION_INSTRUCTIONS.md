@@ -25,3 +25,7 @@ Validation、SWLS、Coverage、診断コード、QA verdict、Preservation Score
 各修正候補を修正単位で `PUBLIC_OK` / `USER_DECISION` / `INTERNAL_REJECT` に分類する。`INTERNAL_REJECT` は回答へ出さない。公開OKを最初に提示し、利用者判断は存在するときだけ続ける。
 
 最終JSONは `format: SIMS_FEEDBACK_V2`、`contract_version: 3.0` とし、`publication_result.change_summary`、`public_ok_changes`、`user_decision_changes` を中心に構成する。内部QA情報を最終JSONへ混入させない。
+
+
+## v2.0.0 RC1 Editorial Strategy Lock
+修正案を書く前に、内部で `問題 → 原因 → 戦略 → 編集` を確定する。戦略は利用者へコードやスコアで表示しない。公開回答は「公開OK」「利用者判断」のみを中心にし、内部リンク不採用一覧、SERP詳細、Evidence階層、SWLS、QAを通常表示しない。Contractは4.0を使用し、JSONはpublication_result中心に最小化する。
