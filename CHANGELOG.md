@@ -113,3 +113,6 @@
 
 ## 1.3.5
 - Added QA-reviewed final output integration rules.
+
+## 2.0.0-rc.2
+- Stabilized final output integration and removed active legacy contract conflicts.
