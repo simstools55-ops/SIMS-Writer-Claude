@@ -1,4 +1,4 @@
-## 2.0.0-rc.3
+## 2.0.0-rc.4
 
 - 公開可否の冒頭一文を必須化。
 - 公開OK理由を平易な一文以内へ短文化。
@@ -121,5 +121,8 @@
 ## 1.3.5
 - Added QA-reviewed final output integration rules.
 
-## 2.0.0-rc.3
+## 2.0.0-rc.4
 - Stabilized final output integration and removed active legacy contract conflicts.
+
+## 2.0.0-rc.4
+- Add SERP Gap Report and Contract 4.1 output.
