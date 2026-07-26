@@ -30,6 +30,7 @@ RELEASE_NOTES_v2.0.0_RC2.md
 RELEASE_NOTES_v2.0.0_RC_FINAL.md
 RELEASE_NOTES_v2.0.0_RC_FINAL_2.md
 RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_1.md
+RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_2.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -108,6 +109,7 @@ shared/knowledge/publication-pipeline-integrity.md
 shared/knowledge/publication-qa-evaluation-standard.md
 shared/knowledge/publication-qa-principles.md
 shared/knowledge/query-data-analysis.md
+shared/knowledge/scope-device-link-release-safety.md
 shared/knowledge/semantic-expectation-ymyl-safety.md
 shared/knowledge/serp-entity-preservation.md
 shared/knowledge/serp-first-editorial-planning.md
