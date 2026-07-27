@@ -1,15 +1,15 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "61b83505370f9df9670f5f3afdebe5fe2d411601df35dd80e4821b943a6a9cdd",
-      "size": 5130
+      "sha256": "07b7c52fb328cb900a2eff9e39d5d7f638cab7d30118f4d9df9d3476843e6c1c",
+      "size": 5377
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "ae64299bbe79e4b2d112b419a463db8f4bfe6d24bb74b8f50eac9c6248bf0ed3",
-      "size": 9108
+      "sha256": "5b248d8e15968518d67575a4c47168a3bb78753ce3c6aaee47937ece464cd689",
+      "size": 10177
     },
     {
       "path": "EDITORIAL_OUTPUT_V2.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "PROJECT_INSTRUCTIONS_TO_PASTE.md",
-      "sha256": "0a45b55961edab5194802a0cdb94b017a5b517581ae81876bdfd66fb20e241f7",
-      "size": 8799
+      "sha256": "12030af20a213e8bf34b3c3cc212da067d7150f647325475a6c24e2a5c8cfc0a",
+      "size": 9129
     },
     {
       "path": "PROJECT_RESET_CHECKLIST.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "QA_FINAL_REVIEW_CHECKLIST.md",
-      "sha256": "bf3f600af575cd7fdc45729a10c85d3fc57425677138b2ee403fe1bfa196ac8b",
-      "size": 1329
+      "sha256": "a9142232436bb2731d1f98828b412d0862e0c5e68baa69f627da543a20b368ca",
+      "size": 1754
     },
     {
       "path": "README.md",
@@ -167,6 +167,11 @@
       "size": 214
     },
     {
+      "path": "RELEASE_NOTES_v2.3.0.md",
+      "sha256": "1209c0d8ec145262319d97b2a8d3af74988ffb446ae8298ec2f5f1559457c03a",
+      "size": 309
+    },
+    {
       "path": "SELF_QA_RUNTIME_INSTRUCTIONS.md",
       "sha256": "501d4d5d8f9ae03139838e91b7472668abd289bc02985b25bc7bbb438aa3ab16",
       "size": 1392
@@ -193,7 +198,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "c4a2383a03bdb6739d16a0e24058e4b9c7da4e63d203e0be2f448868cc03c530",
+      "sha256": "a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36",
       "size": 6
     },
     {
@@ -208,8 +213,8 @@
     },
     {
       "path": "knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md",
-      "sha256": "a2e7bf933ad78592a09620fa861dc38cc6e4cdbf66a61327035a6d6eaf10ff18",
-      "size": 14728
+      "sha256": "116b5f10baa3ebe403528f1a2c191cdac7bfbfa6f9abb45b299379ee362b67ee",
+      "size": 15019
     },
     {
       "path": "product/platform/SIMS_PLATFORM_GUIDE.md",
@@ -262,6 +267,11 @@
       "size": 1762
     },
     {
+      "path": "runtime/correction-request-mode-v2.3.md",
+      "sha256": "4f5a35b4dffd1e002f24cce346f7cf2eff2b832ca884fe136436cef036aa9108",
+      "size": 989
+    },
+    {
       "path": "runtime/editorial-planner-v2.0.md",
       "sha256": "bf72104feb94e1a7f86f5f3a458e44b85bf5ae834154216c618912ec5afd626b",
       "size": 2107
@@ -293,13 +303,18 @@
     },
     {
       "path": "runtime/output-validator.md",
-      "sha256": "06cec6190b79e7389b0c320332d463fdf48aa1a657e8f92c75687716f69cc349",
-      "size": 2708
+      "sha256": "1c2817ea208995c25f99f75109d202b582845e90c716f891fad023ad34e2c205",
+      "size": 3429
     },
     {
       "path": "runtime/progressive-editing-engine-v2.0.md",
       "sha256": "5f2e7d38590594005b55f765295237a46089442e2f6e32dbc4f48980d81259b6",
       "size": 1719
+    },
+    {
+      "path": "runtime/publication-integrity-hardening-v2.3.md",
+      "sha256": "82ef0b11f031b60ea4a5802cac4e79dbc1c71dae75161875bce2367ce9e4212f",
+      "size": 1318
     },
     {
       "path": "runtime/quality-pattern-library-application-v2.1.md",
@@ -333,8 +348,8 @@
     },
     {
       "path": "shared/CHANGELOG.md",
-      "sha256": "1ecfad873442235d841a026829461a43d03277ba80f1b332c6718eec4c94d354",
-      "size": 6730
+      "sha256": "e84d4a748a206e6797b15702395c16cac2ed953a9e4b61043f9b19dd5a21af5e",
+      "size": 7033
     },
     {
       "path": "shared/Decision-Support.md",
@@ -368,8 +383,8 @@
     },
     {
       "path": "shared/README.md",
-      "sha256": "0e23dbea8e8900b72187785c904665a99b1155b4a393d243786b23307fc8f2cf",
-      "size": 2201
+      "sha256": "8ba68e528d160187b16a0b1f86d0cc0502f71585a9cd0170be0eb34c836a44e5",
+      "size": 2488
     },
     {
       "path": "shared/SERP-Entity-Preservation.md",
@@ -378,28 +393,28 @@
     },
     {
       "path": "shared/SNAPSHOT_MANIFEST.json",
-      "sha256": "eec2d96ff69be9b8cd354193bd496f6d4126733d67360f5c20cf854270c0be2f",
-      "size": 15471
+      "sha256": "3a07d72834b407a639cb91a80f41bc97aec52ac68989ca8a0e0f0611f7bfb5b4",
+      "size": 16426
     },
     {
       "path": "shared/SNAPSHOT_SCOPE.json",
-      "sha256": "4b90a32e48dcf6b6977968b3b37185fc0a6747c8423c5a396e843d78cc6f7e5c",
+      "sha256": "fc4ddb345a6e2309d53e2b7582f7d9b6241ad37286a734a4080b7a1ff5747e76",
       "size": 168
     },
     {
       "path": "shared/SOURCE.md",
-      "sha256": "e677366f5e9ece6bbd3241f9cf752f4f49c944df372113a6c0175b3877a43ec5",
+      "sha256": "1a724e997939b5a8d65078c60735ab2700035435c6e1d7d30706e7af32d73e82",
       "size": 93
     },
     {
       "path": "shared/VERSION",
-      "sha256": "c4a2383a03bdb6739d16a0e24058e4b9c7da4e63d203e0be2f448868cc03c530",
+      "sha256": "a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36",
       "size": 6
     },
     {
       "path": "shared/Writer-Application-Mapping.md",
-      "sha256": "91ae02945e071db2864678c9e94e0d2c693cc9dc67ecd6aaf1098ee5c94191dd",
-      "size": 3305
+      "sha256": "815b01436ac21fabaedf3dbeccb849aff5f85c7c9ff3c7e279751bba858570cc",
+      "size": 3707
     },
     {
       "path": "shared/docs/integration-policy.md",
@@ -425,6 +440,11 @@
       "path": "shared/evidence/source-confidence-freshness.md",
       "sha256": "f17d5173976007c31109622347c4ea51ddd073b1f88b9892d847ba9b714df973",
       "size": 1034
+    },
+    {
+      "path": "shared/knowledge/affiliate-cta-boundary.md",
+      "sha256": "9ce5804cffd01639c8aa3263969dc810532f556eff8b1b650edd659bbd3bad18",
+      "size": 1077
     },
     {
       "path": "shared/knowledge/buyer-trust-and-freshness.md",
@@ -485,6 +505,11 @@
       "path": "shared/knowledge/faq-evolution.md",
       "sha256": "47512904314a6b2fadc40491b2b078c3c9783dacbf555acd0ac6ebbe1524dfb9",
       "size": 1308
+    },
+    {
+      "path": "shared/knowledge/faq-publication-consistency.md",
+      "sha256": "4a046988fdd3c440ac26522da58c3dadb008f57d1bc3b6101eda39f1a10ed952",
+      "size": 813
     },
     {
       "path": "shared/knowledge/faq-reconstruction.md",
@@ -557,6 +582,11 @@
       "size": 828
     },
     {
+      "path": "shared/knowledge/publication-integrity-and-dynamic-information.md",
+      "sha256": "c01e287aa14f96120deacf439b317d854b0cfb1ce55b64d987395e7617f918dc",
+      "size": 1697
+    },
+    {
       "path": "shared/knowledge/publication-pipeline-integrity.md",
       "sha256": "65ca0f183b12bd53e0cd38ac11c869d35669f63613f0a623c2d5beaff43988dd",
       "size": 544
@@ -618,7 +648,7 @@
     },
     {
       "path": "shared/learning/LEARNING_REGISTRY.json",
-      "sha256": "ffbfe6d81072128e2fd384e61bfe34c560ff606cb51925b60dc7852c4c0d250c",
+      "sha256": "4ecf744fbf2670098fcd98c7ad424c35aa92803c4002a861960baec5b8b5a9e9",
       "size": 649
     },
     {
@@ -633,13 +663,18 @@
     },
     {
       "path": "shared/mappings/writer/application-mapping.md",
-      "sha256": "91ae02945e071db2864678c9e94e0d2c693cc9dc67ecd6aaf1098ee5c94191dd",
-      "size": 3305
+      "sha256": "815b01436ac21fabaedf3dbeccb849aff5f85c7c9ff3c7e279751bba858570cc",
+      "size": 3707
     },
     {
       "path": "shared/patterns/answer-first-pattern.md",
       "sha256": "5228ecd93daf06f9181cb4c8274b8db51b8dfad2ce787addd9e1281445c47533",
       "size": 205
+    },
+    {
+      "path": "shared/patterns/dynamic-claim-safe-rewrite-pattern.md",
+      "sha256": "255f864614e665dd78e697e17379ec09751f6104e41c38bf9601d42cda03ef57",
+      "size": 705
     },
     {
       "path": "shared/patterns/evidence-publication-boundary-pattern.md",
@@ -732,6 +767,11 @@
       "size": 1353
     },
     {
+      "path": "shared/quality/PUBLICATION_INTEGRITY_STANDARD_V2_3.md",
+      "sha256": "2137edd2ddbeea77a1734fdce50771c3ecffd8eca6bbeff0a9ffb6cd2e7ce0da",
+      "size": 894
+    },
+    {
       "path": "shared/quality/PUBLICATION_QA_CANONICAL_OUTPUT_v1.3.8.md",
       "sha256": "69826b31f0eabfea5accd3a9bdeb42475b937111d355ce272a3d850cc17c2ce3",
       "size": 1016
@@ -805,6 +845,11 @@
       "path": "shared/validation/natural-japanese-and-similarity-validation.md",
       "sha256": "43402651dc852848fb1f39300ebe82b320f4c95fd524869f77c3535b3770c8d2",
       "size": 550
+    },
+    {
+      "path": "shared/validation/publication-integrity-validation.md",
+      "sha256": "4633fb44d3c72182ecec8a8d665f7568a4699db9fb3b4112025fff3a82953517",
+      "size": 675
     },
     {
       "path": "shared/validation/publication-pipeline-integrity-validation.md",
