@@ -146,3 +146,9 @@
 - Added dynamic information, marketing claim, CTA and FAQ validation.
 - Added cross-component claim sweep and final JSON synchronization.
 - Added local Correction Request Mode.
+
+## 2.4.0 - 2026-07-28
+
+- Integrated Shared v2.4.0 real-article validation snapshot.
+- Added strict Before source, paste-ready After, cross-output synchronization and whole-article safety final gate.
+- Added eight real-article regression learnings.
