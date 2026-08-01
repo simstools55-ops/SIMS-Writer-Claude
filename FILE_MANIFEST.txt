@@ -33,7 +33,7 @@ RELEASE_NOTES_v2.1.0.md
 RELEASE_NOTES_v2.2.0.md
 RELEASE_NOTES_v2.3.0.md
 RELEASE_NOTES_v2.4.0.md
-RELEASE_NOTES_v3.0.0.md
+RELEASE_NOTES_v3.0.1.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -106,7 +106,7 @@ shared/RELEASE_NOTES_v2.1.0.md
 shared/RELEASE_NOTES_v2.2.0.md
 shared/RELEASE_NOTES_v2.3.0.md
 shared/RELEASE_NOTES_v2.4.0.md
-shared/RELEASE_NOTES_v3.0.0.md
+shared/RELEASE_NOTES_v3.0.1.md
 shared/VERSION
 shared/docs/integration-policy.md
 shared/docs/product-scoped-snapshot-policy.md

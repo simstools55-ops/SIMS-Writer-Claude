@@ -28,6 +28,14 @@
 
 Claude Projectは`product/quality/QUALITY_FRAMEWORK.md`、`product/platform/SIMS_PLATFORM_GUIDE.md`、`product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md`をWriter本体と同一内容で参照します。
 
-## v3.0.0
+## v3.0.1
 
-This package is the Claude Project companion for SIMS Writer v3.0.0 and Shared Editorial Knowledge v3.0.0.
+This package is the Claude Project companion for SIMS Writer v3.0.1 and Shared Editorial Knowledge v3.0.1.
+
+
+## v3.0.1 publication workflow
+Detect SEO-critical defects, repair them internally, revalidate up to three cycles, and present only the final publication candidate. Minor quality recommendations must not block publication.
+
+
+## v3.0.1
+SEO Critical Validation, internal auto-repair, revalidation, and publication finalization were added. Minor quality recommendations no longer block publication.
