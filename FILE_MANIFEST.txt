@@ -35,6 +35,7 @@ RELEASE_NOTES_v2.3.0.md
 RELEASE_NOTES_v2.4.0.md
 RELEASE_NOTES_v3.0.0.md
 RELEASE_NOTES_v3.0.2.md
+RELEASE_NOTES_v3.1.0.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 TEST_CHECKLIST.md
@@ -48,6 +49,7 @@ knowledge/factuality/KN-FAC-005-contradiction-resolution.md
 knowledge/operations/KN-OPS-003-preservation-signal-audit.md
 knowledge/seo/KN-SEO-007-temporal-intent-and-lifecycle.md
 knowledge/sets/KS-TMP-001-temporal-lifecycle.yaml
+product/REVENUE_FIRST_VALIDATION_PRINCIPLE.md
 product/platform/SIMS_PLATFORM_GUIDE.md
 product/quality/AUTO_FIX_RULES.md
 product/quality/PUBLIC_RELEASE_GATE.md
@@ -59,6 +61,7 @@ quality/USER_FACING_TERMINOLOGY_JA.md
 runtime/FEE_SUBJECT_AUTO_REPAIR_v3.0.2.md
 runtime/LEARNING_REGISTRY_RUNTIME.md
 runtime/RELEASE_FINAL_QUALITY_GATE.md
+runtime/REVENUE_FIRST_VALIDATION_v3.1.0.md
 runtime/SEO_CRITICAL_AUTO_REPAIR_v3.0.1.md
 runtime/TEMPORAL_LIFECYCLE_RUNTIME_V3.md
 runtime/correction-request-mode-v2.3.md
@@ -110,6 +113,7 @@ shared/RELEASE_NOTES_v2.3.0.md
 shared/RELEASE_NOTES_v2.4.0.md
 shared/RELEASE_NOTES_v3.0.0.md
 shared/RELEASE_NOTES_v3.0.1.md
+shared/RELEASE_NOTES_v3.1.0.md
 shared/SNAPSHOT_MANIFEST.json
 shared/SOURCE.md
 shared/VERSION
@@ -180,6 +184,7 @@ shared/patterns/evidence-publication-boundary-pattern.md
 shared/patterns/expectation-alignment-pattern.md
 shared/patterns/freshness-qualification-pattern.md
 shared/patterns/gap-completion-pattern.md
+shared/patterns/intent-drift-cross-link-pattern.md
 shared/patterns/internal-link-role-separation-pattern.md
 shared/patterns/low-sample-title-control-pattern.md
 shared/patterns/natural-japanese-pattern.md
@@ -194,6 +199,7 @@ shared/policies/confidence-policy.md
 shared/policies/editorial-assembly-policy.md
 shared/policies/review-policy.md
 shared/policies/source-policy.md
+shared/product/revenue-first-validation-principle.md
 shared/quality/COPY_READY_OUTPUT_STANDARD_V2.md
 shared/quality/EDITORIAL_QA_CONTRACT_V1.md
 shared/quality/EVIDENCE_DECISION_POLICY_V2.md
@@ -229,6 +235,7 @@ shared/validation/quality-pattern-library-validation.md
 shared/validation/rc2-final-integration-validation.md
 shared/validation/real-article-publication-validation.md
 shared/validation/release-final-quality-gates.md
+shared/validation/revenue-first-validation.md
 shared/validation/seo-critical-auto-repair-validation.md
 shared/validation/shared-knowledge-validation.md
 shared/validation/temporal-lifecycle-validation.md

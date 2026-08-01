@@ -1,3 +1,7 @@
+
+## v3.1.0 Revenue First Validation
+
+Claude instructions now expose only publication-ready changes and genuine owner decisions after internal repair.
 ## 3.0.1 - 2026-08-01
 
 - Separated SEO-critical validation from non-blocking quality recommendations.

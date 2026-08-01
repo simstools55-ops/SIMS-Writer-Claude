@@ -1,3 +1,7 @@
+
+## v3.1.0 Revenue First Validation
+
+Claude instructions now expose only publication-ready changes and genuine owner decisions after internal repair.
 # SIMS Writer RC3 Claude Package
 
 このフォルダーは、SIMS Writer v0.15.3-alpha.1をClaude Projectへ登録するためのファイル一式です。
