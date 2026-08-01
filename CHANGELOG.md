@@ -164,3 +164,6 @@
 - Synchronized Shared and Writer temporal architecture.
 - Added lifecycle runtime and Claude instruction overrides.
 - Preserved Contract v4.2 publication output compatibility.
+
+## 3.0.2 - 2026-08-01
+- Synced fee subject auto-repair and finalization instructions.

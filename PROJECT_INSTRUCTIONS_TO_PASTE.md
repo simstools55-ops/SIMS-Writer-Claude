@@ -147,3 +147,9 @@ Read and apply `runtime/RELEASE_FINAL_QUALITY_GATE.md`. Safety, evidence, expect
 ## v3.0.0 Architecture Refresh (mandatory)
 
 For date-sensitive, event-based, deadline, launch, distribution, active-service, annual-version, price, requirement, or expiration content, run Temporal Lifecycle Analysis before proposing edits. Identify lifecycle state, temporal shift, stale components, contradictions, and preservation signals. Use current authoritative evidence for factual state; Search Console and SERP establish demand, not truth. Unresolved material contradictions cannot be PUBLIC_OK. Preserve Contract v4.2 `publication_result`; optional `analysis_extensions` may be emitted only when supported and must remain backward compatible.
+
+## v3.0.2 Fee Subject Auto Repair
+
+- 「無料」「手数料なし」「手数料はいくら」を検出した場合、支払主体・受取主体・料金種別・外部遷移先の追加費用を分離する。
+- 曖昧さが安全に局所修正できる場合、利用者へ事前修正推奨として返さず、タイトル・メタ・導入・見出し・FAQ・本文・JSONを横断修正する。
+- 再Validation後、公開可能な完成案のみを提示する。

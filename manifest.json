@@ -1,17 +1,17 @@
 {
   "package": "SIMS-Writer-Claude",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "generated_at": "2026-08-01",
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "32d3a16c420e91fa1839911e677e81913cdc6993356bcb75c914ff4afcf491c2",
-      "size": 6117
+      "sha256": "1afa3ff707b1d2cf4b355815f3f1d29bb1a8dcbefff58b62c9ef6d3baad8fee9",
+      "size": 6204
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "33b656bc909f55dc7e8f2bc30070d0fc90f32661919ccd87a497874dc3abde62",
-      "size": 11276
+      "sha256": "8e030d0e935fa3af628abce65e0214593e12c31649763ea2c92e07ca087ca02d",
+      "size": 11755
     },
     {
       "path": "EDITORIAL_OUTPUT_V2.md",
@@ -20,8 +20,8 @@
     },
     {
       "path": "FILE_MANIFEST.txt",
-      "sha256": "2346f21c410f7e355dc0ff22f65edca68c1c05b568c3fd707d416a4ab9ce0218",
-      "size": 11195
+      "sha256": "d6ba522d5c220a46b7d53b408395f96ea95a6a62fc85c2de9a15426096e15917",
+      "size": 10064
     },
     {
       "path": "FINAL_OUTPUT_INTEGRATION_INSTRUCTIONS.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "PROJECT_INSTRUCTIONS_TO_PASTE.md",
-      "sha256": "9c0eb04e991f9f347eb6e458d3082d71f5eca8d9852ca9da37f7b372d30b7b10",
-      "size": 9783
+      "sha256": "92432c45620f6349bc19ef44567e38f3b89ea31ce304553ccc07c6ea4b63db3e",
+      "size": 10262
     },
     {
       "path": "PROJECT_RESET_CHECKLIST.md",
@@ -50,8 +50,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "017ab357c1f90f18724e479819a05a064a53e0f30a4d5c3877fa563fc371119c",
-      "size": 1705
+      "sha256": "ebf0d0ad8eb6df25c531565d77863fa8ebc813283b19375a389e7eecff85bce7",
+      "size": 1845
     },
     {
       "path": "RELEASE_NOTES_v1.1.2_SPRINT1.md",
@@ -189,9 +189,14 @@
       "size": 232
     },
     {
+      "path": "RELEASE_NOTES_v3.0.2.md",
+      "sha256": "ece7b9ad30a12ca3b90e53c865c635918702f815a1d9b17b3de6039aa8d72bed",
+      "size": 417
+    },
+    {
       "path": "SELF_QA_RUNTIME_INSTRUCTIONS.md",
-      "sha256": "501d4d5d8f9ae03139838e91b7472668abd289bc02985b25bc7bbb438aa3ab16",
-      "size": 1392
+      "sha256": "59e02399fb31baf16d9d176022d7476dba939059be8021ec860a08b010a3cd6e",
+      "size": 1871
     },
     {
       "path": "SETUP_GUIDE.md",
@@ -215,7 +220,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "06e3fe4a7a1884d20d81cc7065ca8cfd4c394ec602c4d180ddc39bbd4f7da521",
+      "sha256": "3fc0bf8d7ddbfe77eb4074c0b03d6567d7874a25ea4144aadea6686fcd5f6feb",
       "size": 6
     },
     {
@@ -292,6 +297,11 @@
       "path": "quality/USER_FACING_TERMINOLOGY_JA.md",
       "sha256": "440482a43b3eae8eb39a110daf2c1277999c4afddf4a425b63e9ec2257fef8ff",
       "size": 1002
+    },
+    {
+      "path": "runtime/FEE_SUBJECT_AUTO_REPAIR_v3.0.2.md",
+      "sha256": "a65bb3a1926f1bb8c1c278334bbdbf69300e17d98ad58827de812e5821047e94",
+      "size": 877
     },
     {
       "path": "runtime/LEARNING_REGISTRY_RUNTIME.md",
