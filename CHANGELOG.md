@@ -152,3 +152,8 @@
 - Integrated Shared v2.4.0 real-article validation snapshot.
 - Added strict Before source, paste-ready After, cross-output synchronization and whole-article safety final gate.
 - Added eight real-article regression learnings.
+
+## 3.0.0 - 2026-08-01
+- Synchronized Shared and Writer temporal architecture.
+- Added lifecycle runtime and Claude instruction overrides.
+- Preserved Contract v4.2 publication output compatibility.

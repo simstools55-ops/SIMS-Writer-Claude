@@ -1,14 +1,14 @@
 {
   "name": "SIMS-Writer-Claude",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "37ad230a2b3e4339cacb41518fd6ae4464a0df0697992ebff733b53117c4e9fe"
+      "sha256": "01bd44a899eb8ca39c6d95786d32e12d7aab29275ec0ca1bcad4e50021a43d7c"
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "e6958044ffd674123668a6c4e1965667a0246351e9588422b8ec021191cc22a1"
+      "sha256": "21abd26b59a070c172402551eaa1be309b42b2651176b6adc3476df521cc0420"
     },
     {
       "path": "EDITORIAL_OUTPUT_V2.md",
@@ -20,7 +20,7 @@
     },
     {
       "path": "PROJECT_INSTRUCTIONS_TO_PASTE.md",
-      "sha256": "12030af20a213e8bf34b3c3cc212da067d7150f647325475a6c24e2a5c8cfc0a"
+      "sha256": "9c0eb04e991f9f347eb6e458d3082d71f5eca8d9852ca9da37f7b372d30b7b10"
     },
     {
       "path": "PROJECT_RESET_CHECKLIST.md",
@@ -36,7 +36,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c2c5d7b0b7d1cd54a44d8890ba7735dfb4eb48c8580517b4f70bb852efbe0d7a"
+      "sha256": "d9d49b9647ea5411e9d3151edbed121a3ab7f8740534e048101f51a71be9a2e6"
     },
     {
       "path": "RELEASE_NOTES_v1.1.2_SPRINT1.md",
@@ -143,6 +143,10 @@
       "sha256": "9c761cb00e665a29cf504a0f3a81366be796fbdad04447bef7b7bc8bd0751c66"
     },
     {
+      "path": "RELEASE_NOTES_v3.0.0.md",
+      "sha256": "0aa2475ecea2a44033643421f9a6e2ee87b60c22279e95d6760936e80ed63da8"
+    },
+    {
       "path": "SELF_QA_RUNTIME_INSTRUCTIONS.md",
       "sha256": "501d4d5d8f9ae03139838e91b7472668abd289bc02985b25bc7bbb438aa3ab16"
     },
@@ -164,7 +168,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "2ad7b0c3f0ede58c3165b7a8a5479e890a758d39bfe8683eaef50ce6afad7232"
+      "sha256": "2985be8b28d3ade858e8d8fb4bc22f565b1bf6020dff982dce141f7721b9999c"
     },
     {
       "path": "contracts/output-contract.md",
@@ -177,6 +181,22 @@
     {
       "path": "knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md",
       "sha256": "d5858bc85f57e60fda2823d47af0283b93fc0ca9728274caf83785b760259d94"
+    },
+    {
+      "path": "knowledge/factuality/KN-FAC-005-contradiction-resolution.md",
+      "sha256": "2cf15c6f020bee21b4447589e7cd3628b7097fdbc25d434476edfedad0e0ddcf"
+    },
+    {
+      "path": "knowledge/operations/KN-OPS-003-preservation-signal-audit.md",
+      "sha256": "0bf3171f315f277a6f933e47819a2b6294f87cc3f4d43826bd88fcbe8c80fd63"
+    },
+    {
+      "path": "knowledge/seo/KN-SEO-007-temporal-intent-and-lifecycle.md",
+      "sha256": "51049a2964ac74f5168a45f0d9fc4a9cc363fec75c4dabc16a28883a13c9d261"
+    },
+    {
+      "path": "knowledge/sets/KS-TMP-001-temporal-lifecycle.yaml",
+      "sha256": "7ca1788d20226ab109b7399267be6b0ddc39e9be9c4e4b03f5e520369dda7db7"
     },
     {
       "path": "product/platform/SIMS_PLATFORM_GUIDE.md",
@@ -217,6 +237,10 @@
     {
       "path": "runtime/RELEASE_FINAL_QUALITY_GATE.md",
       "sha256": "633b70e55fa46624735ca56e5a7622b11f872caa56ceca2d554b532af64565df"
+    },
+    {
+      "path": "runtime/TEMPORAL_LIFECYCLE_RUNTIME_V3.md",
+      "sha256": "4e3afe68fc6b8d4379a17bb962bc2be441d96d9a1f9827dc432171605e155a2c"
     },
     {
       "path": "runtime/correction-request-mode-v2.3.md",
@@ -284,31 +308,15 @@
     },
     {
       "path": "schemas/SIMS_FEEDBACK_V2.schema.json",
-      "sha256": "fe7b396ea85b5ebc943869a8b7c7c577b5c4a774da78da623bad17cdc61f7912"
+      "sha256": "87b37da8ce77c38c5ca6414b157f8e599ea0cee281abf07687437b9008947f13"
+    },
+    {
+      "path": "shared/.gitignore",
+      "sha256": "9075b30f288237a4372c62272a65a34039819e9b75eb7363e0d96a8b06e7c30a"
     },
     {
       "path": "shared/CHANGELOG.md",
-      "sha256": "f65ebbfef133d8de31cdcf98c7f2ce8467d9eeb0b748ee72f4be62b0f5e337ce"
-    },
-    {
-      "path": "shared/Decision-Support.md",
-      "sha256": "7447194b8a903369b59677702ddc97a805a30efaa8f2d83a0c2d7753c870de7f"
-    },
-    {
-      "path": "shared/Evidence-Transparency.md",
-      "sha256": "f047a073ee9a87c770fd5c148f40378538d8b3ef13b746d069768e360246c3b9"
-    },
-    {
-      "path": "shared/Hidden-Anxiety.md",
-      "sha256": "d03c6f03c10734c43ad85940dead9f8e991520b6c8414ab5822215b72225442b"
-    },
-    {
-      "path": "shared/Intent-Analysis.md",
-      "sha256": "283d2e7f436e32f7b3b9c9bbfb044dc6325cfe102f611eaa53a72cdfac525cb7"
-    },
-    {
-      "path": "shared/Internal-Link-Semantics.md",
-      "sha256": "08a023c7080e5598e74e8b861e49e7d40d75dc2976f21e7fa9b49c90c60c7fb1"
+      "sha256": "4425777d7dc025a60e9b7fb7cd0cbaef069155b1bbcd4582118ff14eb46f27b0"
     },
     {
       "path": "shared/LICENSE",
@@ -319,28 +327,116 @@
       "sha256": "2ea386799ff91cbf9748fae499b4d8765d5d99d7e7dd226e20182ca9a624f21f"
     },
     {
-      "path": "shared/SERP-Entity-Preservation.md",
-      "sha256": "1d3987667305271f984c16eaa3a31b469335ce3b93bb8357af5a634653ebb85d"
+      "path": "shared/RELEASE_NOTES_v1.3.4_EDITORIAL_QA_CONTRACT.md",
+      "sha256": "00ea4bd1ca63c6bd252488e174549411fa0b082c0fdab7557624d3e702659e23"
     },
     {
-      "path": "shared/SNAPSHOT_MANIFEST.json",
-      "sha256": "857a7c7d524ebeb10e8cc1e17a39435ed253de64710d461a47d1183517fd8a19"
+      "path": "shared/RELEASE_NOTES_v1.3.5_FINAL_OUTPUT_CONTRACT.md",
+      "sha256": "2a13ccf02167d869904fac599b9695e62070beae38dab2970e7ffd6f6331306a"
     },
     {
-      "path": "shared/SNAPSHOT_SCOPE.json",
-      "sha256": "1086faacc1246cf20a4f5108e2d5f9605d7dbb43d0a61fff10dc21b051b88a1e"
+      "path": "shared/RELEASE_NOTES_v1.3.6_PUBLICATION_PIPELINE_INTEGRITY.md",
+      "sha256": "b3e326db54461050b69c377963dcf8e53872f1257c137474c5666b82859cb975"
     },
     {
-      "path": "shared/SOURCE.md",
-      "sha256": "06912541a01d1b86bd293810ddf48c01cfd85168ad1997f09fcae8148953382c"
+      "path": "shared/RELEASE_NOTES_v1.3.7_JAPANESE_QA.md",
+      "sha256": "e93a07ce60f0e56473e16921c0d7c3cb294c6d72f260b592218d675c85cc7bae"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v1.3.8_REGRESSION_HOTFIX.md",
+      "sha256": "3b5c8c63d9266a8ff798b0ea3fa79289d4063771088484b47b52b8f66018c39f"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v1.3.9_VALIDATION_MESSAGE_INTEGRITY.md",
+      "sha256": "849ac10698acd144a3050973a7a9b3cd55fb9b69ef019ccd7c5224b57fca00bb"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v1.4.0_VALIDATION_AUDITABILITY.md",
+      "sha256": "694e5914fb0dff309ff03807f0d97560a4ed99c7fb2424c10d344d02889f8d8e"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0.md",
+      "sha256": "64c3858348661d6bb7e698e46657eae686c6950ff32aae8999ecb3d17bece090"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_DEV1_EDITORIAL_SYSTEM.md",
+      "sha256": "dd2de733979156d6417a4482b2f248b2ccbe69030f45d72430f7d6f945dd7df3"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_DEV2_SERP_FIRST.md",
+      "sha256": "b65d45d518e772d5e24d11132a3593100177db7472c8a6a2dc4caf2411f66e82"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_DEV3_SERP_EVIDENCE_GATE.md",
+      "sha256": "d45052a9d0c564adce2f56fc8690bc5405a2e55e3968d205db6ec19dbccd0b0a"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_DEV4_EVIDENCE_LAYER.md",
+      "sha256": "65b15eff65ad287e6372a68c90af9656594d7b1bcd94916e4095cfd66c62307c"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_DEV5_PROGRESSIVE_EDITING.md",
+      "sha256": "e479b1639d10a351f09a162bdcbcbc27bb98ec0134ec58e21b2d3828c6ff428c"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_DEV6_KNOWLEDGE_CONFIDENCE.md",
+      "sha256": "9931f31dc51c38633001ebc33d72194b8f4e3818062785d2ec5359492a27e8fa"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_GOLD1.md",
+      "sha256": "89f73c39266d6595eb1bac7519b0bd9d6e5a3e885485e8843bb6f16ac83d1a39"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_RC1.md",
+      "sha256": "17ec5cb371d9d1ded92d4e1b945ddc31a78588c417373640fa3574285e4cd36f"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_RC2.md",
+      "sha256": "d09a80b0842a2d9f70cca7ce75f5c4af13b523d6210e9bd9bde5d78abcff45aa"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_RC_FINAL.md",
+      "sha256": "fe48635962efdf2c4d6cbd840f962cb4d49c8134d909bfa67214229fb3d5f0b4"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_RC_FINAL_2.md",
+      "sha256": "fea8a17eab59e268ad6ed6d73554755c0786742411309ca07da089a8074fb02d"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_1.md",
+      "sha256": "b30d1fee6aefbe6574b968668c05f6622633edde2f2aef21772a2a2cd13fc3ab"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.0_RELEASE_CANDIDATE_2.md",
+      "sha256": "bce7ddaf9ddb9d78a16bbac6312b0762c6951d5e26c636f8b8f2ef056c5374d3"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.0.1.md",
+      "sha256": "9da452f624a82110bba71e6ec38ad3fd06741392284ae9df71833629129c6fa9"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.1.0.md",
+      "sha256": "0fffcecf43ab80894ff8cb8f5a7e4e0db010ca778cd1f244ef229dcb80e58e05"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.2.0.md",
+      "sha256": "fafd18afeb0719aa1ce38b2bb121222d709948ae8190f65f4111684604496254"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.3.0.md",
+      "sha256": "4920297e472330384aff8d9d3a67d656a545197c7571ff4d30956544df1d6e59"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v2.4.0.md",
+      "sha256": "ae30d1b597a2bcecf8f56b4400923d9ccd549698d678fc6848de6ade95f4ad9e"
+    },
+    {
+      "path": "shared/RELEASE_NOTES_v3.0.0.md",
+      "sha256": "9c0a2d59160488b5631be0567995413915c0857eb4d126f728526f916a38688e"
     },
     {
       "path": "shared/VERSION",
-      "sha256": "2ad7b0c3f0ede58c3165b7a8a5479e890a758d39bfe8683eaef50ce6afad7232"
-    },
-    {
-      "path": "shared/Writer-Application-Mapping.md",
-      "sha256": "c3264959c44d1ed0c5d15bce1dd0e2f222a989ac8c2355a7702ed585908f2eda"
+      "sha256": "2985be8b28d3ade858e8d8fb4bc22f565b1bf6020dff982dce141f7721b9999c"
     },
     {
       "path": "shared/docs/integration-policy.md",
@@ -387,6 +483,10 @@
       "sha256": "8fa50c7c784bd5a6c58ee2809ca5c7c8187467271e1bcd482938e343668b67f7"
     },
     {
+      "path": "shared/knowledge/content-lifecycle.md",
+      "sha256": "9610779c72334df7920f29e2cae5ced731cc3c391935dfeef3f900fa9770eb53"
+    },
+    {
       "path": "shared/knowledge/decision-support.md",
       "sha256": "7447194b8a903369b59677702ddc97a805a30efaa8f2d83a0c2d7753c870de7f"
     },
@@ -401,6 +501,10 @@
     {
       "path": "shared/knowledge/evidence-boundary.md",
       "sha256": "82d41a4d26ea01d26807c9765a78a39b6232a0b3469ae483bacc2256475fcb08"
+    },
+    {
+      "path": "shared/knowledge/evidence-confidence-and-contradiction.md",
+      "sha256": "c115d544425514dd31bfccb6f2233bdc01b152db1f956a194276ff6508c25c6e"
     },
     {
       "path": "shared/knowledge/evidence-strength-wording.md",
@@ -467,6 +571,10 @@
       "sha256": "08a023c7080e5598e74e8b861e49e7d40d75dc2976f21e7fa9b49c90c60c7fb1"
     },
     {
+      "path": "shared/knowledge/learning-promotion-flow.md",
+      "sha256": "37c93acada11c84cb0655bccf5ddeb3ec4d55dcf3605f7b4560cdc7cd4c22111"
+    },
+    {
       "path": "shared/knowledge/logical-consistency.md",
       "sha256": "3c10a40572a6d5b683af1e9708395e7a8ed9f1b61a85373024c04abaacdd8f85"
     },
@@ -481,6 +589,10 @@
     {
       "path": "shared/knowledge/numeric-consistency.md",
       "sha256": "3fae1a438249420205598a748f9feaf95f237e855f8f4cd9329c65983fb32850"
+    },
+    {
+      "path": "shared/knowledge/preservation-signals.md",
+      "sha256": "2c5aca003ad71a6d8cb8fa2b54a17209baa1e189e0483d1dd4009427fefa6213"
     },
     {
       "path": "shared/knowledge/progressive-editing.md",
@@ -531,6 +643,10 @@
       "sha256": "1f79e748050e308b4d9cac769376ce4669f387bc3b38fba7e377180b0980eda3"
     },
     {
+      "path": "shared/knowledge/temporal-search-intent.md",
+      "sha256": "35a23674088b7c6281cab058e33ec642070867e738cf7a941986f29a9d9c8af8"
+    },
+    {
       "path": "shared/knowledge/title-promise-alignment.md",
       "sha256": "b2973e6144b9948c4a5be07014ed77e9f0b0bd728ac8593ee9e62e1d40db4f8e"
     },
@@ -548,7 +664,7 @@
     },
     {
       "path": "shared/learning/LEARNING_REGISTRY.json",
-      "sha256": "693db84ad0d7bce3fe50107b87ad6d3ebde0d8996220d4ba2d0a965ff035f642"
+      "sha256": "5a1acfa21c99d96cfb011b38c4ae54a44fdd9c85d07488c10485f0d36ff43eba"
     },
     {
       "path": "shared/learning/LEARNING_SPRINT_PLAYBOOK.md",
@@ -559,8 +675,12 @@
       "sha256": "715f003105f919fd6d026194641e0fbb71324e1f6d47f170503ab6ef75e3378c"
     },
     {
+      "path": "shared/mappings/article-creator/application-mapping.md",
+      "sha256": "dc5e4a3c158bec3642ad2816db1323439279983e59fbd65b0ab2a12833dd6b6f"
+    },
+    {
       "path": "shared/mappings/writer/application-mapping.md",
-      "sha256": "c3264959c44d1ed0c5d15bce1dd0e2f222a989ac8c2355a7702ed585908f2eda"
+      "sha256": "2b553ca736b083e3942e9b827e4c262e028e3e45a8bfd672521b89b5bb928b76"
     },
     {
       "path": "shared/patterns/answer-first-pattern.md",
@@ -607,6 +727,10 @@
       "sha256": "046022cb1a085edf2557bddfbda862182c8807a45b143ec876c0cd3e4bf00d7f"
     },
     {
+      "path": "shared/patterns/temporal-lifecycle-recovery-pattern.md",
+      "sha256": "ef8f279d24503b0ac34e854fd3c5f6adb4b40ad7c60ea154cb88ac0a3bb8cb2c"
+    },
+    {
       "path": "shared/patterns/terminology-unit-consistency-pattern.md",
       "sha256": "7ea0ac5549bd99fcdba932e525eb60b054d7e9fd654d62dfe145b995e429a4e2"
     },
@@ -621,6 +745,22 @@
     {
       "path": "shared/patterns/ymyl-safety-pattern.md",
       "sha256": "2b307ebf2ea201f33db2249e059bb3893c6836110a447e6970a7d36e42502f46"
+    },
+    {
+      "path": "shared/policies/confidence-policy.md",
+      "sha256": "a110c676c2fb409bc8f335c2702d59dc535ca4d79add3fb7cbb71378b36f0ce4"
+    },
+    {
+      "path": "shared/policies/editorial-assembly-policy.md",
+      "sha256": "23cb097ac21b1b62b620548ed07c6e61fdc9c729ab7db7530808f9ad12db481f"
+    },
+    {
+      "path": "shared/policies/review-policy.md",
+      "sha256": "d8619a21647f0b8801140f5266d0521e5afe5d330486a4aa01731d26c47fa991"
+    },
+    {
+      "path": "shared/policies/source-policy.md",
+      "sha256": "1cd55a321702c2ee14d9015ac1a7002ef8cd7df04c5005e7e6f9f0f22e057f6e"
     },
     {
       "path": "shared/quality/COPY_READY_OUTPUT_STANDARD_V2.md",
@@ -679,6 +819,14 @@
       "sha256": "594d4017941f4cd78542ed30568d4dd742a119d7a405b4d4bebc06ce8efecfef"
     },
     {
+      "path": "shared/registries/knowledge-set-registry.yaml",
+      "sha256": "70843ea1b2df515d9c6ce701ba1483c0cd7d14eceba7bfb67a4b514b657c565d"
+    },
+    {
+      "path": "shared/registries/platform-registry.json",
+      "sha256": "5263c9273d01d5c975702ae0b69e935d30f6b48c7139400a09ea3e24ad18822c"
+    },
+    {
       "path": "shared/strategy/editorial-strategy-selection.md",
       "sha256": "2170f15cae4cbbdab73d9e6ddaba250b30f0418db6d876fc9abde77d30ca7fba"
     },
@@ -689,6 +837,126 @@
     {
       "path": "shared/strategy/serp-gap-importance-policy.md",
       "sha256": "8f5832b6670c184e85fe00631ebd77dd5e60f46f45fabe948649c982ce66caab"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/affiliate-price-freshness.md",
+      "sha256": "4fe209139ee13312e97408c3ab1bbc29a4880d23525f1a8c4585da7046a4d647"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/device-font-variability.md",
+      "sha256": "181cb47da4f6832ddf4e991546f6056f7618b9490fc80e62e5fd3727572cbfa7"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/discord-apple-intelligence.md",
+      "sha256": "9c79bc4593c3ab0600d31ee325f882a214fafb09f3956b1a5b45dce9e51168d0"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/education-fee-currentness.md",
+      "sha256": "7249ae0e2c6dad7226fe45c77e50d454ff31a65ae500eedb30cfea59dad0c5ea"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/game-mode-focus-mode.md",
+      "sha256": "afd4586f8d0ca94e5f6dfcfe0ef762b0443d24b00733eb6c067cef7da09b24fc"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/rail-link-mismatch.md",
+      "sha256": "06f4fcdfbdc25b3aab1bfc18a649153ef75adf83ff43bbfa14da19e4fb8ea05a"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/rice-food-safety.md",
+      "sha256": "79db2c43a2cb3002efbb5a35a4c0b69df6738cd3484ec674bb43362a60aa9161"
+    },
+    {
+      "path": "shared/tests/fixtures/v2_4_0/supernatural-health-causation.md",
+      "sha256": "62858d4611af815e7af4bc86f4b34c330ec802ff486165de4815898d43e16ae0"
+    },
+    {
+      "path": "shared/tests/test_repository.py",
+      "sha256": "8c23b04f29e31ddf103a8cae57caa7f1618310caf049860f99fe11fa2bdd805b"
+    },
+    {
+      "path": "shared/tests/test_v1_1_0_knowledge.py",
+      "sha256": "55b856ad4300cad968c981b2a9f9e1bfb6e6e956f9bf5b8b7a4b8497e1ec54b1"
+    },
+    {
+      "path": "shared/tests/test_v1_1_1_operational_learning.py",
+      "sha256": "9f76234d1a89f8656258795b36200fe65196432f2b82144b25e2eb0fb5c6beaf"
+    },
+    {
+      "path": "shared/tests/test_v1_1_2_writer_mapping.py",
+      "sha256": "47a92347171810f61ba96a82b5ebd843a5614869b50c53a0ce3c90bd7820ccbc"
+    },
+    {
+      "path": "shared/tests/test_v1_1_3_snapshot_scope.py",
+      "sha256": "03b8aa892ab463d8ca90f5c723c96e963cde38da22dc46bfed1738649b191632"
+    },
+    {
+      "path": "shared/tests/test_v1_3_0_common_validation.py",
+      "sha256": "13860ab5f8e5e38f718cf44fae994e1a26ebd3a18130a8cad701c33a2bd0e4a5"
+    },
+    {
+      "path": "shared/tests/test_v1_3_1_entity_integrity.py",
+      "sha256": "9dff6c9456fdabbfa0e791d39103614dc6eae44027895d6af372fca583779cb1"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_dev2_serp_first.py",
+      "sha256": "88278640271993f346914182b500ef67bbf49196044e358131bcddfbbd2034e6"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_dev3_serp_evidence_gate.py",
+      "sha256": "0fc5b68cc0d1c3274c915098fab233db57195203dc204c24a95cbbe328d66c58"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_dev4_evidence_layer.py",
+      "sha256": "a7de8b1fb16fa55ce14a234bf3696463fed379dde12ac635026dc1abc0b8ed20"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_dev5_progressive_editing.py",
+      "sha256": "5b2b4e878073bdbac4618157e26e53ea41dd1a97aa97d7dc989a9c6d502cd52a"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_dev6_knowledge_confidence.py",
+      "sha256": "63c5b85e2cd34566f0171e27cd64840dacad6509dbe6c7c8214b868d2ff86c33"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_rc1_four_layers.py",
+      "sha256": "fb6dac282a639ecdd7723fc5d36caf836911ba86cdda7c8cce296c982b9dcf0f"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_release_candidate_2.py",
+      "sha256": "3616046dfdcffce13b8c68ee3ab0947c3ac8f98501a773be9ae3df793123c6ff"
+    },
+    {
+      "path": "shared/tests/test_v2_0_0_release_final_quality_gates.py",
+      "sha256": "71088ae062128e1f7b71023c73cef93ea1e1ddd39360ed09d6185c7210158e94"
+    },
+    {
+      "path": "shared/tests/test_v2_0_1_hotfix.py",
+      "sha256": "56ad78a4e55d94657666b5923888fa986170d8491747eb696aa9a9929730fbd3"
+    },
+    {
+      "path": "shared/tests/test_v2_1_0_quality_pattern_library.py",
+      "sha256": "83b1d1be5beac054c53ec79fe8a6a49b7bd7788627c5f4522a00ba098fdf0e75"
+    },
+    {
+      "path": "shared/tests/test_v2_2_0_learning_registry.py",
+      "sha256": "761a7496fe61003d297bbeded612afe270e59769f0d3ec90fc32955f808b145e"
+    },
+    {
+      "path": "shared/tests/test_v2_3_0_publication_integrity.py",
+      "sha256": "21e2b9070d09bc57de8a569a4cbd7ddcb1364d1d315abcc63ee9bc38960ffa40"
+    },
+    {
+      "path": "shared/tests/test_v2_4_0_real_article_validation.py",
+      "sha256": "a21b8caa942257110c93d9b4a05a98a4582f4c3cf4d7bfc523737dcd11b402d9"
+    },
+    {
+      "path": "shared/tests/test_v3_0_0_temporal_architecture.py",
+      "sha256": "7e83fce4424bf7387a58637a5f4b9d78c4206581d3501df27c9a0c150c55314a"
+    },
+    {
+      "path": "shared/tools/build_scoped_snapshot.py",
+      "sha256": "61d374639bbc2610555d4d577dc8eed9075e7f058d6300e7a04aefd025d7d394"
     },
     {
       "path": "shared/validation/common-editorial-validation.md",
@@ -749,6 +1017,10 @@
     {
       "path": "shared/validation/shared-knowledge-validation.md",
       "sha256": "d76ef622d4f4b39ccc1413d0ce20139e970f66911044b6ce4e26e8641946881d"
+    },
+    {
+      "path": "shared/validation/temporal-lifecycle-validation.md",
+      "sha256": "f8053f4e7500fe5175a2bf63cbf759ba0436393fbce256d5bede6404edb3f8cc"
     },
     {
       "path": "shared/validation/validation-message-integrity.md",

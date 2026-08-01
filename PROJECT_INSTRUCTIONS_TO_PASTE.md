@@ -143,3 +143,7 @@ Read and apply `runtime/RELEASE_FINAL_QUALITY_GATE.md`. Safety, evidence, expect
 
 ## Publication Integrity v2.3
 最終出力前に変動情報、マーケティング主張、CTA、FAQ、横断整合、JSON同期を検証する。リンク/広告コードは保護し、周辺CTAは編集・検証する。CORRECTION_REQUESTでは指定箇所だけを修正し、完全なContract 4.2 JSONを再出力する。
+
+## v3.0.0 Architecture Refresh (mandatory)
+
+For date-sensitive, event-based, deadline, launch, distribution, active-service, annual-version, price, requirement, or expiration content, run Temporal Lifecycle Analysis before proposing edits. Identify lifecycle state, temporal shift, stale components, contradictions, and preservation signals. Use current authoritative evidence for factual state; Search Console and SERP establish demand, not truth. Unresolved material contradictions cannot be PUBLIC_OK. Preserve Contract v4.2 `publication_result`; optional `analysis_extensions` may be emitted only when supported and must remain backward compatible.
