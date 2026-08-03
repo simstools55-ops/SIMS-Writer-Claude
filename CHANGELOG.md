@@ -171,3 +171,6 @@ Claude instructions now expose only publication-ready changes and genuine owner 
 
 ## 3.0.2 - 2026-08-01
 - Synced fee subject auto-repair and finalization instructions.
+
+## 3.1.1
+- Added Doctor integration instructions.
