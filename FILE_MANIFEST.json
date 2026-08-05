@@ -1,7 +1,7 @@
 {
   "package": "SIMS-Writer-Claude",
-  "version": "3.3.0",
-  "generated_at": "2026-08-05",
+  "version": "3.3.1",
+  "generated_at": "2026-08-06T05:56:40+09:00",
   "files": [
     {
       "path": ".pytest_cache/.gitignore",
@@ -25,18 +25,553 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "12b7e89fd925165a5c0beb78cb82eac33b12e160701b0d9f766be08f23ed0402",
+      "sha256": "f19dcaeae31765e4d2be4aa82dccdac6ab6e4fdef1f0126c26b3494f14667439",
       "size": 5781
     },
     {
+      "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
+      "sha256": "ae6e04e940073844de48d8d906f7f0895d63ba12a198b109d0e3f6d6d27f2e99",
+      "size": 785
+    },
+    {
       "path": "CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "1d0fb3c609db536910b78053f80af45edee179f6bc2f8c378b744158cdcaf777",
-      "size": 369
+      "sha256": "fc689118e7bfb1e053c71c4027e07ccc4031cfb277868835bf344317394fe5bd",
+      "size": 520
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "1b79547ffff26f8c5d2b22bd4d5876c304389e5aaf95d8829c5d425248624413",
+      "sha256": "9e25cf32932db986a9057ec3c9649ba04695a24d93d75bf0ae7a2d62138d8724",
       "size": 11231
+    },
+    {
+      "path": "CLAUDE_UPDATE_GUIDE.md",
+      "sha256": "82ce000a69f4107c260021076a81278996b0bc32a05036b8bc97e8b481885433",
+      "size": 630
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
+      "sha256": "ae6e04e940073844de48d8d906f7f0895d63ba12a198b109d0e3f6d6d27f2e99",
+      "size": 785
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
+      "sha256": "fc689118e7bfb1e053c71c4027e07ccc4031cfb277868835bf344317394fe5bd",
+      "size": 520
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md",
+      "sha256": "9e25cf32932db986a9057ec3c9649ba04695a24d93d75bf0ae7a2d62138d8724",
+      "size": 11231
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_UPDATE_GUIDE.md",
+      "sha256": "82ce000a69f4107c260021076a81278996b0bc32a05036b8bc97e8b481885433",
+      "size": 630
+    },
+    {
+      "path": "Claude-Upload/DEPLOYMENT_TEST.md",
+      "sha256": "499e9ac900d72b6b43cba6f870d9df49b37c8fb9e9329365f8fd0b7ab9ef81fe",
+      "size": 600
+    },
+    {
+      "path": "Claude-Upload/PRODUCT_IDENTITY.json",
+      "sha256": "e503e71116e0b570a60978f155282a7ea01bdb3993352dbe89305eceecf4f36b",
+      "size": 307
+    },
+    {
+      "path": "Claude-Upload/SHARED_VERSION",
+      "sha256": "5eee6c0c5c6901f5e523f0a434bca4106e1ff7136deb451f982b0bb1a7b13716",
+      "size": 6
+    },
+    {
+      "path": "Claude-Upload/UPLOAD_README.md",
+      "sha256": "fe9ad3b905ddcce6497c806f5b9922aace0b02e94f192139ab47d3fce0036e43",
+      "size": 280
+    },
+    {
+      "path": "Claude-Upload/VERSION",
+      "sha256": "ef2a79c2f7dc37800a73fd9930b307824ce20af920cbc7159323456418e77e6b",
+      "size": 6
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/action-plan/action-plan-contract.md",
+      "sha256": "b3c2e7225075e7eddce0a4aa4b22506b31ca430e33226766c9bd671dc1811820",
+      "size": 193
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/action-plan/action-plan.schema.json",
+      "sha256": "a88d09b4053141c113d6e74bf34c25e287f6fe53e9b89322c0c28c6b42c8832b",
+      "size": 2209
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/action-plan/examples/invalid.json",
+      "sha256": "a9c7619dcaf066e3bf1ff9010191fb76675f7fc4799897d0e0eb68d5739e2ec9",
+      "size": 442
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/action-plan/examples/valid.json",
+      "sha256": "6131c7cef1caad079598074c20ea6bc101cf5ab403c200dd8d016551e2251265",
+      "size": 481
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/context/context-contract.md",
+      "sha256": "79416f0924159264faf5dfcc4fa7a1a7fc615dc1f4a006794d0cf023eb41425c",
+      "size": 185
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/context/context.schema.json",
+      "sha256": "bba404964ab44a74d171951ecd61bf9078b93487db94b25411e9f21ba247a88d",
+      "size": 2079
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/context/examples/invalid.json",
+      "sha256": "e6a79299eddfbf0ad43892bd3e793fd1ada34106d80a85b502da651017364919",
+      "size": 551
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/context/examples/valid.json",
+      "sha256": "5a1ee5c16cc59e354623dff0d9f57d917eb6a736f40d532cefa9013109cfbc43",
+      "size": 596
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/record/examples/invalid.json",
+      "sha256": "417595ad9089b429bb9e648088d8a01b7be57a468f13fd5d625612cf7060d49f",
+      "size": 772
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/record/examples/valid.json",
+      "sha256": "e85e9bc642968fabe1fd9acf6acb86d1ba62e5805ebf153b211afbf9a201f4d9",
+      "size": 816
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/record/record-contract.md",
+      "sha256": "8243e2caceefde810a0aeaa5b7933f7b73f98b09d732cc50fbf8dea283a689f5",
+      "size": 183
+    },
+    {
+      "path": "Claude-Upload/contracts/decision/record/record.schema.json",
+      "sha256": "265c1100deb1c1c4eaee68c74dbb778011eb169eb2aeb3dc959fcae9083d25bf",
+      "size": 2450
+    },
+    {
+      "path": "Claude-Upload/contracts/framework/contract-framework-v1.0.md",
+      "sha256": "472e1035dc94701cc45fbc53d606b27a4a1c3aa4a14417f272a86f7bbb2f762f",
+      "size": 501
+    },
+    {
+      "path": "Claude-Upload/contracts/framework/output-contract-v1.1.md",
+      "sha256": "b361949ae0ec6f7d6ebce800ae22058c0bc4c656e4b2612dad5efa914d56a7bf",
+      "size": 3951
+    },
+    {
+      "path": "Claude-Upload/contracts/framework/publish-quality-contract-v1.0.md",
+      "sha256": "259128be550f97c0294eca081140c1b6465e1c786ec6912e8ae9a2d25bf290f1",
+      "size": 1088
+    },
+    {
+      "path": "Claude-Upload/contracts/framework/quality-foundation-contract-v1.0.md",
+      "sha256": "358bd222630f36e15c814f81647e37d3431cb4144ef5f95551c3fe339c006d8a",
+      "size": 1622
+    },
+    {
+      "path": "Claude-Upload/contracts/framework/sims-feedback-json-contract-v2.0.md",
+      "sha256": "991889ba5dcba9542fd1dbfd1e4a245f0dcc050f44a91a5caad29171f41e0656",
+      "size": 929
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/SIMS_DOCTOR_WRITER_REQUEST_V1.md",
+      "sha256": "88ea570dc706b5a529dc02c4ea9fceb642e57b037c69d0555fe522766a27d6d1",
+      "size": 357
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/SIMS_WRITER_TREATMENT_REQUEST_V1.md",
+      "sha256": "191ea33447a50df77fbe308b778c44c1af11bf46ff3739fc100f651a0c68f5dd",
+      "size": 1085
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/generic-json-input/generic-json-input/examples/invalid.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/generic-json-input/generic-json-input/examples/valid.json",
+      "sha256": "76f1914f1e33fad2c8676d014a26b154ab901af9573ba4edce02db54eaa4f02e",
+      "size": 187
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/generic-json-input/generic-json-input/generic-json-input-contract.md",
+      "sha256": "333f573b6d2a7bf3a777e7f9da37ad4ad50fa363eedeeffa721f46e99c796798",
+      "size": 586
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/generic-json-input/generic-json-input/generic-json-input.schema.json",
+      "sha256": "d46af8d34f6fe93c6cc2f43bd00b688ef22b60aa95707661559eee45799dd731",
+      "size": 634
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/invalid.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/valid.json",
+      "sha256": "6990e9f2ce9a2cc05291b1823468d2545fb6351e0830a04d284d7cb6c2866554",
+      "size": 630
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/sims-blog-manager-input-contract.md",
+      "sha256": "00736ac925d221312a76031d71ca11ab890e8a8ac95e1bed78fd5f0ac23395c3",
+      "size": 601
+    },
+    {
+      "path": "Claude-Upload/contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/sims-blog-manager-input.schema.json",
+      "sha256": "7385670a158d714bbfa3c644f183ee519c0de41d4542a478e99706ae74052827",
+      "size": 1989
+    },
+    {
+      "path": "Claude-Upload/contracts/json/CONTRACT_CHANGELOG.md",
+      "sha256": "f0993dd18bedb64c206c0987261193770dbb38b6a2ce84e783a92c3abc5402b2",
+      "size": 734
+    },
+    {
+      "path": "Claude-Upload/contracts/json/JSON_CONTRACT_v2.md",
+      "sha256": "3d52cfbadf373877e2d23dc14cd5e74201caee10b468ccb180c06a0b3a308437",
+      "size": 770
+    },
+    {
+      "path": "Claude-Upload/contracts/json/SIMS_FEEDBACK_V2.schema.json",
+      "sha256": "e41a3e59d6602063e9054c4f83e0e23a6ff01315a274b3ab099f7eda378b9cf8",
+      "size": 13537
+    },
+    {
+      "path": "Claude-Upload/contracts/json/SIMS_WRITER_TREATMENT_REQUEST_V1.schema.json",
+      "sha256": "a3ca3ac5ea104071640f54e5dd7385f94adf61761381ee81d629e996dcf1943a",
+      "size": 2120
+    },
+    {
+      "path": "Claude-Upload/contracts/json/SIMS_WRITER_TREATMENT_RESULT_V1.schema.json",
+      "sha256": "d21d85220d6ced86d2e7e49d9a349ba8e63cde50f6167bfe8bd2b201266c2e64",
+      "size": 1685
+    },
+    {
+      "path": "Claude-Upload/contracts/knowledge/knowledge-assembly/examples/invalid.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "Claude-Upload/contracts/knowledge/knowledge-assembly/examples/valid.json",
+      "sha256": "96c55c4ab475485b730d47fcbca2f41a51aff970cfa73929b3ba8f425b29bad6",
+      "size": 626
+    },
+    {
+      "path": "Claude-Upload/contracts/knowledge/knowledge-assembly/knowledge-assembly-contract.md",
+      "sha256": "d3faee36c72c0943d8696e8fed4553366170d536b1785a7aa7f4e2b62aa37c12",
+      "size": 586
+    },
+    {
+      "path": "Claude-Upload/contracts/knowledge/knowledge-assembly/knowledge-assembly.schema.json",
+      "sha256": "35f2d0c53b9bb74c51b4c3b2d4bcc131e94c518ae980c58a0594345ed8c80e88",
+      "size": 2261
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/error/error-contract.md",
+      "sha256": "def74f908fe019ccf48d2b7a717aaa01479736fabf2da85609448a9298b78e89",
+      "size": 547
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/error/error.schema.json",
+      "sha256": "81b8b7d2ed236be1ada605d02b4c137ccff928f2f4643d585b132e83456b40ae",
+      "size": 1901
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/error/examples/invalid.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/error/examples/valid.json",
+      "sha256": "06f70b6e0b6d9840a989a10c98911661907713520a1aecc31cf34d3cec7ee61b",
+      "size": 586
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/execution-record/examples/invalid.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/execution-record/examples/valid.json",
+      "sha256": "28e31abf2a27a386ce3c54f9a6127d72706091e27245bd52d5b9cb723a775c56",
+      "size": 482
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/execution-record/execution-record-contract.md",
+      "sha256": "540558c78c25f9e6a88af46e076988c9e7d2057bc0a0f8a270f568e2d9cdb1df",
+      "size": 580
+    },
+    {
+      "path": "Claude-Upload/contracts/operations/execution-record/execution-record.schema.json",
+      "sha256": "0c61ed0fc681086bb0a98e50000efabe0a56f0eee2f768f1257a09080b3c9247",
+      "size": 2410
+    },
+    {
+      "path": "Claude-Upload/contracts/output-contract.md",
+      "sha256": "9c942e9761a7ca96b2b96800311b529764e17ab821393cd74cc9b4ae1b726ca2",
+      "size": 1292
+    },
+    {
+      "path": "Claude-Upload/contracts/source/source-content/examples/invalid.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "Claude-Upload/contracts/source/source-content/examples/valid.json",
+      "sha256": "0ed84de03a6d7202717c5aa1a152310ac8ea16e8b1d75033e7640b9a58ee4408",
+      "size": 720
+    },
+    {
+      "path": "Claude-Upload/contracts/source/source-content/source-content-contract.md",
+      "sha256": "083d5dcdcc264dce4e534265099808ca445cf23bd81c80322c369f7ceaba32d1",
+      "size": 574
+    },
+    {
+      "path": "Claude-Upload/contracts/source/source-content/source-content.schema.json",
+      "sha256": "96908ba6f307a45c809f55146148c6ad510361e9942928ff6469d886848e8da3",
+      "size": 2916
+    },
+    {
+      "path": "Claude-Upload/examples/EXAMPLE_REQUEST.json",
+      "sha256": "7e3a01618204a9f53558992b36dead6b2a89aa321efe7406926abcafeec62baf",
+      "size": 637
+    },
+    {
+      "path": "Claude-Upload/knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md",
+      "sha256": "dd07a48f5a46ba06de6c9f09b149854f3d049bf50a644ddcac633b8d11b817b7",
+      "size": 15150
+    },
+    {
+      "path": "Claude-Upload/knowledge/factuality/KN-FAC-005-contradiction-resolution.md",
+      "sha256": "2cf15c6f020bee21b4447589e7cd3628b7097fdbc25d434476edfedad0e0ddcf",
+      "size": 371
+    },
+    {
+      "path": "Claude-Upload/knowledge/operations/KN-OPS-003-preservation-signal-audit.md",
+      "sha256": "0bf3171f315f277a6f933e47819a2b6294f87cc3f4d43826bd88fcbe8c80fd63",
+      "size": 342
+    },
+    {
+      "path": "Claude-Upload/knowledge/seo/KN-SEO-007-temporal-intent-and-lifecycle.md",
+      "sha256": "51049a2964ac74f5168a45f0d9fc4a9cc363fec75c4dabc16a28883a13c9d261",
+      "size": 406
+    },
+    {
+      "path": "Claude-Upload/knowledge/sets/KS-TMP-001-temporal-lifecycle.yaml",
+      "sha256": "72c4daaf88d00f0297af5fd5ceb1cd0ed6c1de0fbb29d521cdd0726d409477db",
+      "size": 490
+    },
+    {
+      "path": "Claude-Upload/product/REVENUE_FIRST_VALIDATION_PRINCIPLE.md",
+      "sha256": "1ce8214acca7f7bd8453f9438bebc733414da72ef31fb72fd93e04a2cb49ba21",
+      "size": 2341
+    },
+    {
+      "path": "Claude-Upload/product/platform/SIMS_PLATFORM_GUIDE.md",
+      "sha256": "791310d678605b6e3393e855d0220618e73b76a1c7f12373f63b16c2810a1043",
+      "size": 6814
+    },
+    {
+      "path": "Claude-Upload/product/quality/AUTO_FIX_RULES.md",
+      "sha256": "24c0adf4b9e76a339587e420d3f4a1ee3064c84aab636d80b5059e545fff1109",
+      "size": 1046
+    },
+    {
+      "path": "Claude-Upload/product/quality/PUBLIC_RELEASE_GATE.md",
+      "sha256": "e00f4f38364b91f046890838450e0c87a07a244ac3e5813c496f1ab565f55dd6",
+      "size": 749
+    },
+    {
+      "path": "Claude-Upload/product/quality/QA_ENGINE_SPECIFICATION.md",
+      "sha256": "7bde8a42ff36375ac591e038d60a2b6330a2aa762ac19b98fcc34197da516b26",
+      "size": 1619
+    },
+    {
+      "path": "Claude-Upload/product/quality/QUALITY_FRAMEWORK.md",
+      "sha256": "28bf487948b9e2cd870805861f8a19231f48d95c429c94fffae2cd311440c5eb",
+      "size": 9507
+    },
+    {
+      "path": "Claude-Upload/product/roadmap/WRITER_v1.1.2_IMPROVEMENT_PLAN.md",
+      "sha256": "21bfcc88490e7cae639d34b7a92340f216bd9b6fb9637a71d99023ab16fa8291",
+      "size": 4744
+    },
+    {
+      "path": "Claude-Upload/quality/REVIEWER_PRECISION_RULES_v1.3.7.md",
+      "sha256": "5e1f78ff8603e466f001f714bf1676fd1197607d2d917d662eae3e26f1ddc0b0",
+      "size": 674
+    },
+    {
+      "path": "Claude-Upload/quality/USER_FACING_TERMINOLOGY_JA.md",
+      "sha256": "440482a43b3eae8eb39a110daf2c1277999c4afddf4a425b63e9ec2257fef8ff",
+      "size": 1002
+    },
+    {
+      "path": "Claude-Upload/runtime/FEE_SUBJECT_AUTO_REPAIR_v3.0.2.md",
+      "sha256": "a65bb3a1926f1bb8c1c278334bbdbf69300e17d98ad58827de812e5821047e94",
+      "size": 877
+    },
+    {
+      "path": "Claude-Upload/runtime/LEARNING_REGISTRY_RUNTIME.md",
+      "sha256": "498911f82f30f68d5808171a3dd76499d2c4125e3ee1c348af74b30c5e0ce487",
+      "size": 438
+    },
+    {
+      "path": "Claude-Upload/runtime/RELEASE_FINAL_QUALITY_GATE.md",
+      "sha256": "633b70e55fa46624735ca56e5a7622b11f872caa56ceca2d554b532af64565df",
+      "size": 1762
+    },
+    {
+      "path": "Claude-Upload/runtime/REVENUE_FIRST_VALIDATION_v3.1.0.md",
+      "sha256": "dbf0d8211321c2490ff2ec404a12b46819198eba3a0945d0c24ee329f9e8d2df",
+      "size": 1564
+    },
+    {
+      "path": "Claude-Upload/runtime/SEO_CRITICAL_AUTO_REPAIR_v3.0.1.md",
+      "sha256": "c4c869e3a0a7539b5397e0deac94901398e375b92680382c129ec2b006a00a98",
+      "size": 974
+    },
+    {
+      "path": "Claude-Upload/runtime/TEMPORAL_LIFECYCLE_RUNTIME_V3.md",
+      "sha256": "4e3afe68fc6b8d4379a17bb962bc2be441d96d9a1f9827dc432171605e155a2c",
+      "size": 780
+    },
+    {
+      "path": "Claude-Upload/runtime/correction-request-mode-v2.3.md",
+      "sha256": "4f5a35b4dffd1e002f24cce346f7cf2eff2b832ca884fe136436cef036aa9108",
+      "size": 989
+    },
+    {
+      "path": "Claude-Upload/runtime/editorial-planner-v2.0.md",
+      "sha256": "bf72104feb94e1a7f86f5f3a458e44b85bf5ae834154216c618912ec5afd626b",
+      "size": 2107
+    },
+    {
+      "path": "Claude-Upload/runtime/evidence-contamination-qa-v2.0.md",
+      "sha256": "72d11fbb78b9c79812b82629d3880f92dcb71ca742e010b7dd44805443abae45",
+      "size": 826
+    },
+    {
+      "path": "Claude-Upload/runtime/evidence-layer-v2.0.md",
+      "sha256": "c8e2299990b6ee5fe443cba6e97f203bdb056b4870965c8d039f36af3ce43157",
+      "size": 1867
+    },
+    {
+      "path": "Claude-Upload/runtime/gap-analysis-engine-v2.0.md",
+      "sha256": "6ff1e4afb25db96ce22be6bbb2ed00ce603b8bd3bfc72b859a0068388173346e",
+      "size": 761
+    },
+    {
+      "path": "Claude-Upload/runtime/integrated-gap-analysis-v2.0.md",
+      "sha256": "af3d011b70606320d0fecd680f32b473452c08e79ee28f46e6e373d2256e693c",
+      "size": 1011
+    },
+    {
+      "path": "Claude-Upload/runtime/output-pipeline.md",
+      "sha256": "6b8028c8810595e44bf59f3f804f43fed56dbe4b10f69731842d0fd3fb66d064",
+      "size": 1678
+    },
+    {
+      "path": "Claude-Upload/runtime/output-validator.md",
+      "sha256": "ec9c704f023f828119041e40c5711a463708ae8b97928ae07795b8eabcaa3c6d",
+      "size": 3720
+    },
+    {
+      "path": "Claude-Upload/runtime/progressive-editing-engine-v2.0.md",
+      "sha256": "5f2e7d38590594005b55f765295237a46089442e2f6e32dbc4f48980d81259b6",
+      "size": 1719
+    },
+    {
+      "path": "Claude-Upload/runtime/publication-integrity-hardening-v2.3.md",
+      "sha256": "82ef0b11f031b60ea4a5802cac4e79dbc1c71dae75161875bce2367ce9e4212f",
+      "size": 1318
+    },
+    {
+      "path": "Claude-Upload/runtime/quality-pattern-library-application-v2.1.md",
+      "sha256": "6bd93045e245f23a8c7bc59c92bdfb6afd5572165ad9b612ccf596ca53e276c5",
+      "size": 406
+    },
+    {
+      "path": "Claude-Upload/runtime/real-article-final-gate-v2.4.md",
+      "sha256": "473f02239acb976350e1c9dd35ca728f77dfc79fd536ef29bf9ef1c407c7d61a",
+      "size": 606
+    },
+    {
+      "path": "Claude-Upload/runtime/search-intent-model-v2.0.md",
+      "sha256": "4d8f896936bb00cf291b28b9b19974f71f7d1b0e647414e92c8a62ab4f36f58f",
+      "size": 688
+    },
+    {
+      "path": "Claude-Upload/runtime/serp-analysis-engine-v2.0.md",
+      "sha256": "55f1fb63b18662da023653c7ca76f291a0986f1da03622fe7ba958912e530e6d",
+      "size": 1510
+    },
+    {
+      "path": "Claude-Upload/runtime/serp-analysis-input-contract-v2.0.md",
+      "sha256": "948bad82fa35aa7a80b7539fb0b11135ac381f21782045dc568d8156a102b702",
+      "size": 428
+    },
+    {
+      "path": "Claude-Upload/runtime/serp-evidence-gate-v2.0.md",
+      "sha256": "55102cbbb1ea049114d82c1400adbeeea565658d8f63ef260de73aaca1bfbccd",
+      "size": 1011
+    },
+    {
+      "path": "Claude-Upload/schemas/SIMS_FEEDBACK_V2.schema.json",
+      "sha256": "87b37da8ce77c38c5ca6414b157f8e599ea0cee281abf07687437b9008947f13",
+      "size": 8392
+    },
+    {
+      "path": "Claude-Upload/shared/adapters/sims-feedback-v2-to-writer-result-v1.md",
+      "sha256": "053683d7484912defa91c11db38c4a7b8db0a811eaf89cabf1cec88100f2f70a",
+      "size": 411
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/common/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659",
+      "size": 1748
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/platform/publication-result-v1.schema.json",
+      "sha256": "bf3ba42048e431658327ca31d2ca00aeef1cca7a33d32ea8d36efcbd34e7c741",
+      "size": 2148
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/writer/writer-treatment-request-v1.schema.json",
+      "sha256": "685049f9178fb6c599d8268ae1b7f3d432a5e804803280bc959ec2750ee92cd2",
+      "size": 2210
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/writer/writer-treatment-result-v1.schema.json",
+      "sha256": "a913d05ecabe0778fa0f79db5195c5b560598d8867770853e33d6ba466fd0c17",
+      "size": 2144
+    },
+    {
+      "path": "Claude-Upload/shared/platform/SNAPSHOT_MANIFEST.json",
+      "sha256": "bd824aeb428a76c7bf5f3adb16785ad006c96b841f42f2d566dee814d69ebf41",
+      "size": 159
+    },
+    {
+      "path": "Claude-Upload/templates/IMPROVEMENT_REQUEST_TEMPLATE.json",
+      "sha256": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a",
+      "size": 616
+    },
+    {
+      "path": "Claude-Upload/templates/response-template.md",
+      "sha256": "ec96d89131ed3eeb4b52da499b423bafef8d86d222f19e69a91fdaa46b2782ff",
+      "size": 1517
+    },
+    {
+      "path": "DEPLOYMENT_TEST.md",
+      "sha256": "499e9ac900d72b6b43cba6f870d9df49b37c8fb9e9329365f8fd0b7ab9ef81fe",
+      "size": 600
     },
     {
       "path": "DOCTOR_INTEGRATION_V1.md",
@@ -55,7 +590,7 @@
     },
     {
       "path": "PRODUCT_IDENTITY.json",
-      "sha256": "85b05a5d5a449cc41a99d0dba5fe1b3e20a77d38b2cd4748b75521b3a36fe2be",
+      "sha256": "e503e71116e0b570a60978f155282a7ea01bdb3993352dbe89305eceecf4f36b",
       "size": 307
     },
     {
@@ -80,8 +615,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "dd27afc1d27750afd777e553815dd6e2545ca330568d9a2c4261328f02ee7f23",
-      "size": 534
+      "sha256": "13bcfa712371e02b78fbc91c1685100c9630b2830a402edbcd0765531df35c10",
+      "size": 790
     },
     {
       "path": "RELEASE_NOTES_v1.1.2_SPRINT1.md",
@@ -270,7 +805,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "5eee6c0c5c6901f5e523f0a434bca4106e1ff7136deb451f982b0bb1a7b13716",
+      "sha256": "ef2a79c2f7dc37800a73fd9930b307824ce20af920cbc7159323456418e77e6b",
       "size": 6
     },
     {
@@ -280,7 +815,7 @@
     },
     {
       "path": "claude-project/REMOVED_FILES.md",
-      "sha256": "a3128d13b82b11db7a29a92284f54b5b2152b5b8bb312b4d496807d473bd6a45",
+      "sha256": "03310bc1904ac00aa54eacd7b58c51be126e7a09b741c58c398d44258a9081a3",
       "size": 317
     },
     {
@@ -559,6 +1094,11 @@
       "size": 490
     },
     {
+      "path": "manifest.json",
+      "sha256": "fa120740d62aedd712a2772e774865daf5c0ce87e39f6892ad757b564236bf73",
+      "size": 64429
+    },
+    {
       "path": "product/REVENUE_FIRST_VALIDATION_PRINCIPLE.md",
       "sha256": "1ce8214acca7f7bd8453f9438bebc733414da72ef31fb72fd93e04a2cb49ba21",
       "size": 2341
@@ -737,11 +1277,6 @@
       "path": "shared/Evidence-Transparency.md",
       "sha256": "f047a073ee9a87c770fd5c148f40378538d8b3ef13b746d069768e360246c3b9",
       "size": 363
-    },
-    {
-      "path": "shared/FILE_MANIFEST.txt",
-      "sha256": "2741e8479e90d52c4a691a27a1b6127a9109a14fbf4e5eff667a4c915f846363",
-      "size": 8583
     },
     {
       "path": "shared/Hidden-Anxiety.md",
@@ -934,18 +1469,13 @@
       "size": 393
     },
     {
-      "path": "shared/SHA256SUMS.txt",
-      "sha256": "c7a6a65a76d5840880b28f51406b2bcb6946fd5a18675c6ebd8a7b609d1a5256",
-      "size": 20942
-    },
-    {
       "path": "shared/SNAPSHOT_MANIFEST.json",
-      "sha256": "2c10606777e7dd5651a8dcf253460f429340a83ec55553b19b82c4253defe104",
+      "sha256": "85d90b62f1251261744c0247902f47268f12b5c957b8d3616ad534b182e4bb30",
       "size": 151
     },
     {
       "path": "shared/SNAPSHOT_SCOPE.json",
-      "sha256": "ec467a47fa1da22903b815d6a2f64afb807b8851901394646061a0210d055a11",
+      "sha256": "5ec70b4a3f89a0824d8d4fb0853bab5f453d4c60bc0ba1a3511b94d42b7adbd6",
       "size": 257
     },
     {

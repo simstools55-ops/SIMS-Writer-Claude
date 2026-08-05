@@ -7,4 +7,4 @@ Claude Project内に以下の旧ファイルがある場合は削除してくだ
 - `legacy-output-format.md`
 - Contract 4.2より前の重複Instructions
 
-同名の現行ファイルは3.3.0版で置換してください。
+同名の現行ファイルは3.3.1版で置換してください。
