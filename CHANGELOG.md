@@ -1,3 +1,11 @@
+## [3.3.0] - 2026-08-05
+
+- Added SIMS Editorial Platform 1.x Writer Treatment Contract support.
+- Synchronized the Writer-scoped Shared 3.3.0 snapshot.
+- Added CaseID, Treatment Request ID, scope, referral-compliance, and follow-up-referral rules.
+- Preserved legacy SIMS_FEEDBACK_V2 2.1/3.0/4.2 output compatibility.
+- Added Claude package identity, manifest, installation file list, and removal list.
+
 # v2.2.0
 
 - Added Operational Learning Registry runtime.
