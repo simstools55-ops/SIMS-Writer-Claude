@@ -1,14 +1,3 @@
-
-## v3.1.0 Revenue First Validation
-
-Claude instructions now expose only publication-ready changes and genuine owner decisions after internal repair.
-## 3.0.1 - 2026-08-01
-
-- Separated SEO-critical validation from non-blocking quality recommendations.
-- Added internal repair and revalidation loop with a three-cycle cap.
-- Added publication finalization states and non-blocking follow-up separation.
-- Preserved Contract 4.2 compatibility.
-
 # v2.2.0
 
 - Added Operational Learning Registry runtime.
@@ -157,20 +146,3 @@ Claude instructions now expose only publication-ready changes and genuine owner 
 - Added dynamic information, marketing claim, CTA and FAQ validation.
 - Added cross-component claim sweep and final JSON synchronization.
 - Added local Correction Request Mode.
-
-## 2.4.0 - 2026-07-28
-
-- Integrated Shared v2.4.0 real-article validation snapshot.
-- Added strict Before source, paste-ready After, cross-output synchronization and whole-article safety final gate.
-- Added eight real-article regression learnings.
-
-## 3.0.0 - 2026-08-01
-- Synchronized Shared and Writer temporal architecture.
-- Added lifecycle runtime and Claude instruction overrides.
-- Preserved Contract v4.2 publication output compatibility.
-
-## 3.0.2 - 2026-08-01
-- Synced fee subject auto-repair and finalization instructions.
-
-## 3.1.1
-- Added Doctor integration instructions.

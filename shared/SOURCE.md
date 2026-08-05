@@ -1,5 +1,5 @@
-# Shared Snapshot Source
+# Shared Knowledge Source
 
 Source repository: SIMS-Shared-Editorial-Knowledge
-Source version: 3.0.1
-Integrated for: writer-claude 3.0.1
+Integrated into SIMS Writer 3.2.0.
+The snapshot is read-only inside Writer.

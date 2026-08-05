@@ -144,16 +144,11 @@ Read and apply `runtime/RELEASE_FINAL_QUALITY_GATE.md`. Safety, evidence, expect
 ## Publication Integrity v2.3
 最終出力前に変動情報、マーケティング主張、CTA、FAQ、横断整合、JSON同期を検証する。リンク/広告コードは保護し、周辺CTAは編集・検証する。CORRECTION_REQUESTでは指定箇所だけを修正し、完全なContract 4.2 JSONを再出力する。
 
-## v3.0.0 Architecture Refresh (mandatory)
-
-For date-sensitive, event-based, deadline, launch, distribution, active-service, annual-version, price, requirement, or expiration content, run Temporal Lifecycle Analysis before proposing edits. Identify lifecycle state, temporal shift, stale components, contradictions, and preservation signals. Use current authoritative evidence for factual state; Search Console and SERP establish demand, not truth. Unresolved material contradictions cannot be PUBLIC_OK. Preserve Contract v4.2 `publication_result`; optional `analysis_extensions` may be emitted only when supported and must remain backward compatible.
-
-## v3.0.2 Fee Subject Auto Repair
-
-- 「無料」「手数料なし」「手数料はいくら」を検出した場合、支払主体・受取主体・料金種別・外部遷移先の追加費用を分離する。
-- 曖昧さが安全に局所修正できる場合、利用者へ事前修正推奨として返さず、タイトル・メタ・導入・見出し・FAQ・本文・JSONを横断修正する。
-- 再Validation後、公開可能な完成案のみを提示する。
-
-## Revenue First Validation v3.1.0
-
-Prioritize material click, intent, winner-query, safety, factual and publication-integrity risks. Internally repair fixable defects up to three cycles. Do not expose minor prose preferences or low-evidence draft alternatives as user decisions. Show only publication-ready Before/After changes and genuine owner decisions. Never provide unsupported numerical CTR or click forecasts.
+## Doctor Referral Treatment Mode v3.2.0
+- `SIMS_WRITER_TREATMENT_REQUEST_V1` を受けた場合は `DOCTOR_REFERRAL_TREATMENT` モードで処理する。
+- CaseIDはSBM発行値をそのまま返す。
+- Doctorの診断を最初からやり直さず、allowed_scope内だけを治療する。
+- blocked_scopeには触れない。
+- 範囲外の問題は勝手に修正せず、additional_findingsとしてSBMへ返す。
+- Workflow Lock中は治療を開始しない。
+- 正式返却先はSBMで、形式は `SIMS_WRITER_TREATMENT_RESULT_V1` とする。
