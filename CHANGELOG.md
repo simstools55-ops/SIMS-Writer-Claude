@@ -1,3 +1,87 @@
+## [3.3.1] - 2026-08-05
+
+- Added SIMS Editorial Platform 1.x Writer Treatment Contract support.
+- Synchronized the Writer-scoped Shared 3.3.1 snapshot.
+- Added CaseID, Treatment Request ID, scope, referral-compliance, and follow-up-referral rules.
+- Preserved legacy SIMS_FEEDBACK_V2 2.1/3.0/4.2 output compatibility.
+- Added Claude package identity, manifest, installation file list, and removal list.
+
+# v2.2.0
+
+- Added Operational Learning Registry runtime.
+- Added learning area to scoped Shared snapshot.
+
+# 2.1.0 - Quality Pattern Library Integration
+
+- Integrated Shared Quality Pattern Library v1.0.
+- Added operational-learning classification and no-loop handling.
+- Repeated defects now route to Mapping or Validation fixes instead of ad hoc prompt growth.
+
+## 2.0.0 - 2026-07-26
+
+- Added final Natural Japanese and similarity-candidate reporting gates.
+- Stable release aligned with Contract 4.2.
+
+## 2.0.0-rc.3
+
+- 公開可否の冒頭一文を必須化。
+- 公開OK理由を平易な一文以内へ短文化。
+- 内部リンク全件不採用時の表示を一文へ固定。
+- UX Filterを最終出力ゲートへ追加。
+
+# 2.0.0-rc.1
+
+- Editorial Strategy Engine
+- Four-layer Shared architecture
+- Contract 4.0 minimal delivery
+
+# 2.0.0-rc.1
+
+- Added Knowledge Confidence and Freshness gates.
+
+## 2.0.0-rc.1
+
+# v2.0.0-rc.1 — Progressive Editing Engine
+
+- Added component-scoped SERP and Evidence decisions.
+- Partial SERP inspection now permits safe title, meta and introduction work while uncertain content expansion is held or sent to user decision.
+- Preserved Evidence contamination QA and silent internal rejection.
+- Simplified internal-link user output.
+
+## 2.0.0-rc.1
+
+# v2.0.0-rc.1 — Integrated Evidence Layer
+
+- Search Console・verified SERP・一次/二次情報を統合するEvidence Layerを追加。
+- HIGH/MEDIUM/LOW/NONEの内部Evidence判定をEditorial Decisionへ接続。
+- LOWはUSER_DECISION、NONEはINTERNAL_REJECTへ固定。
+- 未確認事実がPUBLIC_OKの別コンポーネントへ混入する矛盾をEVIDENCE-CONTAMINATION-001で遮断。
+- GapをSUPPORTED_GAP / DECISION_GAP / UNSUPPORTED_GAP / NO_GAP / SEPARATE_INTENTへ分類。
+- 利用者向けには内部スコアを出さず、必要な確認資料だけを提示。
+- 冒頭に一行の平易な改善戦略を表示可能にした。
+
+## 2.0.0-dev.3
+
+- SERP未確認を警告ではなく編集停止条件へ変更。
+- 順位3位以下では、見出し・FAQ・本文・構成・タイトル訴求変更にverified SERPを必須化。
+- Search Consoleクエリだけを根拠とした内容追加を禁止。
+- SERP未確認時の許可修正を機械的・独立検証済み修正へ限定。
+- SERP未確認とSERP依存編集の同時出力をPublication QAで拒否。
+- 内部リンク不採用一覧などの利用者表示を簡略化。
+
+# Changelog
+
+## 2.0.0-dev.2
+- Added mandatory SERP-first intent and gap analysis for main-query positions below the top three.
+- Added non-fabrication and unavailable-SERP safeguards.
+
+
+## 2.0.0-dev.1
+
+- Introduced user-centered SEO editorial output architecture.
+- Added PUBLIC_OK / USER_DECISION / INTERNAL_REJECT separation.
+- Moved QA and validation detail to internal audit records.
+
 # v1.4.0
 - Validationメッセージを簡潔化し監査形式を統一
 - review_traceをchecked配列中心へ構造化
@@ -34,7 +118,6 @@
 - Shared Snapshot v1.3.0
 - Contract 2.1運用指示を追加
 
-# Changelog
 
 ## 1.1.1 - 2026-07-22
 - Shared Editorial Knowledge v1.1.1へ同期。
@@ -61,3 +144,13 @@
 
 ## 1.3.5
 - Added QA-reviewed final output integration rules.
+
+## 2.0.0-rc.3
+- Stabilized final output integration and removed active legacy contract conflicts.
+
+## 2.3.0
+
+- Synchronized Shared Publication Integrity Standard v2.3.
+- Added dynamic information, marketing claim, CTA and FAQ validation.
+- Added cross-component claim sweep and final JSON synchronization.
+- Added local Correction Request Mode.

@@ -1,13 +1,18 @@
-# Final Output Integration Instructions v1.3.6
+# RC2 Final Output Integration Instructions
 
-This file is a mandatory final gate and overrides older output examples.
+利用者向けMarkdownを組み立てた後、内部監査情報を除去し、Contract 4.0 JSONだけを付ける。
 
-1. Run Self QA before rendering any user-visible publication candidate.
-2. Render only the final reviewed draft.
-3. Require a canonical `publication_qa` object with initial and final verdicts plus `review_trace`.
-4. Do not treat a standalone `qa_verdict` or prose `PASS` declaration as proof of QA execution.
-5. For `PASS_WITH_MINOR_FIX`, expose only the corrected After text and record the fix.
-6. For `PASS_WITH_REQUIRED_FIX` or `FAIL`, set `publishable: false`; do not call the draft publishable.
-7. Canonicalize Contract 2.1 before output: no empty strings, no unchanged entries in `changes[]`, no duplicate boolean/status fields, and no legacy `version`, `change_flags`, or `diagnosis_code`.
-8. Every changed item has `component`, `implementation_status`, `before`, `after`, and `reason`. Use `meta_description`, never `description` or `seo_description`.
-9. Validate Winner Query preservation, evidence strength, numeric consistency, HTML entities, internal-link state, and JSON completeness immediately before final rendering.
+禁止：旧Contract 2.1/3.0 JSON、Validation、publication_qa、SWLS、内部リンク不採用一覧、Evidenceコード、診断コード。
+
+EvidenceがUSER_DECISIONなら、その事実を含むすべての修正対象（タイトル・メタ・導入・見出し・FAQ・本文）もUSER_DECISIONへ送る。文章ごとに判定を分裂させてはならない。
+
+standalone `qa_verdict`は外部出力しない。
+
+
+## Release final mandatory quality gates
+
+Read and apply `runtime/RELEASE_FINAL_QUALITY_GATE.md`. Safety, evidence, expectation alignment and semantic title validation override SEO opportunity.
+
+
+## v2.1.0 Quality Pattern Library
+Before adding or improvising a new quality rule, read `shared/quality/QUALITY_PATTERN_LIBRARY.md` and `shared/quality/OPERATIONAL_LEARNING_PROMOTION_POLICY.md`. Repeated defects must be treated as Mapping or Validation defects, not solved by article-specific prompt growth.

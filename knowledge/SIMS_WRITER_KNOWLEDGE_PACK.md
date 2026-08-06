@@ -1,8 +1,6 @@
 # SIMS Writer Knowledge Pack v0.2.0
 
-Version: 1.4.0
-
-
+Version: 3.2.0
 # SIMS Writer Quality Specification v0.2.0
 
 Status: Quality Freeze  
@@ -300,3 +298,18 @@ SIMS_FEEDBACK_V2はContract 2.1のCanonical構造だけを出力する。Query C
 ## Contract 2.1 Hotfix（必須）
 
 最終JSONは`contract_version: "2.1"`を使用し、`version`、`diagnosis_code`、`change_flags`を出力しない。変更は`changes[]`と各要素の`implementation_status`で表す。Query Coverageの信頼度は`coverage_confidence`（high/medium/low）とする。空文字を出力せず、任意値は省略またはSchemaで許可されたnullとする。
+
+
+## Progressive Editing Engine
+Apply SERP verification and evidence per component. Continue safe edits while holding unsupported components.
+
+
+## v2.1.0 Quality Pattern Library
+Use the Shared pattern registry as the canonical operational-learning source. Do not create duplicate ad hoc rules.
+
+
+## Publication Integrity v2.3
+変動情報、マーケティング主張、アフィリエイトCTA、FAQ、横断整合、公開文とContract 4.2 JSONの同期を最終公開条件とする。CORRECTION_REQUESTでは指定箇所だけを局所修正し、完全JSONを再生成する。
+
+## v3.0.2 Fee Subject Auto Repair
+料金・手数料の主体を分解し、関連箇所を横断修正して再Validationする。
