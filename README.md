@@ -2,10 +2,10 @@
 
 SIMS Writer 3.3.xをClaude Projectで実行するためのパッケージです。
 
-- Claude Package Version: `3.3.2-RC2`
+- Claude Package Version: `3.3.2-RC3`
 - Compatible Product: `SIMS Writer 3.3.x`
 - Platform Compatibility: `SIMS Editorial Platform 1.x`
-- Shared Version: `3.3.2-RC2`
+- Shared Version: `3.3.2-RC3`
 
 Claude Projectでは本パッケージの`CLAUDE_PROJECT_INSTRUCTIONS.md`をProject Instructionsへ設定し、`claude-project/FILE_LIST.md`に従って必要ファイルだけを投入してください。旧ファイルと混在させないでください。
 

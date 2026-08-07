@@ -154,3 +154,8 @@
 - Added dynamic information, marketing claim, CTA and FAQ validation.
 - Added cross-component claim sweep and final JSON synchronization.
 - Added local Correction Request Mode.
+
+## 3.3.2-RC3 — 2026-08-08
+- Locked Doctor Referral output to `SIMS_WRITER_TREATMENT_RESULT_V1` 1.0.
+- Added `return_contract` precedence and final Contract Gate.
+- Added A000043 regression example and compact SBM-facing treatment result schema.

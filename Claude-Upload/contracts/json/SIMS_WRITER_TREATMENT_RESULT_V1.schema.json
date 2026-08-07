@@ -1,20 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "SIMS Writer Treatment Result V1",
+  "title": "SIMS Writer Treatment Result V1 - SBM Compact Transport",
   "type": "object",
   "required": [
     "format",
     "contract_version",
     "case_id",
     "article_id",
-    "site_id",
-    "completed_at",
     "treatment_status",
     "referral_compliance",
-    "performed_changes",
-    "publication_result",
-    "recommended_review_days",
-    "return_to"
+    "publication_result"
   ],
   "properties": {
     "format": {
@@ -24,63 +19,34 @@
       "const": "1.0"
     },
     "case_id": {
-      "type": "string",
-      "minLength": 1
+      "type": "string"
     },
     "article_id": {
-      "type": "string",
-      "minLength": 1
+      "type": "string"
     },
     "site_id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "completed_at": {
       "type": "string"
     },
     "treatment_status": {
-      "enum": [
-        "COMPLETED",
-        "PARTIAL",
-        "USER_DECISION_REQUIRED",
-        "BLOCKED",
-        "FAILED"
-      ]
+      "type": "string"
     },
     "referral_compliance": {
-      "type": "object",
-      "required": [
-        "compliant",
-        "performed_scope",
-        "blocked_scope_touched",
-        "scope_violations"
-      ]
+      "type": "object"
     },
     "performed_changes": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    },
-    "not_performed_changes": {
-      "type": "array"
-    },
-    "additional_findings": {
       "type": "array"
     },
     "publication_result": {
-      "type": "object",
-      "required": [
-        "status"
-      ]
+      "type": "object"
     },
     "recommended_review_days": {
-      "type": "integer",
-      "minimum": 0
+      "type": [
+        "integer",
+        "null"
+      ]
     },
     "return_to": {
       "const": "SIMS_BLOG_MANAGER"
     }
-  },
-  "additionalProperties": true
+  }
 }

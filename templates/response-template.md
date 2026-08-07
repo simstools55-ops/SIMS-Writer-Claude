@@ -41,4 +41,8 @@ SBM登録など、利用者が次に行う操作を示す。
 
 表示禁止：`doctor_referral`、`allowed_scope`、`blocked_scope`、`actions_permitted`、`actions_prohibited`、Contract内部、Routing、Confidence数値、Evidenceコード、Validation、QA verdict。
 
-最後にContract 4.2 JSONを1ブロックだけ出力し、その後に文章を付けない。
+最後にMachine Result JSONを1ブロックだけ出力し、その後に文章を付けない。
+
+- 通常改善：`SIMS_FEEDBACK_V2` Contract 4.2
+- `SIMS_WRITER_TREATMENT_REQUEST_V1` / `DOCTOR_REFERRAL_TREATMENT`：`SIMS_WRITER_TREATMENT_RESULT_V1` Contract 1.0
+- 入力の`return_contract`がある場合は最優先。Doctor Referral時に`SIMS_FEEDBACK_V2`を返してはならない。

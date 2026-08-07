@@ -8,6 +8,7 @@ Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json
 Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md
 Claude-Upload/CLAUDE_UPDATE_GUIDE.md
 Claude-Upload/DEPLOYMENT_TEST.md
+Claude-Upload/DOCTOR_INTEGRATION_V1.md
 Claude-Upload/PRODUCT_IDENTITY.json
 Claude-Upload/SHARED_VERSION
 Claude-Upload/UPLOAD_README.md
@@ -61,6 +62,7 @@ Claude-Upload/contracts/source/source-content/examples/invalid.json
 Claude-Upload/contracts/source/source-content/examples/valid.json
 Claude-Upload/contracts/source/source-content/source-content-contract.md
 Claude-Upload/contracts/source/source-content/source-content.schema.json
+Claude-Upload/examples/A000043-doctor-referral-contract-regression.json
 Claude-Upload/examples/EXAMPLE_REQUEST.json
 Claude-Upload/knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md
 Claude-Upload/knowledge/factuality/KN-FAC-005-contradiction-resolution.md
@@ -83,6 +85,7 @@ Claude-Upload/runtime/REVENUE_FIRST_VALIDATION_v3.1.0.md
 Claude-Upload/runtime/SEO_CRITICAL_AUTO_REPAIR_v3.0.1.md
 Claude-Upload/runtime/TEMPORAL_LIFECYCLE_RUNTIME_V3.md
 Claude-Upload/runtime/correction-request-mode-v2.3.md
+Claude-Upload/runtime/doctor-referral-output-contract-gate-v3.3.2-rc3.md
 Claude-Upload/runtime/editorial-planner-v2.0.md
 Claude-Upload/runtime/evidence-contamination-qa-v2.0.md
 Claude-Upload/runtime/evidence-layer-v2.0.md
@@ -100,6 +103,12 @@ Claude-Upload/runtime/serp-analysis-engine-v2.0.md
 Claude-Upload/runtime/serp-analysis-input-contract-v2.0.md
 Claude-Upload/runtime/serp-evidence-gate-v2.0.md
 Claude-Upload/schemas/SIMS_FEEDBACK_V2.schema.json
+Claude-Upload/schemas/SIMS_WRITER_TREATMENT_RESULT_V1.schema.json
+Claude-Upload/shared-presentation/HUMAN_EXPERIENCE_ARCHITECTURE_V1.md
+Claude-Upload/shared-presentation/HUMAN_OUTPUT_POLICY_V1.md
+Claude-Upload/shared-presentation/HUMAN_USABILITY_GATE_V1.md
+Claude-Upload/shared-presentation/MACHINE_OUTPUT_POLICY_V1.md
+Claude-Upload/shared-presentation/PRESENTATION_STANDARD_V1.md
 Claude-Upload/shared/.gitignore
 Claude-Upload/shared/CHANGELOG.md
 Claude-Upload/shared/COMPATIBILITY_MATRIX.md
@@ -337,11 +346,6 @@ Claude-Upload/shared/validation/seo-critical-auto-repair-validation.md
 Claude-Upload/shared/validation/shared-knowledge-validation.md
 Claude-Upload/shared/validation/temporal-lifecycle-validation.md
 Claude-Upload/shared/validation/validation-message-integrity.md
-Claude-Upload/shared-presentation/HUMAN_EXPERIENCE_ARCHITECTURE_V1.md
-Claude-Upload/shared-presentation/HUMAN_OUTPUT_POLICY_V1.md
-Claude-Upload/shared-presentation/HUMAN_USABILITY_GATE_V1.md
-Claude-Upload/shared-presentation/MACHINE_OUTPUT_POLICY_V1.md
-Claude-Upload/shared-presentation/PRESENTATION_STANDARD_V1.md
 Claude-Upload/templates/IMPROVEMENT_REQUEST_TEMPLATE.json
 Claude-Upload/templates/response-template.md
 DEPLOYMENT_TEST.md
@@ -386,6 +390,7 @@ RELEASE_NOTES_v3.1.0.md
 RELEASE_NOTES_v3.1.1.md
 RELEASE_NOTES_v3.3.2-RC1.md
 RELEASE_NOTES_v3.3.2-RC2.md
+RELEASE_NOTES_v3.3.2-RC3.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 SETUP_GUIDE_v3.2.0.md
@@ -445,13 +450,13 @@ contracts/source/source-content/examples/invalid.json
 contracts/source/source-content/examples/valid.json
 contracts/source/source-content/source-content-contract.md
 contracts/source/source-content/source-content.schema.json
+examples/A000043-doctor-referral-contract-regression.json
 examples/EXAMPLE_REQUEST.json
 knowledge/SIMS_WRITER_KNOWLEDGE_PACK.md
 knowledge/factuality/KN-FAC-005-contradiction-resolution.md
 knowledge/operations/KN-OPS-003-preservation-signal-audit.md
 knowledge/seo/KN-SEO-007-temporal-intent-and-lifecycle.md
 knowledge/sets/KS-TMP-001-temporal-lifecycle.yaml
-manifest.json
 product/REVENUE_FIRST_VALIDATION_PRINCIPLE.md
 product/platform/SIMS_PLATFORM_GUIDE.md
 product/quality/AUTO_FIX_RULES.md
@@ -468,6 +473,7 @@ runtime/REVENUE_FIRST_VALIDATION_v3.1.0.md
 runtime/SEO_CRITICAL_AUTO_REPAIR_v3.0.1.md
 runtime/TEMPORAL_LIFECYCLE_RUNTIME_V3.md
 runtime/correction-request-mode-v2.3.md
+runtime/doctor-referral-output-contract-gate-v3.3.2-rc3.md
 runtime/editorial-planner-v2.0.md
 runtime/evidence-contamination-qa-v2.0.md
 runtime/evidence-layer-v2.0.md
@@ -485,6 +491,7 @@ runtime/serp-analysis-engine-v2.0.md
 runtime/serp-analysis-input-contract-v2.0.md
 runtime/serp-evidence-gate-v2.0.md
 schemas/SIMS_FEEDBACK_V2.schema.json
+schemas/SIMS_WRITER_TREATMENT_RESULT_V1.schema.json
 shared/.gitignore
 shared/CHANGELOG.md
 shared/COMPATIBILITY_MATRIX.md
@@ -725,6 +732,7 @@ shared/validation/temporal-lifecycle-validation.md
 shared/validation/validation-message-integrity.md
 templates/IMPROVEMENT_REQUEST_TEMPLATE.json
 templates/response-template.md
+tests/platform/test_doctor_referral_output_contract_rc3.py
 tests/platform/test_package_identity.py
 tests/test_human_presentation_rc1.py
 tests/test_rc2_internal_link_referral_quality.py
