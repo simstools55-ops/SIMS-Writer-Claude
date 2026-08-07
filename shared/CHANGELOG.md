@@ -1,4 +1,27 @@
+# 3.5.0
+
+- Added Platform-wide Human Experience Architecture and Presentation Framework.
+- Added Human/Machine Output policies and Human Usability Gate.
+- Declared Creator and Merge in the common Presentation scope without forcing implementation changes in this release.
+- Standardized Before/After usability requirements for Writer including Doctor Referral Treatment.
+
 # Changelog
+
+## 3.4.0 - 2026-08-07
+- Added Algorithm Evidence platform boundary for Doctor v1.2.
+- Added Integrated Evidence Policy without duplicating existing confidence rules.
+- Added WAIT / LIGHT_FIX / NORMAL_REWRITE / FULL_REWRITE Treatment Strategy semantics.
+- Preserved SBM-mediated specialist routing and kept Doctor-specific algorithm scoring outside Shared.
+
+
+## 3.3.0 - 2026-08-05
+
+- Added SIMS Editorial Platform v1.0 architecture, workflow, repository governance, Claude operations, and release baseline.
+- Added common envelope and canonical v1 schemas for Doctor, Writer, Creator, Merge, publication, monitoring, events, and errors.
+- Added common enums, compatibility matrix, Platform manifest, and product-scoped snapshot definitions.
+- Added legacy adapters for SIMS_FEEDBACK_V2 and Doctor Case Result V2.
+- Added Merge knowledge, safety, preservation, publication-order, and rollback rules.
+- Preserved v3.2.0 SBM-centered routing compatibility.
 
 ## 3.2.0 - 2026-08-05
 

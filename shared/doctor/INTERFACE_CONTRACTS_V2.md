@@ -87,6 +87,22 @@ A Doctor Referral may define:
 
 Writer must not modify a blocked scope. A scope conflict or violation is returned to SBM as `USER_DECISION_REQUIRED` or `BLOCKED` and must not be silently normalized.
 
+
+## 6A. Algorithm and Treatment Strategy extensions
+
+Doctor case results may include additive, backward-compatible fields for:
+
+- Algorithm Impact Assessment
+- Evidence Confidence metadata
+- Treatment Strategy: `WAIT`, `LIGHT_FIX`, `NORMAL_REWRITE`, `FULL_REWRITE`
+- WAIT observation/re-examination plan
+- User-facing ToDo
+- Evidence-based guidance / reassurance
+
+Algorithm information is Evidence, not a standalone diagnosis. Doctor must not route treatment directly from an update-date match. Site-wide impact evidence may be supplied by SBM as an aggregated Evidence Package component.
+
+These extensions do not change the canonical routing path: `Doctor -> SBM -> specialist`.
+
 ## 7. Workflow Lock
 
 - Doctor may diagnose while an SBM monitoring lock exists.
