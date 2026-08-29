@@ -3,5 +3,5 @@
 - Synced Writer Self-Resolution policy and runtime behavior.
 - USER_DECISION restricted to genuine owner-only facts/rights/irreversible intent.
 - Added explicit YES/NO or named-option protocol when human input is truly required.
-- Added A000008 self-resolution regression package.
+- Added A900008 self-resolution regression package.
 - Shared dependency updated to 3.5.1.

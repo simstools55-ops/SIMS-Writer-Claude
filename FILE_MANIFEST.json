@@ -1,6 +1,6 @@
 {
-  "version": "3.3.4",
-  "generated_at": "2026-08-29T18:12:00+09:00",
+  "version": "3.4.0",
+  "generated_at": "2026-08-29T20:10:00+09:00",
   "file_count": 818,
   "files": [
     {
@@ -10,22 +10,22 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "a77e82e4c8793c84f671443e0da1ecc253dbc278445f79861365a1c8bf7295e9",
+      "sha256": "4b554f3965e18c04fb7e2e87e3b91c2ced0055d040b2fd7d394202df6d1b86c0",
       "size": 6138
     },
     {
       "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "1cabf3c88d0dbd7b1dd19796d62c90c6e2435fe87c1e996007475d49e7fffa51",
+      "sha256": "4a8da5dcd2c6a77229469a11e67a0e2a9caa03c562cce5bcb63c6a2b08f5a760",
       "size": 785
     },
     {
       "path": "CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "acdb6d9deae5d4bf24321609e1cd7a430df40f1615ee5ef4191b81ee6c93ae0e",
+      "sha256": "79bb650633a884c70c045d94c4e29201c6a473f0ac99b4e250ca826fd458a184",
       "size": 520
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "c4bab8ad63175d898cdcc4a3d4edb0b5f7203b47da6a3d0d630333daf754f93c",
+      "sha256": "837415487ea8dea8c5a36706c194c0495b6e53086ec8196181e091b84b7572e0",
       "size": 16189
     },
     {
@@ -35,17 +35,17 @@
     },
     {
       "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "1cabf3c88d0dbd7b1dd19796d62c90c6e2435fe87c1e996007475d49e7fffa51",
+      "sha256": "4a8da5dcd2c6a77229469a11e67a0e2a9caa03c562cce5bcb63c6a2b08f5a760",
       "size": 785
     },
     {
       "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "acdb6d9deae5d4bf24321609e1cd7a430df40f1615ee5ef4191b81ee6c93ae0e",
+      "sha256": "79bb650633a884c70c045d94c4e29201c6a473f0ac99b4e250ca826fd458a184",
       "size": 520
     },
     {
       "path": "Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "c4bab8ad63175d898cdcc4a3d4edb0b5f7203b47da6a3d0d630333daf754f93c",
+      "sha256": "837415487ea8dea8c5a36706c194c0495b6e53086ec8196181e091b84b7572e0",
       "size": 16189
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "path": "Claude-Upload/PRODUCT_IDENTITY.json",
-      "sha256": "76a437860c18ea34e240f63da509461f940eb5db9782b18a1e83efb087b73c27",
+      "sha256": "443345184155004b47888ab937a8fb72d3492aa93e5802fdf5b5e49ee7b43cfe",
       "size": 307
     },
     {
@@ -329,18 +329,18 @@
       "size": 2916
     },
     {
-      "path": "Claude-Upload/examples/A000008-user-decision-self-resolution.md",
-      "sha256": "ffdea9426b7e20543de55d07a85671ab805e769fdaff00d1b189b10a79b3ddec",
+      "path": "Claude-Upload/examples/A900008-user-decision-self-resolution.md",
+      "sha256": "d82af6c5841f47a64894301fd35982beaaf9d6aa619ed4cd10341bf74f88119d",
       "size": 802
     },
     {
-      "path": "Claude-Upload/examples/A000043-doctor-referral-contract-regression.json",
-      "sha256": "8c11f4b582d32f86dea59050bf366850860ca42118b8c56f7ad8f6c253d178f0",
+      "path": "Claude-Upload/examples/A900043-doctor-referral-contract-regression.json",
+      "sha256": "0ff2fee71b2489a6796684d0defb59916fa88ffbafc843e4715b17c6bc9e2e0f",
       "size": 521
     },
     {
       "path": "Claude-Upload/examples/EXAMPLE_REQUEST.json",
-      "sha256": "7e3a01618204a9f53558992b36dead6b2a89aa321efe7406926abcafeec62baf",
+      "sha256": "92a55909b8242d024b3ed3317ecfeaeb5d096ec241e9ca0ddb1672226f5c9e41",
       "size": 637
     },
     {
@@ -725,8 +725,8 @@
     },
     {
       "path": "Claude-Upload/shared/RELEASE_NOTES_v3.1.0.md",
-      "sha256": "0a0a70b63d075891f44fc246c1ad260f42e9cdc85e42d1dda9fa186d7ce4a1e8",
-      "size": 420
+      "sha256": "0649feb73249eeede078b56fbc7db7dd401ce3cd664b9b9214464eeea4c1fedc",
+      "size": 497
     },
     {
       "path": "Claude-Upload/shared/RELEASE_NOTES_v3.1.1.md",
@@ -1315,8 +1315,8 @@
     },
     {
       "path": "Claude-Upload/shared/learning/LEARNING_REGISTRY.json",
-      "sha256": "02004b323dedc10322cb1f716ddd5c659fb536460406dabd757c0e0715ed4e32",
-      "size": 5585
+      "sha256": "15b3b3765e805c4f4af36fbf69901f62a3a71f83ca070f063889b6e50847b7b0",
+      "size": 1080
     },
     {
       "path": "Claude-Upload/shared/learning/LEARNING_SPRINT_PLAYBOOK.md",
@@ -1327,11 +1327,6 @@
       "path": "Claude-Upload/shared/learning/README.md",
       "sha256": "715f003105f919fd6d026194641e0fbb71324e1f6d47f170503ab6ef75e3378c",
       "size": 670
-    },
-    {
-      "path": "Claude-Upload/shared/manifest.json",
-      "sha256": "bc9c63567b5e3f1f4b71e95ff0cfabd1169c55bd3e6d07cffe2cff9380908d77",
-      "size": 46256
     },
     {
       "path": "Claude-Upload/shared/mappings/article-creator/application-mapping.md",
@@ -1375,8 +1370,8 @@
     },
     {
       "path": "Claude-Upload/shared/patterns/intent-drift-cross-link-pattern.md",
-      "sha256": "ef037c0ace6598a568f4f34362870863599d2d535cb074322d1b5a9a2941b6d7",
-      "size": 1579
+      "sha256": "de7767d782ea33f0139fac79aca5ccf415206b23fe477c98e8704d79ecc2162a",
+      "size": 1622
     },
     {
       "path": "Claude-Upload/shared/patterns/internal-link-role-separation-pattern.md",
@@ -1969,9 +1964,14 @@
       "size": 1096
     },
     {
+      "path": "PERSONAL_KNOWLEDGE_BOUNDARY.md",
+      "sha256": "990709885aa55c9df343dd4e6d8f33ede31e193e8cb44451e69c16ceb599f29b",
+      "size": 445
+    },
+    {
       "path": "PRODUCT_IDENTITY.json",
-      "sha256": "76a437860c18ea34e240f63da509461f940eb5db9782b18a1e83efb087b73c27",
-      "size": 307
+      "sha256": "4bccb7c4257d6d26f886920ecf61e39d793ef85325029ee7cac290fc302e8b4a",
+      "size": 447
     },
     {
       "path": "PROJECT_INSTRUCTIONS_TO_PASTE.md",
@@ -1995,8 +1995,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "0719a64f5aab70143adfe8496af57893612e7bea96468060128857aa341c9b70",
+      "sha256": "d7d4d8900f0816987a0217b49b5d2f3af24474a88de4e5ddf1736cb802a77ff9",
       "size": 790
+    },
+    {
+      "path": "RELEASE_AUDIT_v3.4.0.txt",
+      "sha256": "a628c0a44bc7918a518f94c5159eb3a29997da61848b9c1f624432e54407d16d",
+      "size": 467
     },
     {
       "path": "RELEASE_NOTES_v1.1.2_SPRINT1.md",
@@ -2160,12 +2165,12 @@
     },
     {
       "path": "RELEASE_NOTES_v3.3.2-RC3.md",
-      "sha256": "c26f767f12ccb25d1c8b9942067e73aa87073d0a56761729b2a8564ccd4c84cd",
+      "sha256": "b6ca934295918ddd7e4a93337029ac0eba0022fd6569431f7878cfb7f407cb34",
       "size": 823
     },
     {
       "path": "RELEASE_NOTES_v3.3.2-RC4.md",
-      "sha256": "463594c13f41d9ac21305e422f39136d361f5d52a953702184473824e181f102",
+      "sha256": "203ddfb9b2c978fa55220db6c9ace2e15bd179d3b4385049808e8ab965939dbf",
       "size": 352
     },
     {
@@ -2177,6 +2182,11 @@
       "path": "RELEASE_NOTES_v3.3.4.md",
       "sha256": "f717f959831a74847fe91575884ccaf3056ce47384299ac1449f9654b75eedd5",
       "size": 407
+    },
+    {
+      "path": "RELEASE_NOTES_v3.4.0.md",
+      "sha256": "c55f5f3183551af1bd4b140a6d1e20248f64cc89134951bcd4a0242f74f28e00",
+      "size": 622
     },
     {
       "path": "SELF_QA_RUNTIME_INSTRUCTIONS.md",
@@ -2215,7 +2225,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "2b2677e32d2d343ba86d20a6e43d42ac10a5da8b9be8e13ea4bd6a6aa83d3882",
+      "sha256": "f5e3e93e58ffc2a20a3ca53e8025bc50d7c1dccbef4b34e2388aa9bbf8678466",
       "size": 6
     },
     {
@@ -2474,18 +2484,18 @@
       "size": 2916
     },
     {
-      "path": "examples/A000043-doctor-referral-contract-regression.json",
-      "sha256": "8c11f4b582d32f86dea59050bf366850860ca42118b8c56f7ad8f6c253d178f0",
+      "path": "examples/A900043-doctor-referral-contract-regression.json",
+      "sha256": "0ff2fee71b2489a6796684d0defb59916fa88ffbafc843e4715b17c6bc9e2e0f",
       "size": 521
     },
     {
       "path": "examples/EXAMPLE_REQUEST.json",
-      "sha256": "7e3a01618204a9f53558992b36dead6b2a89aa321efe7406926abcafeec62baf",
+      "sha256": "92a55909b8242d024b3ed3317ecfeaeb5d096ec241e9ca0ddb1672226f5c9e41",
       "size": 637
     },
     {
-      "path": "examples/regression/A000008-user-decision-self-resolution.md",
-      "sha256": "ffdea9426b7e20543de55d07a85671ab805e769fdaff00d1b189b10a79b3ddec",
+      "path": "examples/regression/A900008-user-decision-self-resolution.md",
+      "sha256": "d82af6c5841f47a64894301fd35982beaaf9d6aa619ed4cd10341bf74f88119d",
       "size": 802
     },
     {
@@ -2512,11 +2522,6 @@
       "path": "knowledge/sets/KS-TMP-001-temporal-lifecycle.yaml",
       "sha256": "72c4daaf88d00f0297af5fd5ceb1cd0ed6c1de0fbb29d521cdd0726d409477db",
       "size": 490
-    },
-    {
-      "path": "manifest.json",
-      "sha256": "e11437dfb4ba57856df153b0acef9a8c100c17813b8dcfd8d5fa3209575adfed",
-      "size": 150872
     },
     {
       "path": "product/REVENUE_FIRST_VALIDATION_PRINCIPLE.md",
@@ -2875,8 +2880,8 @@
     },
     {
       "path": "shared/RELEASE_NOTES_v3.1.0.md",
-      "sha256": "0a0a70b63d075891f44fc246c1ad260f42e9cdc85e42d1dda9fa186d7ce4a1e8",
-      "size": 420
+      "sha256": "0649feb73249eeede078b56fbc7db7dd401ce3cd664b9b9214464eeea4c1fedc",
+      "size": 497
     },
     {
       "path": "shared/RELEASE_NOTES_v3.1.1.md",
@@ -3465,8 +3470,8 @@
     },
     {
       "path": "shared/learning/LEARNING_REGISTRY.json",
-      "sha256": "02004b323dedc10322cb1f716ddd5c659fb536460406dabd757c0e0715ed4e32",
-      "size": 5585
+      "sha256": "15b3b3765e805c4f4af36fbf69901f62a3a71f83ca070f063889b6e50847b7b0",
+      "size": 1080
     },
     {
       "path": "shared/learning/LEARNING_SPRINT_PLAYBOOK.md",
@@ -3477,11 +3482,6 @@
       "path": "shared/learning/README.md",
       "sha256": "715f003105f919fd6d026194641e0fbb71324e1f6d47f170503ab6ef75e3378c",
       "size": 670
-    },
-    {
-      "path": "shared/manifest.json",
-      "sha256": "bc9c63567b5e3f1f4b71e95ff0cfabd1169c55bd3e6d07cffe2cff9380908d77",
-      "size": 46256
     },
     {
       "path": "shared/mappings/article-creator/application-mapping.md",
@@ -3525,8 +3525,8 @@
     },
     {
       "path": "shared/patterns/intent-drift-cross-link-pattern.md",
-      "sha256": "ef037c0ace6598a568f4f34362870863599d2d535cb074322d1b5a9a2941b6d7",
-      "size": 1579
+      "sha256": "de7767d782ea33f0139fac79aca5ccf415206b23fe477c98e8704d79ecc2162a",
+      "size": 1622
     },
     {
       "path": "shared/patterns/internal-link-role-separation-pattern.md",
@@ -4085,12 +4085,12 @@
     },
     {
       "path": "tests/test_human_presentation_rc1.py",
-      "sha256": "471cdd01003be7553d8d3f7a0dc3c6e4bac9ddb210feb061166aaa5733ea5a0c",
+      "sha256": "bbaa819b67a4f8eaf9052a036a48f8ea6da4450b4bfd18ca5e2b3fc83b0ed4f9",
       "size": 881
     },
     {
       "path": "tests/test_rc2_internal_link_referral_quality.py",
-      "sha256": "2af5f269f6d2bebce0b41b355a2f2ca6c109957c60f2f2b4d33c472aa6a6fd71",
+      "sha256": "7f18eac83d1e2b49cd760cd3e320a3c72210c3504e2afe515959ab0cef9cf8d0",
       "size": 410
     }
   ]
