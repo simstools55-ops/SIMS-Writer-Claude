@@ -1,11 +1,11 @@
 {
-  "version": "3.3.3",
-  "generated_at": "2026-08-29T16:07:00+09:00",
-  "file_count": 817,
+  "version": "3.3.4",
+  "generated_at": "2026-08-29T18:12:00+09:00",
+  "file_count": 818,
   "files": [
     {
       "path": "APPLY-v3.3.3.md",
-      "sha256": "6f63cf25a3e172dd2cbb2116da94245421c38b31bb7df3a3b028babfe04b4426",
+      "sha256": "7ead0e9c2d5a6418737c49eed2de6f29c301b037425456d702d4aa95953819f2",
       "size": 238
     },
     {
@@ -15,17 +15,17 @@
     },
     {
       "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "24fcf0e428d663bbaf38c159a7687e6a11e8b1585520f2bcfc6818ef418a35d7",
+      "sha256": "1cabf3c88d0dbd7b1dd19796d62c90c6e2435fe87c1e996007475d49e7fffa51",
       "size": 785
     },
     {
       "path": "CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "6f96bb9acf0dbceffb7588f2438d55ded0d3537dc78cf4f5705e3ddbc7892e97",
+      "sha256": "acdb6d9deae5d4bf24321609e1cd7a430df40f1615ee5ef4191b81ee6c93ae0e",
       "size": 520
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "5fa5a50f0960157fdab293a879a726e1e0b5c80499623b403c837bffce198265",
+      "sha256": "c4bab8ad63175d898cdcc4a3d4edb0b5f7203b47da6a3d0d630333daf754f93c",
       "size": 16189
     },
     {
@@ -35,17 +35,17 @@
     },
     {
       "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "24fcf0e428d663bbaf38c159a7687e6a11e8b1585520f2bcfc6818ef418a35d7",
+      "sha256": "1cabf3c88d0dbd7b1dd19796d62c90c6e2435fe87c1e996007475d49e7fffa51",
       "size": 785
     },
     {
       "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "6f96bb9acf0dbceffb7588f2438d55ded0d3537dc78cf4f5705e3ddbc7892e97",
+      "sha256": "acdb6d9deae5d4bf24321609e1cd7a430df40f1615ee5ef4191b81ee6c93ae0e",
       "size": 520
     },
     {
       "path": "Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "5fa5a50f0960157fdab293a879a726e1e0b5c80499623b403c837bffce198265",
+      "sha256": "c4bab8ad63175d898cdcc4a3d4edb0b5f7203b47da6a3d0d630333daf754f93c",
       "size": 16189
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "path": "Claude-Upload/PRODUCT_IDENTITY.json",
-      "sha256": "a468ca1e504cc41073de7d97892e20364ef9889fc62a9c36c08d01cc435ee794",
+      "sha256": "76a437860c18ea34e240f63da509461f940eb5db9782b18a1e83efb087b73c27",
       "size": 307
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "path": "Claude-Upload/VERSION",
-      "sha256": "efd9bb328eb69f29de9dbb870073fe8f416e3ebca0d10025dd23b3ce2855e6a6",
+      "sha256": "2b2677e32d2d343ba86d20a6e43d42ac10a5da8b9be8e13ea4bd6a6aa83d3882",
       "size": 6
     },
     {
@@ -1970,7 +1970,7 @@
     },
     {
       "path": "PRODUCT_IDENTITY.json",
-      "sha256": "a468ca1e504cc41073de7d97892e20364ef9889fc62a9c36c08d01cc435ee794",
+      "sha256": "76a437860c18ea34e240f63da509461f940eb5db9782b18a1e83efb087b73c27",
       "size": 307
     },
     {
@@ -1995,7 +1995,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "f1de37efb917248bf1e8542a9b32206501341ca898de76887a2fcef5ada85079",
+      "sha256": "0719a64f5aab70143adfe8496af57893612e7bea96468060128857aa341c9b70",
       "size": 790
     },
     {
@@ -2174,6 +2174,11 @@
       "size": 500
     },
     {
+      "path": "RELEASE_NOTES_v3.3.4.md",
+      "sha256": "f717f959831a74847fe91575884ccaf3056ce47384299ac1449f9654b75eedd5",
+      "size": 407
+    },
+    {
       "path": "SELF_QA_RUNTIME_INSTRUCTIONS.md",
       "sha256": "501d4d5d8f9ae03139838e91b7472668abd289bc02985b25bc7bbb438aa3ab16",
       "size": 1392
@@ -2210,7 +2215,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "efd9bb328eb69f29de9dbb870073fe8f416e3ebca0d10025dd23b3ce2855e6a6",
+      "sha256": "2b2677e32d2d343ba86d20a6e43d42ac10a5da8b9be8e13ea4bd6a6aa83d3882",
       "size": 6
     },
     {
@@ -2510,7 +2515,7 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "603df535d6dfc5e9084a692d0a76a8f7e8231e27de10d0b73ba7b5e835dc40c8",
+      "sha256": "e11437dfb4ba57856df153b0acef9a8c100c17813b8dcfd8d5fa3209575adfed",
       "size": 150872
     },
     {
