@@ -1,8 +1,13 @@
 {
-  "package": "SIMS-Writer-Claude",
-  "version": "3.3.2-RC4",
-  "generated_at": "2026-08-12T17:00:00+09:00",
+  "version": "3.3.3",
+  "generated_at": "2026-08-29T16:07:00+09:00",
+  "file_count": 817,
   "files": [
+    {
+      "path": "APPLY-v3.3.3.md",
+      "sha256": "6f63cf25a3e172dd2cbb2116da94245421c38b31bb7df3a3b028babfe04b4426",
+      "size": 238
+    },
     {
       "path": "CHANGELOG.md",
       "sha256": "a77e82e4c8793c84f671443e0da1ecc253dbc278445f79861365a1c8bf7295e9",
@@ -10,18 +15,18 @@
     },
     {
       "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "d60d8898b534ca39653db0df6f2bdf09a5ad7b4a65ed26ec1a1d5654801b0abb",
-      "size": 789
+      "sha256": "24fcf0e428d663bbaf38c159a7687e6a11e8b1585520f2bcfc6818ef418a35d7",
+      "size": 785
     },
     {
       "path": "CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "83220ce4612d5c790617d9ab0ba62b4a50416ec0c8132b5ffa54eef9266bc0e3",
-      "size": 524
+      "sha256": "6f96bb9acf0dbceffb7588f2438d55ded0d3537dc78cf4f5705e3ddbc7892e97",
+      "size": 520
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "ea798a825f8f5e873c3bece3656860e3a2ce919f1730ed71304cbd0ed789f6d4",
-      "size": 16197
+      "sha256": "5fa5a50f0960157fdab293a879a726e1e0b5c80499623b403c837bffce198265",
+      "size": 16189
     },
     {
       "path": "CLAUDE_UPDATE_GUIDE.md",
@@ -30,18 +35,18 @@
     },
     {
       "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "d60d8898b534ca39653db0df6f2bdf09a5ad7b4a65ed26ec1a1d5654801b0abb",
-      "size": 789
+      "sha256": "24fcf0e428d663bbaf38c159a7687e6a11e8b1585520f2bcfc6818ef418a35d7",
+      "size": 785
     },
     {
       "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "83220ce4612d5c790617d9ab0ba62b4a50416ec0c8132b5ffa54eef9266bc0e3",
-      "size": 524
+      "sha256": "6f96bb9acf0dbceffb7588f2438d55ded0d3537dc78cf4f5705e3ddbc7892e97",
+      "size": 520
     },
     {
       "path": "Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "ea798a825f8f5e873c3bece3656860e3a2ce919f1730ed71304cbd0ed789f6d4",
-      "size": 16197
+      "sha256": "5fa5a50f0960157fdab293a879a726e1e0b5c80499623b403c837bffce198265",
+      "size": 16189
     },
     {
       "path": "Claude-Upload/CLAUDE_UPDATE_GUIDE.md",
@@ -55,13 +60,13 @@
     },
     {
       "path": "Claude-Upload/DOCTOR_INTEGRATION_V1.md",
-      "sha256": "7a60d37f3a830505df5c5b07342806a7c16d1c4aa25686917e4408e7c2defc37",
-      "size": 1306
+      "sha256": "ad1fa4c84f2e62c6d39bfb8d1cbd143acda74a78f2e58984023b84561f677cd1",
+      "size": 1314
     },
     {
       "path": "Claude-Upload/PRODUCT_IDENTITY.json",
-      "sha256": "bb309f0231cb6d6c628b0fe016544e86a0d909900d9c589c3283e8e0c53ac167",
-      "size": 311
+      "sha256": "a468ca1e504cc41073de7d97892e20364ef9889fc62a9c36c08d01cc435ee794",
+      "size": 307
     },
     {
       "path": "Claude-Upload/SHARED_VERSION",
@@ -75,8 +80,8 @@
     },
     {
       "path": "Claude-Upload/VERSION",
-      "sha256": "c69344215e7771b348640b782a26646a3165e729a63c6577c20534327bc42492",
-      "size": 10
+      "sha256": "efd9bb328eb69f29de9dbb870073fe8f416e3ebca0d10025dd23b3ce2855e6a6",
+      "size": 6
     },
     {
       "path": "Claude-Upload/contracts/decision/action-plan/action-plan-contract.md",
@@ -554,11 +559,6 @@
       "size": 348
     },
     {
-      "path": "Claude-Upload/shared/FILE_MANIFEST.txt",
-      "sha256": "5c15ebc90a6e0ba56042b899acd52cce24af6a3c5c0c23c6f32835fa226abe08",
-      "size": 10431
-    },
-    {
       "path": "Claude-Upload/shared/LICENSE",
       "sha256": "ce0c69a4019923878282e03bb1ce789260e592199a0fbbab67e77fefe0e97664",
       "size": 158
@@ -759,11 +759,6 @@
       "size": 601
     },
     {
-      "path": "Claude-Upload/shared/SHA256SUMS.txt",
-      "sha256": "8fe8bda6e69eef4e05f41f1d9f8bee52a12fc7f0ad943f82e17d62dbfc648640",
-      "size": 28251
-    },
-    {
       "path": "Claude-Upload/shared/VERSION",
       "sha256": "eb41f86c3d67299b46490cde10158a521148fdc03641aa14a93fa2797becd78c",
       "size": 6
@@ -905,8 +900,8 @@
     },
     {
       "path": "Claude-Upload/shared/doctor/ALGORITHM_EVIDENCE_V1.md",
-      "sha256": "f96da5af5a7a5920ac6398e31e209bdb0f38880c18a0adf71ab25fb62fb60d14",
-      "size": 2594
+      "sha256": "86836e077fd7dc693ed91514d604a41e0df0f15afc705efcdfe7f1e603d6ccd4",
+      "size": 2602
     },
     {
       "path": "Claude-Upload/shared/doctor/CASE_LIFECYCLE_V1.md",
@@ -920,18 +915,18 @@
     },
     {
       "path": "Claude-Upload/shared/doctor/INTERFACE_CONTRACTS_V1.md",
-      "sha256": "ba0dc2816830943eac3eb45f8116faf581bb28d51fab4d52c8682b909945e894",
-      "size": 1433
+      "sha256": "f1c99aa4256c8e00c7bfe8cb9d9087cc70ad713d9ca7bf713519c45ac225d5b1",
+      "size": 1441
     },
     {
       "path": "Claude-Upload/shared/doctor/INTERFACE_CONTRACTS_V2.md",
-      "sha256": "1760ec99e5be54f14d3e8ffa64d6188a2c6342d7843f1cce36fc82becd3e46df",
-      "size": 4317
+      "sha256": "407934cafeccc221a48c012bf30e6456f21582de091f57cc9b91695129c7131c",
+      "size": 4325
     },
     {
       "path": "Claude-Upload/shared/doctor/README.md",
-      "sha256": "7d20480c2e7c59577ee6478ed9f7eae035ff89a1de3adad26739ac538cdb141b",
-      "size": 697
+      "sha256": "9928c1cec020a9395f2612ece51603117f2e705339228f04f38e98201ecf6508",
+      "size": 705
     },
     {
       "path": "Claude-Upload/shared/doctor/SBM_DOCTOR_SAFETY_BOUNDARY.md",
@@ -1960,8 +1955,8 @@
     },
     {
       "path": "DOCTOR_INTEGRATION_V1.md",
-      "sha256": "7a60d37f3a830505df5c5b07342806a7c16d1c4aa25686917e4408e7c2defc37",
-      "size": 1306
+      "sha256": "ad1fa4c84f2e62c6d39bfb8d1cbd143acda74a78f2e58984023b84561f677cd1",
+      "size": 1314
     },
     {
       "path": "EDITORIAL_OUTPUT_V2.md",
@@ -1975,8 +1970,8 @@
     },
     {
       "path": "PRODUCT_IDENTITY.json",
-      "sha256": "bb309f0231cb6d6c628b0fe016544e86a0d909900d9c589c3283e8e0c53ac167",
-      "size": 311
+      "sha256": "a468ca1e504cc41073de7d97892e20364ef9889fc62a9c36c08d01cc435ee794",
+      "size": 307
     },
     {
       "path": "PROJECT_INSTRUCTIONS_TO_PASTE.md",
@@ -2000,8 +1995,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "1211ae9a5a29012cab6a25fddb3cb798bc2de7edc94915026e883b92486fb60a",
-      "size": 794
+      "sha256": "f1de37efb917248bf1e8542a9b32206501341ca898de76887a2fcef5ada85079",
+      "size": 790
     },
     {
       "path": "RELEASE_NOTES_v1.1.2_SPRINT1.md",
@@ -2174,6 +2169,11 @@
       "size": 352
     },
     {
+      "path": "RELEASE_NOTES_v3.3.3.md",
+      "sha256": "64bf204fc1a59c7814734959f1f0c0699c423f926e6c232e98991fac866a30cf",
+      "size": 500
+    },
+    {
       "path": "SELF_QA_RUNTIME_INSTRUCTIONS.md",
       "sha256": "501d4d5d8f9ae03139838e91b7472668abd289bc02985b25bc7bbb438aa3ab16",
       "size": 1392
@@ -2210,8 +2210,8 @@
     },
     {
       "path": "VERSION",
-      "sha256": "c69344215e7771b348640b782a26646a3165e729a63c6577c20534327bc42492",
-      "size": 10
+      "sha256": "efd9bb328eb69f29de9dbb870073fe8f416e3ebca0d10025dd23b3ce2855e6a6",
+      "size": 6
     },
     {
       "path": "claude-project/FILE_LIST.md",
@@ -2509,6 +2509,11 @@
       "size": 490
     },
     {
+      "path": "manifest.json",
+      "sha256": "603df535d6dfc5e9084a692d0a76a8f7e8231e27de10d0b73ba7b5e835dc40c8",
+      "size": 150872
+    },
+    {
       "path": "product/REVENUE_FIRST_VALIDATION_PRINCIPLE.md",
       "sha256": "1ce8214acca7f7bd8453f9438bebc733414da72ef31fb72fd93e04a2cb49ba21",
       "size": 2341
@@ -2697,11 +2702,6 @@
       "path": "shared/COMPATIBILITY_MATRIX.md",
       "sha256": "f5310184c548121ea3d548a25fc8bc8e09634e9652d6a209d0ac1642c6a27afc",
       "size": 348
-    },
-    {
-      "path": "shared/FILE_MANIFEST.txt",
-      "sha256": "5c15ebc90a6e0ba56042b899acd52cce24af6a3c5c0c23c6f32835fa226abe08",
-      "size": 10431
     },
     {
       "path": "shared/LICENSE",
@@ -2904,11 +2904,6 @@
       "size": 601
     },
     {
-      "path": "shared/SHA256SUMS.txt",
-      "sha256": "8fe8bda6e69eef4e05f41f1d9f8bee52a12fc7f0ad943f82e17d62dbfc648640",
-      "size": 28251
-    },
-    {
       "path": "shared/VERSION",
       "sha256": "eb41f86c3d67299b46490cde10158a521148fdc03641aa14a93fa2797becd78c",
       "size": 6
@@ -3050,8 +3045,8 @@
     },
     {
       "path": "shared/doctor/ALGORITHM_EVIDENCE_V1.md",
-      "sha256": "f96da5af5a7a5920ac6398e31e209bdb0f38880c18a0adf71ab25fb62fb60d14",
-      "size": 2594
+      "sha256": "86836e077fd7dc693ed91514d604a41e0df0f15afc705efcdfe7f1e603d6ccd4",
+      "size": 2602
     },
     {
       "path": "shared/doctor/CASE_LIFECYCLE_V1.md",
@@ -3065,18 +3060,18 @@
     },
     {
       "path": "shared/doctor/INTERFACE_CONTRACTS_V1.md",
-      "sha256": "ba0dc2816830943eac3eb45f8116faf581bb28d51fab4d52c8682b909945e894",
-      "size": 1433
+      "sha256": "f1c99aa4256c8e00c7bfe8cb9d9087cc70ad713d9ca7bf713519c45ac225d5b1",
+      "size": 1441
     },
     {
       "path": "shared/doctor/INTERFACE_CONTRACTS_V2.md",
-      "sha256": "1760ec99e5be54f14d3e8ffa64d6188a2c6342d7843f1cce36fc82becd3e46df",
-      "size": 4317
+      "sha256": "407934cafeccc221a48c012bf30e6456f21582de091f57cc9b91695129c7131c",
+      "size": 4325
     },
     {
       "path": "shared/doctor/README.md",
-      "sha256": "7d20480c2e7c59577ee6478ed9f7eae035ff89a1de3adad26739ac538cdb141b",
-      "size": 697
+      "sha256": "9928c1cec020a9395f2612ece51603117f2e705339228f04f38e98201ecf6508",
+      "size": 705
     },
     {
       "path": "shared/doctor/SBM_DOCTOR_SAFETY_BOUNDARY.md",
@@ -4080,18 +4075,18 @@
     },
     {
       "path": "tests/platform/test_package_identity.py",
-      "sha256": "254fcc5c79c9655f3c753d1f3ae7dbca691cbd67bc7d067a7447d1c11c90ef17",
-      "size": 713
+      "sha256": "209c8b99be7f5931bb855a1b26a86bf04fc72736b1b137c70f3f6d657db7422d",
+      "size": 709
     },
     {
       "path": "tests/test_human_presentation_rc1.py",
-      "sha256": "d4f075dcf6407d037dfb22db2a3866b1425d823b94c598c9e27df83ce678ef6d",
-      "size": 885
+      "sha256": "471cdd01003be7553d8d3f7a0dc3c6e4bac9ddb210feb061166aaa5733ea5a0c",
+      "size": 881
     },
     {
       "path": "tests/test_rc2_internal_link_referral_quality.py",
-      "sha256": "d80e6e2b6d0b296dca2f01a167b183bff0de0bc457e5fe5dc257ee14841dcad2",
-      "size": 414
+      "sha256": "2af5f269f6d2bebce0b41b355a2f2ca6c109957c60f2f2b4d33c472aa6a6fd71",
+      "size": 410
     }
   ]
 }

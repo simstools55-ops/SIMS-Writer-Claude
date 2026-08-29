@@ -1,6 +1,6 @@
 {
   "package": "SIMS-Writer-Claude",
-  "version": "3.3.2-RC4",
+  "version": "3.3.3",
   "generated_at": "2026-08-12T17:00:00+09:00",
   "files": [
     {
@@ -2169,7 +2169,7 @@
       "size": 823
     },
     {
-      "path": "RELEASE_NOTES_v3.3.2-RC4.md",
+      "path": "RELEASE_NOTES_v3.3.3.md",
       "sha256": "463594c13f41d9ac21305e422f39136d361f5d52a953702184473824e181f102",
       "size": 352
     },
