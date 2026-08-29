@@ -1,7 +1,7 @@
 {
   "package": "SIMS-Writer-Claude",
-  "version": "3.4.0",
-  "generated_at": "2026-08-29T20:10:00+09:00",
+  "version": "3.4.1",
+  "generated_at": "2026-08-29T20:55:00+09:00",
   "files": [
     {
       "path": "APPLY-v3.3.3.md",
@@ -15,12 +15,12 @@
     },
     {
       "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "4a8da5dcd2c6a77229469a11e67a0e2a9caa03c562cce5bcb63c6a2b08f5a760",
+      "sha256": "a45b463703d2a82533139b928a438a364f5ef45c83bfbacd403145d4423ef738",
       "size": 785
     },
     {
       "path": "CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "79bb650633a884c70c045d94c4e29201c6a473f0ac99b4e250ca826fd458a184",
+      "sha256": "3407eb825b0a7238bce88fb0d2a97a7a364c7b7cd88c1a6dd615a6289a199c84",
       "size": 520
     },
     {
@@ -35,12 +35,12 @@
     },
     {
       "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "4a8da5dcd2c6a77229469a11e67a0e2a9caa03c562cce5bcb63c6a2b08f5a760",
+      "sha256": "a45b463703d2a82533139b928a438a364f5ef45c83bfbacd403145d4423ef738",
       "size": 785
     },
     {
       "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "79bb650633a884c70c045d94c4e29201c6a473f0ac99b4e250ca826fd458a184",
+      "sha256": "3407eb825b0a7238bce88fb0d2a97a7a364c7b7cd88c1a6dd615a6289a199c84",
       "size": 520
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "path": "Claude-Upload/PRODUCT_IDENTITY.json",
-      "sha256": "443345184155004b47888ab937a8fb72d3492aa93e5802fdf5b5e49ee7b43cfe",
+      "sha256": "dfd1e7e3da8663991aff2b4f5b3f555dc5a4693a45b7a2b7533137797bae7504",
       "size": 307
     },
     {
@@ -205,7 +205,7 @@
     },
     {
       "path": "Claude-Upload/contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/valid.json",
-      "sha256": "6990e9f2ce9a2cc05291b1823468d2545fb6351e0830a04d284d7cb6c2866554",
+      "sha256": "737083983b456cb2be0a27e7730c1b842d503f1b61b5ab15585aec0a2f2f4499",
       "size": 630
     },
     {
@@ -905,7 +905,7 @@
     },
     {
       "path": "Claude-Upload/shared/doctor/CASE_LIFECYCLE_V1.md",
-      "sha256": "be09bfb476247a2c4fbf703d687eec3a74fa25e24477aefcb308689cfe0e968f",
+      "sha256": "49b2b2ac6bf66b939845c10df5daeea8873ed4d28f9099818cedd9d8f1d4d9f8",
       "size": 1798
     },
     {
@@ -1935,7 +1935,7 @@
     },
     {
       "path": "Claude-Upload/templates/IMPROVEMENT_REQUEST_TEMPLATE.json",
-      "sha256": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a",
+      "sha256": "e197ea19cf031a682bdc5899d9c62408388b173b13e95bd41c0cb50412ebb7bd",
       "size": 616
     },
     {
@@ -1970,7 +1970,7 @@
     },
     {
       "path": "PRODUCT_IDENTITY.json",
-      "sha256": "4bccb7c4257d6d26f886920ecf61e39d793ef85325029ee7cac290fc302e8b4a",
+      "sha256": "42a2a532306e202d8d060350b238e1f4e07fea52c582c43f44fce2eef1930e48",
       "size": 447
     },
     {
@@ -2002,6 +2002,11 @@
       "path": "RELEASE_AUDIT_v3.4.0.txt",
       "sha256": "a628c0a44bc7918a518f94c5159eb3a29997da61848b9c1f624432e54407d16d",
       "size": 467
+    },
+    {
+      "path": "RELEASE_AUDIT_v3.4.1.txt",
+      "sha256": "21870544b1eedf7c693b77e1bf2c9eb9aa4c6dd51e9b493ef9277b360e9030b8",
+      "size": 413
     },
     {
       "path": "RELEASE_NOTES_v1.1.2_SPRINT1.md",
@@ -2189,6 +2194,11 @@
       "size": 622
     },
     {
+      "path": "RELEASE_NOTES_v3.4.1.md",
+      "sha256": "0872715fdbaf35007537bd6098d87e14a4e9a94a80c5b776388c88969256d5d0",
+      "size": 474
+    },
+    {
       "path": "SELF_QA_RUNTIME_INSTRUCTIONS.md",
       "sha256": "501d4d5d8f9ae03139838e91b7472668abd289bc02985b25bc7bbb438aa3ab16",
       "size": 1392
@@ -2225,7 +2235,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "f5e3e93e58ffc2a20a3ca53e8025bc50d7c1dccbef4b34e2388aa9bbf8678466",
+      "sha256": "cc714f5e0224a78311f4835e9fbb88e69ba35f65e7dd5cb7d86cabb4a84bbd72",
       "size": 6
     },
     {
@@ -2360,7 +2370,7 @@
     },
     {
       "path": "contracts/integrations/sims-blog-manager-input/sims-blog-manager-input/examples/valid.json",
-      "sha256": "6990e9f2ce9a2cc05291b1823468d2545fb6351e0830a04d284d7cb6c2866554",
+      "sha256": "737083983b456cb2be0a27e7730c1b842d503f1b61b5ab15585aec0a2f2f4499",
       "size": 630
     },
     {
@@ -3060,7 +3070,7 @@
     },
     {
       "path": "shared/doctor/CASE_LIFECYCLE_V1.md",
-      "sha256": "be09bfb476247a2c4fbf703d687eec3a74fa25e24477aefcb308689cfe0e968f",
+      "sha256": "49b2b2ac6bf66b939845c10df5daeea8873ed4d28f9099818cedd9d8f1d4d9f8",
       "size": 1798
     },
     {
@@ -4065,7 +4075,7 @@
     },
     {
       "path": "templates/IMPROVEMENT_REQUEST_TEMPLATE.json",
-      "sha256": "264d57a61ac1cde15e6592c4caa5fbeb549ac0a77cf431eb23b78811e8b4378a",
+      "sha256": "e197ea19cf031a682bdc5899d9c62408388b173b13e95bd41c0cb50412ebb7bd",
       "size": 616
     },
     {
@@ -4085,12 +4095,12 @@
     },
     {
       "path": "tests/test_human_presentation_rc1.py",
-      "sha256": "bbaa819b67a4f8eaf9052a036a48f8ea6da4450b4bfd18ca5e2b3fc83b0ed4f9",
+      "sha256": "0b1fdf437d01bcf924eae2f909f3ce5d5a90df04c4d870dfdd55bf8ac9fd0405",
       "size": 881
     },
     {
       "path": "tests/test_rc2_internal_link_referral_quality.py",
-      "sha256": "7f18eac83d1e2b49cd760cd3e320a3c72210c3504e2afe515959ab0cef9cf8d0",
+      "sha256": "184b769f6181acbee7287685d066500bb186257ce443d4de3d4f716ded8dd98d",
       "size": 410
     }
   ]
