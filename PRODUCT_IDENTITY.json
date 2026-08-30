@@ -1,12 +1,16 @@
 {
-  "product_code": "WRITER",
-  "product_name": "SIMS Writer",
-  "repository_name": "SIMS-Writer-Claude",
+  "product_code": "DOCTOR",
+  "product_name": "SIMS Article Doctor",
+  "repository_name": "SIMS-Article-Doctor-Claude",
   "repository_type": "CLAUDE_PACKAGE",
   "runtime": "CLAUDE_PROJECT",
-  "package_version": "3.4.2",
-  "product_compatibility": "3.4.2",
+  "package_version": "1.4.3",
+  "product_compatibility": "1.4.3",
   "platform_compatibility": "1.x",
-  "shared_version": "3.5.1",
-  "notes": "Version synchronization PATCH; manual Claude Project workflow and Shared v3.5.1 compatibility baseline are preserved."
+  "shared_version": "3.5.0",
+  "compatible_product_versions": [
+    "1.4.3"
+  ],
+  "role": "Single-article precision diagnosis and return to SBM for specialist referral generation; no treatment execution",
+  "notes": "Adds manual Claude Personal Knowledge candidate output with stable site binding and replay-safe case event IDs; no API integration; Shared v3.5.0 compatibility preserved."
 }
