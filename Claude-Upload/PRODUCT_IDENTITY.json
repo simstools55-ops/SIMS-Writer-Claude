@@ -1,14 +1,11 @@
 {
-  "product_code": "DOCTOR",
-  "product_name": "SIMS Article Doctor",
-  "repository_name": "SIMS-Article-Doctor-Claude",
+  "product_code": "WRITER",
+  "product_name": "SIMS Writer",
+  "repository_name": "SIMS-Writer-Claude",
   "repository_type": "CLAUDE_PACKAGE",
   "runtime": "CLAUDE_PROJECT",
-  "package_version": "1.4.3",
-  "product_compatibility": "1.4.3",
+  "package_version": "3.5.1",
+  "product_compatibility": "3.3.x",
   "platform_compatibility": "1.x",
-  "shared_version": "3.5.0",
-  "compatible_product_versions": [
-    "1.4.3"
-  ]
+  "shared_version": "3.5.1"
 }

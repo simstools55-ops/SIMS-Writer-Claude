@@ -1,19 +1,21 @@
-# Claude Project file list
+# Claude Project投入ファイル
 
-## Required
-- CLAUDE_PROJECT_INSTRUCTIONS.md
-- VERSION
-- PRODUCT_IDENTITY.json
-- SHARED_VERSION
-- CLAUDE_PACKAGE_MANIFEST.json
-- Runtime/
-- Contracts/
-- Knowledge/
-- Validation/
-- contracts/platform/
-- shared/
+## 必須
 
-## Do not upload
-- .git/
-- release ZIP files
-- repository test caches
+- `CLAUDE_PROJECT_INSTRUCTIONS.md`（Project Instructionsへ設定）
+- `VERSION`
+- `PRODUCT_IDENTITY.json`
+- `SHARED_VERSION`
+- `CLAUDE_PACKAGE_MANIFEST.json`
+- `runtime/`
+- `contracts/`
+- `validation/`
+- `knowledge/`
+- `shared/`
+
+## 投入禁止
+
+- `.git/`
+- `tests/`
+- `distribution/`
+- 他製品のInstructions／Runtime
