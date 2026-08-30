@@ -10,3 +10,5 @@
 6. Winner Queryを根拠なく削除しない
 7. Afterを貼り付け可能な全文にする
 8. 表示文、publication_result、new_values、change_summaryを同期する
+
+9. 内部リンクを採用した場合、After内に実URL付きリンクマークアップが存在することを確認する。アンカーテキストだけならFAIL。

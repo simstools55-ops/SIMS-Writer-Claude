@@ -12,6 +12,7 @@ Claude-Upload/DEPLOYMENT_TEST.md
 Claude-Upload/DOCTOR_INTEGRATION_V1.md
 Claude-Upload/PRODUCT_IDENTITY.json
 Claude-Upload/RELEASE_NOTES_v3.5.1.md
+Claude-Upload/RELEASE_NOTES_v3.5.2.md
 Claude-Upload/SHARED_VERSION
 Claude-Upload/UPLOAD_README.md
 Claude-Upload/VERSION
@@ -110,7 +111,6 @@ Claude-Upload/schemas/SIMS_WRITER_TREATMENT_RESULT_V1.schema.json
 Claude-Upload/shared/.gitignore
 Claude-Upload/shared/CHANGELOG.md
 Claude-Upload/shared/COMPATIBILITY_MATRIX.md
-Claude-Upload/shared/FILE_MANIFEST.txt
 Claude-Upload/shared/LICENSE
 Claude-Upload/shared/PLATFORM_MANIFEST.json
 Claude-Upload/shared/PRODUCT_IDENTITY.json
@@ -151,7 +151,6 @@ Claude-Upload/shared/RELEASE_NOTES_v3.3.0.md
 Claude-Upload/shared/RELEASE_NOTES_v3.4.0.md
 Claude-Upload/shared/RELEASE_NOTES_v3.5.0.md
 Claude-Upload/shared/RELEASE_NOTES_v3.5.1.md
-Claude-Upload/shared/SHA256SUMS.txt
 Claude-Upload/shared/VERSION
 Claude-Upload/shared/architecture/CLAUDE_OPERATIONS.md
 Claude-Upload/shared/architecture/END_TO_END_WORKFLOW.md
@@ -266,7 +265,6 @@ Claude-Upload/shared/learning/LEARNING_INTAKE_TEMPLATE.md
 Claude-Upload/shared/learning/LEARNING_REGISTRY.json
 Claude-Upload/shared/learning/LEARNING_SPRINT_PLAYBOOK.md
 Claude-Upload/shared/learning/README.md
-Claude-Upload/shared/manifest.json
 Claude-Upload/shared/mappings/article-creator/application-mapping.md
 Claude-Upload/shared/mappings/writer/application-mapping.md
 Claude-Upload/shared/patterns/answer-first-pattern.md
@@ -445,6 +443,7 @@ RELEASE_NOTES_v3.4.1.md
 RELEASE_NOTES_v3.4.2.md
 RELEASE_NOTES_v3.5.0.md
 RELEASE_NOTES_v3.5.1.md
+RELEASE_NOTES_v3.5.2.md
 SELF_QA_RUNTIME_INSTRUCTIONS.md
 SETUP_GUIDE.md
 SETUP_GUIDE_v3.2.0.md
@@ -512,7 +511,6 @@ knowledge/factuality/KN-FAC-005-contradiction-resolution.md
 knowledge/operations/KN-OPS-003-preservation-signal-audit.md
 knowledge/seo/KN-SEO-007-temporal-intent-and-lifecycle.md
 knowledge/sets/KS-TMP-001-temporal-lifecycle.yaml
-manifest.json
 product/REVENUE_FIRST_VALIDATION_PRINCIPLE.md
 product/platform/SIMS_PLATFORM_GUIDE.md
 product/quality/AUTO_FIX_RULES.md
@@ -551,7 +549,6 @@ schemas/SIMS_WRITER_TREATMENT_RESULT_V1.schema.json
 shared/.gitignore
 shared/CHANGELOG.md
 shared/COMPATIBILITY_MATRIX.md
-shared/FILE_MANIFEST.txt
 shared/LICENSE
 shared/PLATFORM_MANIFEST.json
 shared/PRODUCT_IDENTITY.json
@@ -592,7 +589,6 @@ shared/RELEASE_NOTES_v3.3.0.md
 shared/RELEASE_NOTES_v3.4.0.md
 shared/RELEASE_NOTES_v3.5.0.md
 shared/RELEASE_NOTES_v3.5.1.md
-shared/SHA256SUMS.txt
 shared/VERSION
 shared/architecture/CLAUDE_OPERATIONS.md
 shared/architecture/END_TO_END_WORKFLOW.md
@@ -707,7 +703,6 @@ shared/learning/LEARNING_INTAKE_TEMPLATE.md
 shared/learning/LEARNING_REGISTRY.json
 shared/learning/LEARNING_SPRINT_PLAYBOOK.md
 shared/learning/README.md
-shared/manifest.json
 shared/mappings/article-creator/application-mapping.md
 shared/mappings/writer/application-mapping.md
 shared/patterns/answer-first-pattern.md
@@ -830,3 +825,4 @@ tests/platform/test_doctor_referral_output_contract_rc3.py
 tests/platform/test_package_identity.py
 tests/test_human_presentation_rc1.py
 tests/test_rc2_internal_link_referral_quality.py
+tests/test_v3_5_2_internal_link_implementation.py
